@@ -14,18 +14,13 @@
           "guid": "https://obsidian.md/changelog/2026-02-24-mobile-v1.12.4/",
           "read": true,
           "starred": false,
-          "tags": [
-            {
-              "name": "saved",
-              "color": "#3498db"
-            }
-          ],
+          "tags": [],
           "feedTitle": "Obsidian Changelog",
           "feedUrl": "https://obsidian.md/changelog.xml",
           "coverImage": "",
           "summary": "Includes all new features and bug fixes up to Obsidian Desktop v1.12.4. No longer broken Slides: Fixed the close button position in the status bar on mobile.",
           "author": "Obsidian",
-          "saved": true,
+          "saved": false,
           "mediaType": "article",
           "explicit": false,
           "image": "",

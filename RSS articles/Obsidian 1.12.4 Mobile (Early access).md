@@ -1,12 +1,13 @@
 ---
-title: "Obsidian 1.12.4 Mobile (Early access)"
+title: Obsidian 1.12.4 Mobile (Early access)
 date: 2026年2月24日
-tags: [saved]
-source: "Obsidian Changelog"
+tags:
+  - saved
+source: Obsidian Changelog
 link: https://obsidian.md/changelog/2026-02-24-mobile-v1.12.4/
-author: "Obsidian"
-feedTitle: "Obsidian Changelog"
-guid: "https://obsidian.md/changelog/2026-02-24-mobile-v1.12.4/"
+author: Obsidian
+feedTitle: Obsidian Changelog
+guid: https://obsidian.md/changelog/2026-02-24-mobile-v1.12.4/
 ---
 
 # Obsidian 1.12.4 Mobile (Early access)
