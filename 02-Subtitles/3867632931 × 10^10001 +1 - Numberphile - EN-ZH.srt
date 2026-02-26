@@ -1,0 +1,1640 @@
+1
+00:00:00,080 --> 00:00:07,120
+Show me the computer that did it.
+[Translation failed] Show me the computer that did it.
+
+2
+00:00:04,080 --> 00:00:10,240
+That's it. That's where the world's
+[Translation failed] That's it. That's where the world's
+
+3
+00:00:07,120 --> 00:00:11,759
+largest reversible prime was found in
+[Translation failed] largest reversible prime was found in
+
+4
+00:00:10,240 --> 00:00:14,559
+there.
+[Translation failed] there.
+
+5
+00:00:11,759 --> 00:00:16,000
+Today, ready? Breaking math news. New
+[Translation failed] Today, ready? Breaking math news. New
+
+6
+00:00:14,558 --> 00:00:19,039
+prime. It's not often we get a new
+[Translation failed] prime. It's not often we get a new
+
+7
+00:00:16,000 --> 00:00:21,439
+prime. Well, a new prime. It's a
+[Translation failed] prime. Well, a new prime. It's a
+
+8
+00:00:19,039 --> 00:00:23,760
+record-breaking length of prime, but
+[Translation failed] record-breaking length of prime, but
+
+9
+00:00:21,439 --> 00:00:29,599
+only of a certain type of prime. And
+[Translation failed] only of a certain type of prime. And
+
+10
+00:00:23,760 --> 00:00:31,279
+it's the same type of prime as 1,21.
+[Translation failed] it's the same type of prime as 1,21.
+
+11
+00:00:29,599 --> 00:00:33,920
+That is a prime number. We call it a
+[Translation failed] That is a prime number. We call it a
+
+12
+00:00:31,278 --> 00:00:37,359
+prime. But more than that, this is a
+[Translation failed] prime. But more than that, this is a
+
+13
+00:00:33,920 --> 00:00:39,520
+special type of prime. This is an M Herp
+[Translation failed] special type of prime. This is an M Herp
+
+14
+00:00:37,359 --> 00:00:42,878
+prime. And do you want to have a guess
+[Translation failed] prime. And do you want to have a guess
+
+15
+00:00:39,520 --> 00:00:45,359
+what an EMURP or MER prime is?
+[Translation failed] what an EMURP or MER prime is?
+
+16
+00:00:42,878 --> 00:00:46,399
+>> Look, it says on the box, doesn't it?
+[Translation failed] >> Look, it says on the box, doesn't it?
+
+17
+00:00:45,359 --> 00:00:48,799
+>> It really does.
+[Translation failed] >> It really does.
+
+18
+00:00:46,399 --> 00:00:50,719
+>> It's a prime backwards. There you are.
+[Translation failed] >> It's a prime backwards. There you are.
+
+19
+00:00:48,799 --> 00:00:53,919
+Very, very funny mathematicians. Well
+[Translation failed] Very, very funny mathematicians. Well
+
+20
+00:00:50,719 --> 00:00:57,359
+done. Haha. It's a prime, which is a
+[Translation failed] done. Haha. It's a prime, which is a
+
+21
+00:00:53,920 --> 00:01:02,079
+prime in both directions. So the number
+[Translation failed] prime in both directions. So the number
+
+22
+00:00:57,359 --> 00:01:05,920
+1 0 2 1 is also prime. So because the
+[Translation failed] 1 0 2 1 is also prime. So because the
+
+23
+00:01:02,079 --> 00:01:09,040
+digits forward and the digits backwards
+[Translation failed] digits forward and the digits backwards
+
+24
+00:01:05,920 --> 00:01:10,640
+are prime, it's an emote prime for prime
+[Translation failed] are prime, it's an emote prime for prime
+
+25
+00:01:09,040 --> 00:01:11,359
+backwards. It's pretty special.
+[Translation failed] backwards. It's pretty special.
+
+26
+00:01:10,640 --> 00:01:13,760
+>> That's nice.
+[Translation failed] >> That's nice.
+
+27
+00:01:11,359 --> 00:01:15,438
+>> Also works for 1,193.
+[Translation failed] >> Also works for 1,193.
+
+28
+00:01:13,760 --> 00:01:16,640
+I looked a couple up just so I was
+[Translation failed] I looked a couple up just so I was
+
+29
+00:01:15,438 --> 00:01:17,839
+ready. Now you can see there's already
+[Translation failed] ready. Now you can see there's already
+
+30
+00:01:16,640 --> 00:01:21,759
+going to be some constraints on what
+[Translation failed] going to be some constraints on what
+
+31
+00:01:17,840 --> 00:01:23,439
+makes an EMP because it's got to be odd
+[Translation failed] makes an EMP because it's got to be odd
+
+32
+00:01:21,759 --> 00:01:25,040
+beginning and end. Can't be five
+[Translation failed] beginning and end. Can't be five
+
+33
+00:01:23,438 --> 00:01:29,599
+beginning and end. So you you're going
+[Translation failed] beginning and end. So you you're going
+
+34
+00:01:25,040 --> 00:01:30,719
+to rule out a lot like being prime is
+[Translation failed] to rule out a lot like being prime is
+
+35
+00:01:29,599 --> 00:01:32,078
+not super rare.
+[Translation failed] not super rare.
+
+36
+00:01:30,719 --> 00:01:32,560
+>> What about two?
+[Translation failed] >> What about two?
+
+37
+00:01:32,078 --> 00:01:33,279
+>> Two.
+[Translation failed] >> Two.
+
+38
+00:01:32,560 --> 00:01:35,118
+>> What about two?
+[Translation failed] >> What about two?
+
+39
+00:01:33,280 --> 00:01:35,439
+>> Do you count two? I count two.
+[Translation failed] >> Do you count two? I count two.
+
+40
+00:01:35,118 --> 00:01:37,040
+>> Yeah.
+[Translation failed] >> Yeah.
+
+41
+00:01:35,438 --> 00:01:38,639
+>> Two is the special prime.
+[Translation failed] >> Two is the special prime.
+
+42
+00:01:37,040 --> 00:01:39,280
+>> So why it can be special in this regard
+[Translation failed] >> So why it can be special in this regard
+
+43
+00:01:38,640 --> 00:01:40,640
+as well, isn't it?
+[Translation failed] as well, isn't it?
+
+44
+00:01:39,280 --> 00:01:42,079
+>> That's the same forward and backwards.
+[Translation failed] >> That's the same forward and backwards.
+
+45
+00:01:40,640 --> 00:01:45,040
+>> Mhm.
+[Translation failed] >> Mhm.
+
+46
+00:01:42,078 --> 00:01:46,559
+>> All one digit primes primes. Anything
+[Translation failed] >> All one digit primes primes. Anything
+
+47
+00:01:45,040 --> 00:01:48,479
+palendroic
+[Translation failed] palendroic
+
+48
+00:01:46,560 --> 00:01:52,159
+101
+[Translation failed] 101
+
+49
+00:01:48,478 --> 00:01:54,478
+palendroic prime. I I think to be emurp
+[Translation failed] palendroic prime. I I think to be emurp
+
+50
+00:01:52,159 --> 00:01:56,399
+you really it has to be not a palendrome
+[Translation failed] you really it has to be not a palendrome
+
+51
+00:01:54,478 --> 00:01:57,920
+but stays prime both ways. I feel like
+[Translation failed] but stays prime both ways. I feel like
+
+52
+00:01:56,399 --> 00:02:00,079
+that's I think palendromes are their own
+[Translation failed] that's I think palendromes are their own
+
+53
+00:01:57,920 --> 00:02:01,759
+special thing. So I would say two is a
+[Translation failed] special thing. So I would say two is a
+
+54
+00:02:00,078 --> 00:02:03,679
+palmic prime but these these are
+[Translation failed] palmic prime but these these are
+
+55
+00:02:01,759 --> 00:02:06,079
+special. So anyway to complete that 3
+[Translation failed] special. So anyway to complete that 3
+
+56
+00:02:03,680 --> 00:02:06,640
+911 is also prime. So you can check
+[Translation failed] 911 is also prime. So you can check
+
+57
+00:02:06,078 --> 00:02:07,438
+that.
+[Translation failed] that.
+
+58
+00:02:06,640 --> 00:02:10,399
+>> Nice.
+[Translation failed] >> Nice.
+
+59
+00:02:07,438 --> 00:02:13,199
+>> Um and a record-breaking
+[Translation failed] >> Um and a record-breaking
+
+60
+00:02:10,399 --> 00:02:16,639
+emote prime was discovered.
+[Translation failed] emote prime was discovered.
+
+61
+00:02:13,199 --> 00:02:19,359
+It has 10,01
+[Translation failed] It has 10,01
+
+62
+00:02:16,639 --> 00:02:21,199
+digits, beating the previous record of
+[Translation failed] digits, beating the previous record of
+
+63
+00:02:19,360 --> 00:02:22,000
+10,07
+[Translation failed] 10,07
+
+64
+00:02:21,199 --> 00:02:22,719
+digits.
+[Translation failed] digits.
+
+65
+00:02:22,000 --> 00:02:24,000
+>> So, four more.
+[Translation failed] >> So, four more.
+
+66
+00:02:22,719 --> 00:02:24,239
+>> Four more. Four more digits.
+[Translation failed] >> Four more. Four more digits.
+
+67
+00:02:24,000 --> 00:02:26,479
+>> Okay.
+[Translation failed] >> Okay.
+
+68
+00:02:24,239 --> 00:02:30,640
+>> It's not a lot. And would you believe I
+[Translation failed] >> It's not a lot. And would you believe I
+
+69
+00:02:26,479 --> 00:02:31,759
+have already memorized all 10,1 digits?
+[Translation failed] have already memorized all 10,1 digits?
+
+70
+00:02:30,639 --> 00:02:32,639
+>> I I would believe that.
+[Translation failed] >> I I would believe that.
+
+71
+00:02:31,759 --> 00:02:34,318
+>> You
+[Translation failed] >> You
+
+72
+00:02:32,639 --> 00:02:36,079
+would believe that. And you believe it
+[Translation failed] would believe that. And you believe it
+
+73
+00:02:34,318 --> 00:02:39,518
+for a very good reason that it's very
+[Translation failed] for a very good reason that it's very
+
+74
+00:02:36,080 --> 00:02:42,640
+easy to memorize. It's So, originally I
+[Translation failed] easy to memorize. It's So, originally I
+
+75
+00:02:39,519 --> 00:02:44,560
+was like, "Oh my goodness." uh massive
+[Translation failed] was like, "Oh my goodness." uh massive
+
+76
+00:02:42,639 --> 00:02:46,479
+record-breaking emote prime and when I
+[Translation failed] record-breaking emote prime and when I
+
+77
+00:02:44,560 --> 00:02:48,959
+got the news so the person Stefan who
+[Translation failed] got the news so the person Stefan who
+
+78
+00:02:46,479 --> 00:02:51,359
+found it emailed me to say found a new
+[Translation failed] found it emailed me to say found a new
+
+79
+00:02:48,959 --> 00:02:52,800
+prime and I'm like I love the fact I am
+[Translation failed] prime and I'm like I love the fact I am
+
+80
+00:02:51,360 --> 00:02:54,640
+the lightning rod for people to email
+[Translation failed] the lightning rod for people to email
+
+81
+00:02:52,800 --> 00:02:57,920
+when they discover new primes and I
+[Translation failed] when they discover new primes and I
+
+82
+00:02:54,639 --> 00:02:59,759
+happen to be in a van with alien of
+[Translation failed] happen to be in a van with alien of
+
+83
+00:02:57,919 --> 00:03:01,439
+number file fame we both got very
+[Translation failed] number file fame we both got very
+
+84
+00:02:59,759 --> 00:03:04,399
+excited we're like how long would it
+[Translation failed] excited we're like how long would it
+
+85
+00:03:01,439 --> 00:03:06,878
+take to say it could you then reverse
+[Translation failed] take to say it could you then reverse
+
+86
+00:03:04,400 --> 00:03:10,560
+you saying it to still say a prime
+[Translation failed] you saying it to still say a prime
+
+87
+00:03:06,878 --> 00:03:12,878
+number yes and then we realized saying
+[Translation failed] number yes and then we realized saying
+
+88
+00:03:10,560 --> 00:03:15,360
+it would be super boring. So, without
+[Translation failed] it would be super boring. So, without
+
+89
+00:03:12,878 --> 00:03:16,959
+dragging it out any longer, let's have a
+[Translation failed] dragging it out any longer, let's have a
+
+90
+00:03:15,360 --> 00:03:17,920
+look at this new record-breaking prime.
+[Translation failed] look at this new record-breaking prime.
+
+91
+00:03:16,959 --> 00:03:18,479
+>> Let's do it.
+[Translation failed] >> Let's do it.
+
+92
+00:03:17,919 --> 00:03:19,439
+>> It is
+[Translation failed] >> It is
+
+93
+00:03:18,479 --> 00:03:21,280
+>> Hey, what are you looking at? You said
+[Translation failed] >> Hey, what are you looking at? You said
+
+94
+00:03:19,439 --> 00:03:23,439
+you'd memorized it.
+[Translation failed] you'd memorized it.
+
+95
+00:03:21,280 --> 00:03:24,318
+>> Let me rephrase that. Uh, I could
+[Translation failed] >> Let me rephrase that. Uh, I could
+
+96
+00:03:23,439 --> 00:03:25,439
+memorize it.
+[Translation failed] memorize it.
+
+97
+00:03:24,318 --> 00:03:26,560
+>> Okay,
+[Translation failed] >> Okay,
+
+98
+00:03:25,439 --> 00:03:28,239
+>> let me show you the I'll show you the
+[Translation failed] >> let me show you the I'll show you the
+
+99
+00:03:26,560 --> 00:03:31,239
+number and you get the idea. It is 3
+[Translation failed] number and you get the idea. It is 3
+
+100
+00:03:28,239 --> 00:03:31,239
+bill867,632,931*
+[Translation failed] bill867,632,931*
+
+101
+00:03:36,639 --> 00:03:41,679
+10 to the power of 10,0001 plus one.
+[Translation failed] 10 to the power of 10,0001 plus one.
+
+102
+00:03:41,680 --> 00:03:50,879
+What you have here is 10 to the power of
+[Translation failed] What you have here is 10 to the power of
+
+103
+00:03:46,400 --> 00:03:53,680
+10,0001 means a one followed by 10,01
+[Translation failed] 10,0001 means a one followed by 10,01
+
+104
+00:03:50,878 --> 00:03:56,239
+zeros and then you multiply this on the
+[Translation failed] zeros and then you multiply this on the
+
+105
+00:03:53,680 --> 00:04:04,239
+front. So what that ends up looking like
+[Translation failed] front. So what that ends up looking like
+
+106
+00:03:56,239 --> 00:04:07,759
+is 3 8 6 7 6 3 2 93 1. Then you start 00
+[Translation failed] is 3 8 6 7 6 3 2 93 1. Then you start 00
+
+107
+00:04:04,239 --> 00:04:10,000
+0 dot dot dot dot dot zero's for day 0
+[Translation failed] 0 dot dot dot dot dot zero's for day 0
+
+108
+00:04:07,759 --> 00:04:13,438
+0. But then the plus one comes in
+[Translation failed] 0. But then the plus one comes in
+
+109
+00:04:10,000 --> 00:04:17,279
+clutch. Boom. So that actual stretch in
+[Translation failed] clutch. Boom. So that actual stretch in
+
+110
+00:04:13,438 --> 00:04:19,759
+the middle there that is going to be uh
+[Translation failed] the middle there that is going to be uh
+
+111
+00:04:17,279 --> 00:04:22,799
+10,000 zeros.
+[Translation failed] 10,000 zeros.
+
+112
+00:04:19,759 --> 00:04:25,600
+That's the easiest bit to remember. So,
+[Translation failed] That's the easiest bit to remember. So,
+
+113
+00:04:22,800 --> 00:04:29,360
+if you lock in these digits on the top
+[Translation failed] if you lock in these digits on the top
+
+114
+00:04:25,600 --> 00:04:32,400
+and then say zero 10,000 times and then
+[Translation failed] and then say zero 10,000 times and then
+
+115
+00:04:29,360 --> 00:04:33,680
+say one, you're done. The question now
+[Translation failed] say one, you're done. The question now
+
+116
+00:04:32,399 --> 00:04:35,918
+is, well, hang on. It's got to be a
+[Translation failed] is, well, hang on. It's got to be a
+
+117
+00:04:33,680 --> 00:04:38,319
+reversible prime. So, you just flip the
+[Translation failed] reversible prime. So, you just flip the
+
+118
+00:04:35,918 --> 00:04:40,560
+whole thing around. Now, you can write
+[Translation failed] whole thing around. Now, you can write
+
+119
+00:04:38,319 --> 00:04:43,839
+it out the fancy way. So, the fancy way
+[Translation failed] it out the fancy way. So, the fancy way
+
+120
+00:04:40,560 --> 00:04:46,879
+is 10. So, now the 10,10,
+[Translation failed] is 10. So, now the 10,10,
+
+121
+00:04:43,839 --> 00:04:51,679
+so that's going to give us 1 followed by
+[Translation failed] so that's going to give us 1 followed by
+
+122
+00:04:46,879 --> 00:04:53,120
+10,10 zeros. So that's 10,011 digits
+[Translation failed] 10,10 zeros. So that's 10,011 digits
+
+123
+00:04:51,680 --> 00:04:55,120
+including that lead one which is the
+[Translation failed] including that lead one which is the
+
+124
+00:04:53,120 --> 00:04:57,680
+record-breaking length. But then on the
+[Translation failed] record-breaking length. But then on the
+
+125
+00:04:55,120 --> 00:05:07,280
+end you add the reverse of this. So then
+[Translation failed] end you add the reverse of this. So then
+
+126
+00:04:57,680 --> 00:05:09,680
+you add on 1 3 9 2 oops 3 6 7 6 8 3 and
+[Translation failed] you add on 1 3 9 2 oops 3 6 7 6 8 3 and
+
+127
+00:05:07,279 --> 00:05:11,519
+that gives you your number. So, so just
+[Translation failed] that gives you your number. So, so just
+
+128
+00:05:09,680 --> 00:05:14,959
+to you know for complete that's now a
+[Translation failed] to you know for complete that's now a
+
+129
+00:05:11,519 --> 00:05:23,758
+one followed by a 0 0 0 dot dot dot dot
+[Translation failed] one followed by a 0 0 0 dot dot dot dot
+
+130
+00:05:14,959 --> 00:05:24,319
+dot 0 0 1 3 9 2 3 6 7 6 8 3 and done.
+[Translation failed] dot 0 0 1 3 9 2 3 6 7 6 8 3 and done.
+
+131
+00:05:23,759 --> 00:05:24,639
+There you go.
+[Translation failed] There you go.
+
+132
+00:05:24,319 --> 00:05:25,680
+>> Wow.
+[Translation failed] >> Wow.
+
+133
+00:05:24,639 --> 00:05:26,400
+>> Isn't that special?
+[Translation failed] >> Isn't that special?
+
+134
+00:05:25,680 --> 00:05:26,800
+>> It's good.
+[Translation failed] >> It's good.
+
+135
+00:05:26,399 --> 00:05:29,198
+>> Yeah.
+[Translation failed] >> Yeah.
+
+136
+00:05:26,800 --> 00:05:30,800
+>> Who uh how was this done? Who like was
+[Translation failed] >> Who uh how was this done? Who like was
+
+137
+00:05:29,199 --> 00:05:31,439
+it done with a I'm assuming it was done
+[Translation failed] it done with a I'm assuming it was done
+
+138
+00:05:30,800 --> 00:05:33,600
+with a computer.
+[Translation failed] with a computer.
+
+139
+00:05:31,439 --> 00:05:35,120
+>> It's done with a computer. So we have
+[Translation failed] >> It's done with a computer. So we have
+
+140
+00:05:33,600 --> 00:05:37,280
+talked about this many years ago on
+[Translation failed] talked about this many years ago on
+
+141
+00:05:35,120 --> 00:05:39,120
+number file um prime grid cuz not many
+[Translation failed] number file um prime grid cuz not many
+
+142
+00:05:37,279 --> 00:05:41,038
+people do prime grid. I mean I do as I
+[Translation failed] people do prime grid. I mean I do as I
+
+143
+00:05:39,120 --> 00:05:44,079
+speak. There is a computer in my office
+[Translation failed] speak. There is a computer in my office
+
+144
+00:05:41,038 --> 00:05:45,599
+that I built solely to run prime grid
+[Translation failed] that I built solely to run prime grid
+
+145
+00:05:44,079 --> 00:05:48,000
+and I used to have a server called
+[Translation failed] and I used to have a server called
+
+146
+00:05:45,600 --> 00:05:49,919
+Calculus Prime which is very sadly was
+[Translation failed] Calculus Prime which is very sadly was
+
+147
+00:05:48,000 --> 00:05:52,000
+decommissioned when I moved office. It
+[Translation failed] decommissioned when I moved office. It
+
+148
+00:05:49,918 --> 00:05:54,000
+was getting very old and adding a
+[Translation failed] was getting very old and adding a
+
+149
+00:05:52,000 --> 00:05:55,680
+trivial amount of compute power these
+[Translation failed] trivial amount of compute power these
+
+150
+00:05:54,000 --> 00:05:57,439
+days. And someone called Stefan got
+[Translation failed] days. And someone called Stefan got
+
+151
+00:05:55,680 --> 00:05:58,800
+involved in Prime Grid. Got very excited
+[Translation failed] involved in Prime Grid. Got very excited
+
+152
+00:05:57,439 --> 00:06:00,879
+about different types of primes.
+[Translation failed] about different types of primes.
+
+153
+00:05:58,800 --> 00:06:03,120
+Realized that maybe they could break the
+[Translation failed] Realized that maybe they could break the
+
+154
+00:06:00,879 --> 00:06:07,519
+record for emers. So they wrote their
+[Translation failed] record for emers. So they wrote their
+
+155
+00:06:03,120 --> 00:06:09,840
+own prime civ. So, it's a way of like
+[Translation failed] own prime civ. So, it's a way of like
+
+156
+00:06:07,519 --> 00:06:11,120
+you use numbers that aren't primes to
+[Translation failed] you use numbers that aren't primes to
+
+157
+00:06:09,839 --> 00:06:12,719
+kind of build up where all the primes
+[Translation failed] kind of build up where all the primes
+
+158
+00:06:11,120 --> 00:06:14,560
+must be because all the multiples of the
+[Translation failed] must be because all the multiples of the
+
+159
+00:06:12,720 --> 00:06:16,720
+previous primes get removed. You civ
+[Translation failed] previous primes get removed. You civ
+
+160
+00:06:14,560 --> 00:06:19,600
+them out. They wrote their own terrible
+[Translation failed] them out. They wrote their own terrible
+
+161
+00:06:16,720 --> 00:06:22,639
+prime civ their words, not mine, in CC
+[Translation failed] prime civ their words, not mine, in CC
+
+162
+00:06:19,600 --> 00:06:25,199
+code. And then they also used some of
+[Translation failed] code. And then they also used some of
+
+163
+00:06:22,639 --> 00:06:27,199
+the offthe-shelf prime
+[Translation failed] the offthe-shelf prime
+
+164
+00:06:25,199 --> 00:06:28,800
+algorithms on Prime Grid. So, if you go
+[Translation failed] algorithms on Prime Grid. So, if you go
+
+165
+00:06:27,199 --> 00:06:31,520
+on Prime Grid, there's a page which is
+[Translation failed] on Prime Grid, there's a page which is
+
+166
+00:06:28,800 --> 00:06:33,120
+basically excellent prime algorithms and
+[Translation failed] basically excellent prime algorithms and
+
+167
+00:06:31,519 --> 00:06:35,120
+they picked two of those and used them
+[Translation failed] they picked two of those and used them
+
+168
+00:06:33,120 --> 00:06:36,959
+as well. And then they just started
+[Translation failed] as well. And then they just started
+
+169
+00:06:35,120 --> 00:06:38,160
+searching. And this is a clever way of
+[Translation failed] searching. And this is a clever way of
+
+170
+00:06:36,959 --> 00:06:40,318
+doing it. So you search for different
+[Translation failed] doing it. So you search for different
+
+171
+00:06:38,160 --> 00:06:42,960
+combinations of these and then different
+[Translation failed] combinations of these and then different
+
+172
+00:06:40,319 --> 00:06:44,800
+lengths of zeros and then just chuck a
+[Translation failed] lengths of zeros and then just chuck a
+
+173
+00:06:42,959 --> 00:06:46,560
+one on the other end. And if you find
+[Translation failed] one on the other end. And if you find
+
+174
+00:06:44,800 --> 00:06:48,079
+one that works this way around, you
+[Translation failed] one that works this way around, you
+
+175
+00:06:46,560 --> 00:06:50,879
+whoop and you check it the other way
+[Translation failed] whoop and you check it the other way
+
+176
+00:06:48,079 --> 00:06:53,359
+around. And these are nice compact ways
+[Translation failed] around. And these are nice compact ways
+
+177
+00:06:50,879 --> 00:06:55,600
+to to phrase them. You set that code
+[Translation failed] to to phrase them. You set that code
+
+178
+00:06:53,360 --> 00:06:56,960
+running. You wait a very long time. I
+[Translation failed] running. You wait a very long time. I
+
+179
+00:06:55,600 --> 00:06:58,879
+actually don't know how long Stefan was
+[Translation failed] actually don't know how long Stefan was
+
+180
+00:06:56,959 --> 00:07:00,513
+waiting. And it spits out one of these
+[Translation failed] waiting. And it spits out one of these
+
+181
+00:06:58,879 --> 00:07:02,478
+and you email it to me. That
+[Translation failed] and you email it to me. That
+
+182
+00:07:00,514 --> 00:07:04,639
+seems to be the entire
+[Translation failed] seems to be the entire
+
+183
+00:07:02,478 --> 00:07:06,159
+journey. I thought about emailing Matt
+[Translation failed] journey. I thought about emailing Matt
+
+184
+00:07:04,639 --> 00:07:07,840
+right at the beginning. I was like,
+[Translation failed] right at the beginning. I was like,
+
+185
+00:07:06,160 --> 00:07:10,880
+"Yeah, okay. I will I will do it
+[Translation failed] "Yeah, okay. I will I will do it
+
+186
+00:07:07,839 --> 00:07:14,239
+someday." Right. F first person I I told
+[Translation failed] someday." Right. F first person I I told
+
+187
+00:07:10,879 --> 00:07:15,038
+was my girlfriend. She was like, "Cool."
+[Translation failed] was my girlfriend. She was like, "Cool."
+
+188
+00:07:14,240 --> 00:07:16,400
+>> Yeah. She
+[Translation failed] >> Yeah. She
+
+189
+00:07:15,038 --> 00:07:17,519
+>> does. She really think it's cool or is
+[Translation failed] >> does. She really think it's cool or is
+
+190
+00:07:16,399 --> 00:07:20,719
+she into this stuff?
+[Translation failed] she into this stuff?
+
+191
+00:07:17,519 --> 00:07:22,159
+>> She she's not into this stuff. She She
+[Translation failed] >> She she's not into this stuff. She She
+
+192
+00:07:20,720 --> 00:07:25,280
+thinks it's it's pretty cool that I
+[Translation failed] thinks it's it's pretty cool that I
+
+193
+00:07:22,160 --> 00:07:29,120
+found something, but um she really can't
+[Translation failed] found something, but um she really can't
+
+194
+00:07:25,279 --> 00:07:30,318
+um yeah see the the nerdy value of of
+[Translation failed] um yeah see the the nerdy value of of
+
+195
+00:07:29,120 --> 00:07:33,120
+these kind of numbers.
+[Translation failed] these kind of numbers.
+
+196
+00:07:30,319 --> 00:07:35,598
+>> Was this lowhanging fruit?
+[Translation failed] >> Was this lowhanging fruit?
+
+197
+00:07:33,120 --> 00:07:36,560
+In the in the search for prestigious
+[Translation failed] In the in the search for prestigious
+
+198
+00:07:35,598 --> 00:07:39,279
+primes, you said
+[Translation failed] primes, you said
+
+199
+00:07:36,560 --> 00:07:41,759
+>> Yes. Yes. You
+[Translation failed] >> Yes. Yes. You
+
+200
+00:07:39,279 --> 00:07:44,638
+you can think of numbers and primes as
+[Translation failed] you can think of numbers and primes as
+
+201
+00:07:41,759 --> 00:07:47,120
+like an orchard and not all trees are
+[Translation failed] like an orchard and not all trees are
+
+202
+00:07:44,639 --> 00:07:50,319
+equal and like the just the generic
+[Translation failed] equal and like the just the generic
+
+203
+00:07:47,120 --> 00:07:52,000
+prime tree. That's amazing. And everyone
+[Translation failed] prime tree. That's amazing. And everyone
+
+204
+00:07:50,319 --> 00:07:52,240
+wants to get the get the fruit off that
+[Translation failed] wants to get the get the fruit off that
+
+205
+00:07:52,000 --> 00:07:53,360
+tree.
+[Translation failed] tree.
+
+206
+00:07:52,240 --> 00:07:55,759
+>> That's the magic far away
+[Translation failed] >> That's the magic far away
+
+207
+00:07:53,360 --> 00:07:57,439
+>> magic far away tree. Um but everyone's
+[Translation failed] >> magic far away tree. Um but everyone's
+
+208
+00:07:55,759 --> 00:07:58,879
+cleared the branches. Like there's only
+[Translation failed] cleared the branches. Like there's only
+
+209
+00:07:57,439 --> 00:07:59,279
+a little bit of fruit right at the top.
+[Translation failed] a little bit of fruit right at the top.
+
+210
+00:07:58,879 --> 00:08:00,319
+But then
+[Translation failed] But then
+
+211
+00:07:59,279 --> 00:08:02,084
+>> there's an infinite amount of fruit.
+[Translation failed] >> there's an infinite amount of fruit.
+
+212
+00:08:00,319 --> 00:08:02,639
+There's an infinite amount of fruit
+[Translation failed] There's an infinite amount of fruit
+
+213
+00:08:02,639 --> 00:08:06,160
+above the threshold. Correct. Correct.
+[Translation failed] above the threshold. Correct. Correct.
+
+214
+00:08:04,959 --> 00:08:07,279
+It's a very generous tree in that
+[Translation failed] It's a very generous tree in that
+
+215
+00:08:06,160 --> 00:08:08,560
+regard. But then there are other trees
+[Translation failed] regard. But then there are other trees
+
+216
+00:08:07,279 --> 00:08:09,839
+with less appealing fruit that may be
+[Translation failed] with less appealing fruit that may be
+
+217
+00:08:08,560 --> 00:08:12,160
+lower down. And what you're going to do
+[Translation failed] lower down. And what you're going to do
+
+218
+00:08:09,839 --> 00:08:15,198
+is trade off the appealingness of the
+[Translation failed] is trade off the appealingness of the
+
+219
+00:08:12,160 --> 00:08:16,800
+fruit with the distance from the ground.
+[Translation failed] fruit with the distance from the ground.
+
+220
+00:08:15,199 --> 00:08:21,199
+And I wouldn't say this was lowhanging
+[Translation failed] And I wouldn't say this was lowhanging
+
+221
+00:08:16,800 --> 00:08:23,598
+fruit. I'd say medium medium low, but
+[Translation failed] fruit. I'd say medium medium low, but
+
+222
+00:08:21,199 --> 00:08:25,038
+very cool type of number. I mean, we're
+[Translation failed] very cool type of number. I mean, we're
+
+223
+00:08:23,598 --> 00:08:26,399
+making a video about it. People are
+[Translation failed] making a video about it. People are
+
+224
+00:08:25,038 --> 00:08:27,918
+finding numbers all the time and we
+[Translation failed] finding numbers all the time and we
+
+225
+00:08:26,399 --> 00:08:29,038
+don't make a video. But this I was like,
+[Translation failed] don't make a video. But this I was like,
+
+226
+00:08:27,918 --> 00:08:32,639
+that's cool. People wouldn't know about
+[Translation failed] that's cool. People wouldn't know about
+
+227
+00:08:29,038 --> 00:08:34,240
+that. and it was within reach of Stefan
+[Translation failed] that. and it was within reach of Stefan
+
+228
+00:08:32,639 --> 00:08:36,879
+just being an enthusiast putting some
+[Translation failed] just being an enthusiast putting some
+
+229
+00:08:34,240 --> 00:08:39,120
+code together and being able to to find
+[Translation failed] code together and being able to to find
+
+230
+00:08:36,879 --> 00:08:41,120
+one. And what I really like about it
+[Translation failed] one. And what I really like about it
+
+231
+00:08:39,120 --> 00:08:42,479
+other than like it's a fun number and it
+[Translation failed] other than like it's a fun number and it
+
+232
+00:08:41,120 --> 00:08:45,200
+was an enthusiast who decided to give it
+[Translation failed] was an enthusiast who decided to give it
+
+233
+00:08:42,479 --> 00:08:48,160
+a go. It was a combination of
+[Translation failed] a go. It was a combination of
+
+234
+00:08:45,200 --> 00:08:50,399
+self-written code or be in C which is
+[Translation failed] self-written code or be in C which is
+
+235
+00:08:48,159 --> 00:08:53,838
+far more efficient than Python not to
+[Translation failed] far more efficient than Python not to
+
+236
+00:08:50,399 --> 00:08:56,480
+throw shade on Python um and the
+[Translation failed] throw shade on Python um and the
+
+237
+00:08:53,839 --> 00:08:58,320
+shoulders of giants. So taking the
+[Translation failed] shoulders of giants. So taking the
+
+238
+00:08:56,480 --> 00:09:01,600
+giants can reach further up the tree.
+[Translation failed] giants can reach further up the tree.
+
+239
+00:08:58,320 --> 00:09:02,640
+And so by taking the uh algorithms
+[Translation failed] And so by taking the uh algorithms
+
+240
+00:09:01,600 --> 00:09:04,639
+already developed for other bits of
+[Translation failed] already developed for other bits of
+
+241
+00:09:02,639 --> 00:09:06,319
+prime grid and applying them with their
+[Translation failed] prime grid and applying them with their
+
+242
+00:09:04,639 --> 00:09:09,039
+own civ, Stephan was able to do this.
+[Translation failed] own civ, Stephan was able to do this.
+
+243
+00:09:06,320 --> 00:09:10,959
+And that collaboration of prime grid
+[Translation failed] And that collaboration of prime grid
+
+244
+00:09:09,039 --> 00:09:13,120
+which is just like a huge collaborative
+[Translation failed] which is just like a huge collaborative
+
+245
+00:09:10,958 --> 00:09:15,679
+amount of human intellect gone into it
+[Translation failed] amount of human intellect gone into it
+
+246
+00:09:13,120 --> 00:09:17,200
+and a little lone warrior getting the
+[Translation failed] and a little lone warrior getting the
+
+247
+00:09:15,679 --> 00:09:18,958
+fruit. Great.
+[Translation failed] fruit. Great.
+
+248
+00:09:17,200 --> 00:09:20,640
+>> You really ran with that fruit analogy.
+[Translation failed] >> You really ran with that fruit analogy.
+
+249
+00:09:18,958 --> 00:09:23,199
+>> Thank you. I didn't realize I didn't
+[Translation failed] >> Thank you. I didn't realize I didn't
+
+250
+00:09:20,639 --> 00:09:24,720
+realize how much how much juice was
+[Translation failed] realize how much how much juice was
+
+251
+00:09:23,200 --> 00:09:28,800
+available in that analogy.
+[Translation failed] available in that analogy.
+
+252
+00:09:24,720 --> 00:09:30,160
+>> Show me the computer that did it.
+[Translation failed] >> Show me the computer that did it.
+
+253
+00:09:28,799 --> 00:09:31,359
+It's that little one there. Is that
+[Translation failed] It's that little one there. Is that
+
+254
+00:09:30,159 --> 00:09:33,439
+under the
+[Translation failed] under the
+
+255
+00:09:31,360 --> 00:09:36,399
+>> Yeah, it's it's the mini computer with
+[Translation failed] >> Yeah, it's it's the mini computer with
+
+256
+00:09:33,440 --> 00:09:39,360
+like uh eight cores.
+[Translation failed] like uh eight cores.
+
+257
+00:09:36,399 --> 00:09:42,559
+>> That's it. That's where the world's
+[Translation failed] >> That's it. That's where the world's
+
+258
+00:09:39,360 --> 00:09:43,360
+largest reversible prime was found in
+[Translation failed] largest reversible prime was found in
+
+259
+00:09:42,559 --> 00:09:43,919
+there.
+[Translation failed] there.
+
+260
+00:09:43,360 --> 00:09:45,680
+>> Yeah.
+[Translation failed] >> Yeah.
+
+261
+00:09:43,919 --> 00:09:46,799
+>> Do you prefer calling them reversibles
+[Translation failed] >> Do you prefer calling them reversibles
+
+262
+00:09:45,679 --> 00:09:49,599
+or e-urpers?
+[Translation failed] or e-urpers?
+
+263
+00:09:46,799 --> 00:09:51,199
+>> I don't know. Um, I just stick with the
+[Translation failed] >> I don't know. Um, I just stick with the
+
+264
+00:09:49,600 --> 00:09:53,440
+wording reversible.
+[Translation failed] wording reversible.
+
+265
+00:09:51,200 --> 00:09:56,800
+>> Are there an infinite number of emers
+[Translation failed] >> Are there an infinite number of emers
+
+266
+00:09:53,440 --> 00:09:59,839
+according to Wikipedia? Open problem. We
+[Translation failed] according to Wikipedia? Open problem. We
+
+267
+00:09:56,799 --> 00:10:01,359
+don't know. This could be the final
+[Translation failed] don't know. This could be the final
+
+268
+00:09:59,839 --> 00:10:03,440
+e-urper.
+[Translation failed] e-urper.
+
+269
+00:10:01,360 --> 00:10:05,839
+Imagine. Wouldn't that be special? Now,
+[Translation failed] Imagine. Wouldn't that be special? Now,
+
+270
+00:10:03,440 --> 00:10:07,760
+that would be top of the tree. We don't
+[Translation failed] that would be top of the tree. We don't
+
+271
+00:10:05,839 --> 00:10:09,360
+know how big the tree is in this case.
+[Translation failed] know how big the tree is in this case.
+
+272
+00:10:07,759 --> 00:10:12,879
+This could be the last run. Isn't that
+[Translation failed] This could be the last run. Isn't that
+
+273
+00:10:09,360 --> 00:10:15,440
+incredible? So, yeah. Uh, open problem.
+[Translation failed] incredible? So, yeah. Uh, open problem.
+
+274
+00:10:12,879 --> 00:10:17,200
+You could try and find a bigger one or I
+[Translation failed] You could try and find a bigger one or I
+
+275
+00:10:15,440 --> 00:10:20,000
+don't know if there's a way. There might
+[Translation failed] don't know if there's a way. There might
+
+276
+00:10:17,200 --> 00:10:22,160
+be some kind of statistical argument
+[Translation failed] be some kind of statistical argument
+
+277
+00:10:20,000 --> 00:10:23,120
+about what percentage of primes, but if
+[Translation failed] about what percentage of primes, but if
+
+278
+00:10:22,159 --> 00:10:25,120
+it was that easy, someone would have
+[Translation failed] it was that easy, someone would have
+
+279
+00:10:23,120 --> 00:10:26,399
+done the proof by now. There might be. I
+[Translation failed] done the proof by now. There might be. I
+
+280
+00:10:25,120 --> 00:10:28,879
+don't know how hard that would be to be
+[Translation failed] don't know how hard that would be to be
+
+281
+00:10:26,399 --> 00:10:30,480
+honest. Again, a lot of lowhanging
+[Translation failed] honest. Again, a lot of lowhanging
+
+282
+00:10:28,879 --> 00:10:33,600
+proofs like that are done. And the fact
+[Translation failed] proofs like that are done. And the fact
+
+283
+00:10:30,480 --> 00:10:34,959
+that Wikipedia says no one's managed to
+[Translation failed] that Wikipedia says no one's managed to
+
+284
+00:10:33,600 --> 00:10:36,720
+prove one way or the other yet probably
+[Translation failed] prove one way or the other yet probably
+
+285
+00:10:34,958 --> 00:10:39,439
+means it's a slightly difficult proof to
+[Translation failed] means it's a slightly difficult proof to
+
+286
+00:10:36,720 --> 00:10:43,440
+be able to do. So, there you are. That's
+[Translation failed] be able to do. So, there you are. That's
+
+287
+00:10:39,440 --> 00:10:45,200
+possibly the final emote.
+[Translation failed] possibly the final emote.
+
+288
+00:10:43,440 --> 00:10:47,839
+I reckon there's another one. Nah, I
+[Translation failed] I reckon there's another one. Nah, I
+
+289
+00:10:45,200 --> 00:10:49,519
+think that's it. Here on number five, we
+[Translation failed] think that's it. Here on number five, we
+
+290
+00:10:47,839 --> 00:10:51,839
+show you a lot of freakish cool things
+[Translation failed] show you a lot of freakish cool things
+
+291
+00:10:49,519 --> 00:10:55,039
+in mathematics like biggest prime
+[Translation failed] in mathematics like biggest prime
+
+292
+00:10:51,839 --> 00:10:56,880
+numbers. But to make these discoveries,
+[Translation failed] numbers. But to make these discoveries,
+
+293
+00:10:55,039 --> 00:10:59,599
+you need the foundations. You need to
+[Translation failed] you need the foundations. You need to
+
+294
+00:10:56,879 --> 00:11:02,159
+understand how mathematics works, how to
+[Translation failed] understand how mathematics works, how to
+
+295
+00:10:59,600 --> 00:11:04,480
+code, all that kind of stuff. And for
+[Translation failed] code, all that kind of stuff. And for
+
+296
+00:11:02,159 --> 00:11:06,000
+me, you know, it's been a long time
+[Translation failed] me, you know, it's been a long time
+
+297
+00:11:04,480 --> 00:11:08,079
+since I learned that back at high
+[Translation failed] since I learned that back at high
+
+298
+00:11:06,000 --> 00:11:10,559
+school. And if you want to get those
+[Translation failed] school. And if you want to get those
+
+299
+00:11:08,078 --> 00:11:12,239
+skills or you want to get them back, a
+[Translation failed] skills or you want to get them back, a
+
+300
+00:11:10,559 --> 00:11:15,311
+really good place to go is today's
+[Translation failed] really good place to go is today's
+
+301
+00:11:12,240 --> 00:11:16,320
+episode sponsor, Brilliant.
+[Translation failed] episode sponsor, Brilliant.
+
+302
+00:11:16,320 --> 00:11:21,920
+Brilliant is jam-packed with courses
+[Translation failed] Brilliant is jam-packed with courses
+
+303
+00:11:18,399 --> 00:11:24,639
+that are highly interactive, engaging,
+[Translation failed] that are highly interactive, engaging,
+
+304
+00:11:21,919 --> 00:11:28,399
+and frankly just good fun. You'll get
+[Translation failed] and frankly just good fun. You'll get
+
+305
+00:11:24,639 --> 00:11:30,720
+smarter with a smile on your face.
+[Translation failed] smarter with a smile on your face.
+
+306
+00:11:28,399 --> 00:11:33,039
+But the thing I find exciting is that
+[Translation failed] But the thing I find exciting is that
+
+307
+00:11:30,720 --> 00:11:35,120
+for some people, the skills and
+[Translation failed] for some people, the skills and
+
+308
+00:11:33,039 --> 00:11:38,639
+knowledge they're taking on could lead
+[Translation failed] knowledge they're taking on could lead
+
+309
+00:11:35,120 --> 00:11:40,000
+to new career paths, new opportunities.
+[Translation failed] to new career paths, new opportunities.
+
+310
+00:11:38,639 --> 00:11:42,240
+It could be the start of something
+[Translation failed] It could be the start of something
+
+311
+00:11:40,000 --> 00:11:44,559
+really big. To learn for free on
+[Translation failed] really big. To learn for free on
+
+312
+00:11:42,240 --> 00:11:46,720
+Brilliant for a full 30 days, go to
+[Translation failed] Brilliant for a full 30 days, go to
+
+313
+00:11:44,559 --> 00:11:50,000
+brilliant.org/numberfile
+[Translation failed] brilliant.org/numberfile
+
+314
+00:11:46,720 --> 00:11:51,839
+or scan that QR code there on screen or
+[Translation failed] or scan that QR code there on screen or
+
+315
+00:11:50,000 --> 00:11:53,839
+of course there'll be a link in the
+[Translation failed] of course there'll be a link in the
+
+316
+00:11:51,839 --> 00:11:56,240
+description. Brilliant's also giving our
+[Translation failed] description. Brilliant's also giving our
+
+317
+00:11:53,839 --> 00:11:57,760
+viewers 20% off an annual premium
+[Translation failed] viewers 20% off an annual premium
+
+318
+00:11:56,240 --> 00:12:00,480
+subscription which will give you
+[Translation failed] subscription which will give you
+
+319
+00:11:57,759 --> 00:12:04,000
+unlimited daily access to everything on
+[Translation failed] unlimited daily access to everything on
+
+320
+00:12:00,480 --> 00:12:06,480
+their site and apply
+[Translation failed] their site and apply
+
+321
+00:12:04,000 --> 00:12:08,078
+new I guess and uh yeah with
+[Translation failed] new I guess and uh yeah with
+
+322
+00:12:06,480 --> 00:12:10,720
+with the with these kind of prime
+[Translation failed] with the with these kind of prime
+
+323
+00:12:08,078 --> 00:12:15,278
+numbers there is no software to see for
+[Translation failed] numbers there is no software to see for
+
+324
+00:12:10,720 --> 00:12:17,920
+them so um I try with my limited
+[Translation failed] them so um I try with my limited
+
+325
+00:12:15,278 --> 00:12:20,320
+programming skills as as
+[Translation failed] programming skills as as
+
+326
+00:12:17,919 --> 00:12:22,639
+Matt um says all the time it's like
+[Translation failed] Matt um says all the time it's like
+
+327
+00:12:20,320 --> 00:12:25,440
+terrible Python code In my case, it's
+[Translation failed] terrible Python code In my case, it's
+
+328
+00:12:22,639 --> 00:12:25,440
+terrible CC
+[Translation failed] terrible CC
+

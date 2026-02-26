@@ -1,12 +1,12 @@
 ---
-title: "From Headsets to Hearing Aids"
+title: From Headsets to Hearing Aids
 date: 2026年2月26日
-tags: [saved]
-source: "IEEE Spectrum"
+tags:
+source: IEEE Spectrum
 link: https://spectrum.ieee.org/bluetooth-low-energy-audio
 author: ""
-feedTitle: "IEEE Spectrum"
-guid: "https://spectrum.ieee.org/bluetooth-low-energy-audio"
+feedTitle: IEEE Spectrum
+guid: https://spectrum.ieee.org/bluetooth-low-energy-audio
 ---
 
 # From Headsets to Hearing Aids
