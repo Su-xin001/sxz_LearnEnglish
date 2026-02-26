@@ -47,7 +47,7 @@
   "customCommandTemplating": true,
   "customCommandSortStrategy": "recency",
   "customCommands": [],
-  "ribbonCommandId": "",
+  "ribbonCommandId": "import-youtube-video",
   "ribbonCommandId2": "",
   "enableVaultQA": false,
   "qaSearchFolders": [],
