@@ -1356,18 +1356,13 @@
           "guid": "https://spectrum.ieee.org/bluetooth-low-energy-audio",
           "read": true,
           "starred": false,
-          "tags": [
-            {
-              "name": "saved",
-              "color": "#3498db"
-            }
-          ],
+          "tags": [],
           "feedTitle": "IEEE Spectrum",
           "feedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
           "coverImage": "https://spectrum.ieee.org/media-library/electronic-audio-equipment-with-connected-cables-and-large-black-headphones-on-a-mannequin-head.png?id=63280000&width=1245&height=700&coordinates=0%2C0%2C0%2C0",
           "summary": "This is a sponsored article brought to you by Audio Precision.Bluetooth started as a simple wireless connection between a phone and a headset. Since its inception, it has become the invisible scaffolding for music, calls...",
           "author": "",
-          "saved": true,
+          "saved": false,
           "mediaType": "article",
           "duration": "",
           "explicit": false,
@@ -1953,10 +1948,6 @@
             {
               "name": "YouTube",
               "color": "#ff0000"
-            },
-            {
-              "name": "saved",
-              "color": "#3498db"
             }
           ],
           "feedTitle": "Numberphile (YouTube)",
@@ -1964,7 +1955,7 @@
           "coverImage": "https://img.youtube.com/vi/6cw9QJw6J60/maxresdefault.jpg",
           "summary": "",
           "author": "Numberphile",
-          "saved": true,
+          "saved": false,
           "mediaType": "video",
           "explicit": false,
           "image": "",
