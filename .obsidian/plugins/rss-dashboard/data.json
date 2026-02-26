@@ -1,0 +1,501 @@
+{
+  "feeds": [
+    {
+      "title": "Numberphile (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+      "folder": "Videos",
+      "items": [
+        {
+          "title": "3867632931 × 10^10001 +1 - Numberphile",
+          "link": "https://www.youtube.com/watch?v=6cw9QJw6J60",
+          "description": "",
+          "content": "",
+          "pubDate": "2026-02-16T17:40:54+00:00",
+          "guid": "yt:video:6cw9QJw6J60",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/6cw9QJw6J60/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "6cw9QJw6J60"
+        },
+        {
+          "title": "The 15-Game - Numberphile",
+          "link": "https://www.youtube.com/watch?v=UafhPUOCM1E",
+          "description": "",
+          "content": "",
+          "pubDate": "2026-02-07T15:29:41+00:00",
+          "guid": "yt:video:UafhPUOCM1E",
+          "read": true,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/UafhPUOCM1E/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "UafhPUOCM1E"
+        },
+        {
+          "title": "Tools of the Trade (for infinite sums) - Numberphile",
+          "link": "https://www.youtube.com/watch?v=sgMqrT8ilyU",
+          "description": "",
+          "content": "",
+          "pubDate": "2026-02-03T15:46:04+00:00",
+          "guid": "yt:video:sgMqrT8ilyU",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/sgMqrT8ilyU/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "sgMqrT8ilyU"
+        },
+        {
+          "title": "A Fake Fields Medal - Numberphile",
+          "link": "https://www.youtube.com/watch?v=JWtD0O-zSWY",
+          "description": "",
+          "content": "",
+          "pubDate": "2026-01-21T17:13:34+00:00",
+          "guid": "yt:video:JWtD0O-zSWY",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/JWtD0O-zSWY/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "JWtD0O-zSWY"
+        },
+        {
+          "title": "Euclid's Algorithm - Numberphile",
+          "link": "https://www.youtube.com/watch?v=6Y3jHHE_hbA",
+          "description": "",
+          "content": "",
+          "pubDate": "2026-01-16T12:45:49+00:00",
+          "guid": "yt:video:6Y3jHHE_hbA",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/6Y3jHHE_hbA/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "6Y3jHHE_hbA"
+        },
+        {
+          "title": "Base Fibonacci - Numberphile",
+          "link": "https://www.youtube.com/watch?v=S5FTe5KP2Cw",
+          "description": "",
+          "content": "",
+          "pubDate": "2026-01-09T16:06:14+00:00",
+          "guid": "yt:video:S5FTe5KP2Cw",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/S5FTe5KP2Cw/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "S5FTe5KP2Cw"
+        },
+        {
+          "title": "Almost Interesting Facts about 6-7 - Numberphile",
+          "link": "https://www.youtube.com/watch?v=qdXiQ6IM-Cs",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-12-22T20:20:32+00:00",
+          "guid": "yt:video:qdXiQ6IM-Cs",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/qdXiQ6IM-Cs/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "qdXiQ6IM-Cs"
+        },
+        {
+          "title": "Super Facts about 6-7 - Numberphile",
+          "link": "https://www.youtube.com/watch?v=Lw-D8ThqWaE",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-12-22T12:14:22+00:00",
+          "guid": "yt:video:Lw-D8ThqWaE",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/Lw-D8ThqWaE/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "Lw-D8ThqWaE"
+        },
+        {
+          "title": "An Unexpected Twist on Möbius Strips - Numberphile",
+          "link": "https://www.youtube.com/watch?v=izIKV98Awnw",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-12-14T14:08:56+00:00",
+          "guid": "yt:video:izIKV98Awnw",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/izIKV98Awnw/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "izIKV98Awnw"
+        },
+        {
+          "title": "100000001 is divisible by 17 - Numberphile",
+          "link": "https://www.youtube.com/watch?v=6JrFu0xj0bs",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-12-09T13:59:44+00:00",
+          "guid": "yt:video:6JrFu0xj0bs",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/6JrFu0xj0bs/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "6JrFu0xj0bs"
+        },
+        {
+          "title": "Closer Look at the Birthday Paradox - Numberphile",
+          "link": "https://www.youtube.com/watch?v=OUQVhnuTMVU",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-12-06T15:00:55+00:00",
+          "guid": "yt:video:OUQVhnuTMVU",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/OUQVhnuTMVU/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "OUQVhnuTMVU"
+        },
+        {
+          "title": "Polyominoes on Chessboards - Numberphile",
+          "link": "https://www.youtube.com/watch?v=6QoP80i_i5A",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-12-01T16:15:21+00:00",
+          "guid": "yt:video:6QoP80i_i5A",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/6QoP80i_i5A/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "6QoP80i_i5A"
+        },
+        {
+          "title": "The Graph Reconstruction Conjecture - Numberphile",
+          "link": "https://www.youtube.com/watch?v=dWVCl4p-Zyc",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-11-27T14:31:23+00:00",
+          "guid": "yt:video:dWVCl4p-Zyc",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/dWVCl4p-Zyc/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "dWVCl4p-Zyc"
+        },
+        {
+          "title": "Return of the Calculator Unboxing - Numberphile",
+          "link": "https://www.youtube.com/watch?v=rD6e925w4Ys",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-11-19T15:39:26+00:00",
+          "guid": "yt:video:rD6e925w4Ys",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/rD6e925w4Ys/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "rD6e925w4Ys"
+        },
+        {
+          "title": "The Real Story of Calculus - Numberphile",
+          "link": "https://www.youtube.com/watch?v=G23Jx0kPCSI",
+          "description": "",
+          "content": "",
+          "pubDate": "2025-11-10T11:28:48+00:00",
+          "guid": "yt:video:G23Jx0kPCSI",
+          "read": false,
+          "starred": false,
+          "tags": [
+            {
+              "name": "YouTube",
+              "color": "#ff0000"
+            }
+          ],
+          "feedTitle": "Numberphile (YouTube)",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A",
+          "coverImage": "https://img.youtube.com/vi/G23Jx0kPCSI/maxresdefault.jpg",
+          "summary": "",
+          "author": "Numberphile",
+          "saved": false,
+          "mediaType": "video",
+          "explicit": false,
+          "image": "",
+          "videoId": "G23Jx0kPCSI"
+        }
+      ],
+      "lastUpdated": 1772113065562,
+      "autoDeleteDuration": 0,
+      "maxItemsLimit": 25,
+      "scanInterval": 0,
+      "mediaType": "video"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Videos",
+      "subfolders": [],
+      "createdAt": 1772112979853,
+      "modifiedAt": 1772112979853
+    },
+    {
+      "name": "Podcasts",
+      "subfolders": [],
+      "createdAt": 1772112979853,
+      "modifiedAt": 1772112979853
+    }
+  ],
+  "refreshInterval": 60,
+  "maxItems": 25,
+  "viewStyle": "card",
+  "showFeedArt": true,
+  "showThumbnails": true,
+  "sidebarCollapsed": false,
+  "collapsedFolders": [],
+  "tagsCollapsed": true,
+  "articleFilter": {
+    "type": "none",
+    "value": null
+  },
+  "articleSort": "newest",
+  "articleGroupBy": "none",
+  "allArticlesPageSize": 50,
+  "unreadArticlesPageSize": 50,
+  "readArticlesPageSize": 50,
+  "savedArticlesPageSize": 50,
+  "starredArticlesPageSize": 50,
+  "availableTags": [
+    {
+      "name": "Important",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Read later",
+      "color": "#3498db"
+    },
+    {
+      "name": "Favorite",
+      "color": "#f1c40f"
+    },
+    {
+      "name": "YouTube",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Podcast",
+      "color": "#8e44ad"
+    }
+  ],
+  "folderSortOrder": {
+    "by": "name",
+    "ascending": true
+  },
+  "feedSortOrder": {
+    "by": "name",
+    "ascending": true
+  },
+  "folderFeedSortOrders": {},
+  "viewLocation": "main",
+  "readerViewLocation": "main",
+  "useWebViewer": true,
+  "media": {
+    "defaultYouTubeFolder": "Videos",
+    "defaultYouTubeTag": "youtube",
+    "defaultPodcastFolder": "Podcasts",
+    "defaultPodcastTag": "podcast",
+    "autoDetectMediaType": false,
+    "openInSplitView": true,
+    "podcastTheme": "obsidian"
+  },
+  "articleSaving": {
+    "addSavedTag": true,
+    "defaultFolder": "RSS articles/",
+    "defaultTemplate": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ntags: [{{tags}}]\nsource: \"{{source}}\"\nlink: {{link}}\nauthor: \"{{author}}\"\nfeedTitle: \"{{feedTitle}}\"\nguid: \"{{guid}}\"\n---\n\n# {{title}}\n\n{{content}}\n\n[Source]({{link}})",
+    "includeFrontmatter": true,
+    "frontmatterTemplate": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ntags: [{{tags}}]\nsource: \"{{source}}\"\nlink: {{link}}\nauthor: \"{{author}}\"\nfeedTitle: \"{{feedTitle}}\"\nguid: \"{{guid}}\"\n---",
+    "saveFullContent": true,
+    "fetchTimeout": 10,
+    "savedTemplates": []
+  },
+  "display": {
+    "showCoverImage": true,
+    "showSummary": true,
+    "filterDisplayStyle": "inline",
+    "defaultFilter": "all",
+    "hiddenFilters": [],
+    "useDomainFavicons": true,
+    "hideDefaultRssIcon": false
+  }
+}
