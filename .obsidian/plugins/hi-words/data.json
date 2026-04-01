@@ -1,5 +1,11 @@
 {
-  "vocabularyBooks": [],
+  "vocabularyBooks": [
+    {
+      "path": "单词.canvas",
+      "name": "单词",
+      "enabled": true
+    }
+  ],
   "showDefinitionOnHover": true,
   "enableAutoHighlight": true,
   "highlightStyle": "underline",
