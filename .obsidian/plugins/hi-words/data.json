@@ -4,6 +4,11 @@
       "path": "单词.canvas",
       "name": "单词",
       "enabled": true
+    },
+    {
+      "path": "02-Vocabulary/Word-Lists",
+      "name": "词汇列表",
+      "enabled": true
     }
   ],
   "showDefinitionOnHover": true,
@@ -23,6 +28,6 @@
   "cardWidth": 260,
   "cardHeight": 120,
   "highlightMode": "all",
-  "highlightPaths": "",
+  "highlightPaths": "01-Reading,02-Vocabulary,03-Grammar,04-Writing,05-Listening",
   "fileNodeParseMode": "filename-with-alias"
 }

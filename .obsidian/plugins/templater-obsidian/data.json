@@ -1,0 +1,70 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "07-Templates",
+  "templates_pairs": [
+    [
+      "daily-note",
+      "07-Templates/Daily-Note-Template"
+    ],
+    [
+      "reading-article",
+      "07-Templates/Reading-Article-Template"
+    ],
+    [
+      "vocabulary",
+      "07-Templates/Vocabulary-Template"
+    ],
+    [
+      "grammar",
+      "07-Templates/Grammar-Template"
+    ],
+    [
+      "writing",
+      "07-Templates/Writing-Template"
+    ],
+    [
+      "shadowing",
+      "07-Templates/Shadowing-Template"
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "00-Daily-Notes",
+      "template": "07-Templates/Daily-Note-Template"
+    },
+    {
+      "folder": "01-Reading/Articles",
+      "template": "07-Templates/Reading-Article-Template"
+    },
+    {
+      "folder": "02-Vocabulary/Word-Lists",
+      "template": "07-Templates/Vocabulary-Template"
+    },
+    {
+      "folder": "03-Grammar",
+      "template": "07-Templates/Grammar-Template"
+    },
+    {
+      "folder": "04-Writing/Essays",
+      "template": "07-Templates/Writing-Template"
+    },
+    {
+      "folder": "05-Listening/Shadowing",
+      "template": "07-Templates/Shadowing-Template"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    "07-Templates/Daily-Note-Template",
+    "07-Templates/Reading-Article-Template",
+    "07-Templates/Vocabulary-Template"
+  ],
+  "startup_templates": [],
+  "js_engine_file_templates": false
+}

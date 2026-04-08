@@ -1,0 +1,11 @@
+{
+  "enableInlineDataview": true,
+  "enableDataviewJs": true,
+  "enableSqlite": false,
+  "enableJsQuery": false,
+  "enableJsDataview": true,
+  "renderNullAs": "\\-",
+  "warnOnEmptyResult": true,
+  "refreshEnabled": true,
+  "refreshInterval": 2500
+}

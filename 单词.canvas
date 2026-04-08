@@ -1,0 +1,7 @@
+---
+vocabularyBooks:
+  - path: 单词.canvas
+    name: 单词
+    enabled: true
+---
+
