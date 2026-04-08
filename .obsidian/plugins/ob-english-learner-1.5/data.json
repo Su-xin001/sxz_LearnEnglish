@@ -2,10 +2,10 @@
   "hasCompletedSetup": true,
   "defaultLanguage": "en",
   "targetLanguage": "zh",
-  "videoFolder": "01-Videos",
+  "videoFolder": "04-Videos",
   "assetsFolder": "Languages/Assets",
-  "subtitlesFolder": "02-Subtitles",
-  "thumbnailsFolder": "01-Videos",
+  "subtitlesFolder": "05-Subtitles",
+  "thumbnailsFolder": "04-Videos",
   "autoDownloadThumbnails": true,
   "generateBilingualTranscript": true,
   "enableAITranslation": true,
@@ -23,7 +23,7 @@
   "sttModel": "whisper-1",
   "sttBaseUrl": "https://api.openai.com/v1/audio/transcriptions",
   "saveAudio": true,
-  "audioFolder": "03-Recordings",
+  "audioFolder": "06-Recordings",
   "audioFormat": "wav",
   "audioFilenameTemplate": "Recording_{{date:YYYY-MM-DD}}_{{time:HH-mm-ss}}",
   "recordOnlyMode": false,
@@ -39,14 +39,30 @@
   "ttsAutoscroll": true,
   "ttsCacheType": "local",
   "ttsCacheDuration": 168,
-  "ttsAudioFolder": "03-Resources/aloud",
+  "ttsAudioFolder": "07-Resources/aloud",
   "ttsChunking": "sentence",
-  "noteTemplate": "---\ntitle: {{title}}\ndate: {{date}}\ncover: {{cover}}\nurl: {{url}}\nlangr-audio: \nlangr-origin: {{channel}} - YouTube\nlangr: xxx\n---\n\n^^^article\n\n{{transcript}}\n\n^^^words\n\n^^^notes",
+  "noteTemplate": "---\ntitle: {{title}}\ndate: {{date}}\ncover: {{cover}}\nurl: {{url}}\nlangr-audio: \nlangr-origin: {{channel}} - YouTube\nlangr: xxx\ntags: [video, english-learning]\n---\n\n^^^article\n\n{{transcript}}\n\n^^^words\n\n^^^notes",
   "credentials": [],
-  "customCommandsFolder": "03-Resources/copilot-custom-prompts",
+  "customCommandsFolder": "07-Resources/copilot-custom-prompts",
   "customCommandTemplating": true,
   "customCommandSortStrategy": "recency",
-  "customCommands": [],
+  "customCommands": [
+    {
+      "name": "Explain Grammar",
+      "prompt": "Explain the grammar in the following English text. Provide the grammar rule, why it's used here, and similar examples:\n\n{{selection}}",
+      "icon": "📝"
+    },
+    {
+      "name": "Simplify English",
+      "prompt": "Rewrite the following English text in simpler, easier-to-understand English. Keep the same meaning but use simpler vocabulary and shorter sentences:\n\n{{selection}}",
+      "icon": "✨"
+    },
+    {
+      "name": "Translate to Chinese",
+      "prompt": "Translate the following English text to Chinese. Provide both a literal translation and a natural/fluent translation:\n\n{{selection}}",
+      "icon": "🌐"
+    }
+  ],
   "ribbonCommandId": "import-youtube-video",
   "ribbonCommandId2": "",
   "enableVaultQA": false,

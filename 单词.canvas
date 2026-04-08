@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"group-cet4","type":"group","x":-300,"y":-200,"width":1200,"height":800,"label":"CET-4 核心词汇"},
+		{"id":"word-1","type":"text","x":-260,"y":-140,"width":250,"height":80,"text":"abandon\n/əˈbændən/\nv. 放弃；抛弃\nn. 放纵"},
+		{"id":"word-2","type":"text","x":30,"y":-140,"width":250,"height":80,"text":"absorb\n/əbˈzɔːrb/\nv. 吸收；吸引；使全神贯注"},
+		{"id":"word-3","type":"text","x":320,"y":-140,"width":250,"height":80,"text":"abstract\n/ˈæbstrækt/\nadj. 抽象的\nn. 摘要\nv. 提取"},
+		{"id":"word-4","type":"text","x":610,"y":-140,"width":250,"height":80,"text":"accomplish\n/əˈkɑːmplɪʃ/\nv. 完成；实现；达到"},
+		{"id":"word-5","type":"text","x":-260,"y":-20,"width":250,"height":80,"text":"accurate\n/ˈækjərət/\nadj. 精确的；准确的"},
+		{"id":"word-6","type":"text","x":30,"y":-20,"width":250,"height":80,"text":"achieve\n/əˈtʃiːv/\nv. 达到；实现；取得"},
+		{"id":"word-7","type":"text","x":320,"y":-20,"width":250,"height":80,"text":"acknowledge\n/əkˈnɑːlɪdʒ/\nv. 承认；确认；感谢"},
+		{"id":"word-8","type":"text","x":610,"y":-20,"width":250,"height":80,"text":"acquire\n/əˈkwaɪər/\nv. 获得；学到；养成"},
+		{"id":"word-9","type":"text","x":-260,"y":100,"width":250,"height":80,"text":"adapt\n/əˈdæpt/\nv. 适应；改编；调整"},
+		{"id":"word-10","type":"text","x":30,"y":100,"width":250,"height":80,"text":"adequate\n/ˈædɪkwət/\nadj. 充足的；适当的；胜任的"},
+		{"id":"word-11","type":"text","x":320,"y":100,"width":250,"height":80,"text":"adjust\n/əˈdʒʌst/\nv. 调整；适应；校准"},
+		{"id":"word-12","type":"text","x":610,"y":100,"width":250,"height":80,"text":"admire\n/ədˈmaɪər/\nv. 钦佩；赞赏；羡慕"},
+		{"id":"word-13","type":"text","x":-260,"y":220,"width":250,"height":80,"text":"adventure\n/ədˈventʃər/\nn. 冒险；奇遇"},
+		{"id":"word-14","type":"text","x":30,"y":220,"width":250,"height":80,"text":"advocate\n/ˈædvəkeɪt/\nv. 提倡；主张\nn. 提倡者"},
+		{"id":"word-15","type":"text","x":320,"y":220,"width":250,"height":80,"text":"affect\n/əˈfekt/\nv. 影响；感动；感染"},
+		{"id":"word-16","type":"text","x":610,"y":220,"width":250,"height":80,"text":"afford\n/əˈfɔːrd/\nv. 买得起；提供；给予"},
+		{"id":"word-17","type":"text","x":-260,"y":340,"width":250,"height":80,"text":"aggressive\n/əˈɡresɪv/\nadj. 侵略性的；好斗的；有进取心的"},
+		{"id":"word-18","type":"text","x":30,"y":340,"width":250,"height":80,"text":"allocate\n/ˈæləkeɪt/\nv. 分配；拨出；部署"},
+		{"id":"word-19","type":"text","x":320,"y":340,"width":250,"height":80,"text":"ambitious\n/æmˈbɪʃəs/\nadj. 有雄心的；野心勃勃的"},
+		{"id":"word-20","type":"text","x":610,"y":340,"width":250,"height":80,"text":"analyze\n/ˈænəlaɪz/\nv. 分析；解析；研究"}
+	],
+	"edges":[]
+}

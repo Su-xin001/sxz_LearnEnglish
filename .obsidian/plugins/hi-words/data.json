@@ -2,7 +2,12 @@
   "vocabularyBooks": [
     {
       "path": "单词.canvas",
-      "name": "单词",
+      "name": "CET-4 核心词汇",
+      "enabled": true
+    },
+    {
+      "path": "02-Vocabulary",
+      "name": "词汇笔记",
       "enabled": true
     }
   ],
@@ -23,6 +28,6 @@
   "cardWidth": 260,
   "cardHeight": 120,
   "highlightMode": "all",
-  "highlightPaths": "",
+  "highlightPaths": "01-Reading,04-Videos,RSS articles",
   "fileNodeParseMode": "filename-with-alias"
 }
