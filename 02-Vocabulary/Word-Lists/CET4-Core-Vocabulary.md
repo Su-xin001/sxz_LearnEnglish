@@ -29,6 +29,7 @@ admire :: 钦佩；赞美
 adopt :: 采用；收养
 advantage :: 优势；有利条件
 affair :: 事务；事件
+<!--SR:!2026-04-10,1,230-->
 affect :: 影响；感动
 afford :: 负担得起；提供
 aggressive :: 侵略的；好斗的

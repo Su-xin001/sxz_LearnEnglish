@@ -21,7 +21,7 @@
   "queryStrategy": "local-first",
   "dictionaryLoadStrategy": "on-demand",
   "cacheAIResults": true,
-  "hasSeenWelcome": false,
+  "hasSeenWelcome": true,
   "ttsProvider": "compatible",
   "ttsVoice": "alloy",
   "ttsSpeed": 0.9,
