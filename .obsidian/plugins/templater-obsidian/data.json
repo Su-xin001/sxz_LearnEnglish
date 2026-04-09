@@ -15,6 +15,10 @@
       "07-Templates/Vocabulary-Template"
     ],
     [
+      "collection",
+      "07-Templates/Collection-Template"
+    ],
+    [
       "grammar",
       "07-Templates/Grammar-Template"
     ],
@@ -43,8 +47,12 @@
       "template": "07-Templates/Reading-Article-Template"
     },
     {
-      "folder": "02-Vocabulary/Word-Lists",
+      "folder": "02-Vocabulary/Words",
       "template": "07-Templates/Vocabulary-Template"
+    },
+    {
+      "folder": "02-Vocabulary/Collections",
+      "template": "07-Templates/Collection-Template"
     },
     {
       "folder": "03-Grammar",
@@ -63,7 +71,8 @@
   "enabled_templates_hotkeys": [
     "07-Templates/Daily-Note-Template",
     "07-Templates/Reading-Article-Template",
-    "07-Templates/Vocabulary-Template"
+    "07-Templates/Vocabulary-Template",
+    "07-Templates/Collection-Template"
   ],
   "startup_templates": [],
   "js_engine_file_templates": false
