@@ -1,14 +1,1 @@
-{
-  "wordsPerMinute": 200,
-  "showWordCount": true,
-  "showRelativeDate": true,
-  "showTaskCount": true,
-  "attachmentFolderPath": "08-Resources/Media",
-  "newFileLocation": "folder",
-  "promptDelete": true,
-  "readableLineLength": true,
-  "strictLineBreaks": false,
-  "defaultViewMode": "preview",
-  "useMarkdownLinks": true,
-  "showUnsupportedFiles": false
-}
+{}
