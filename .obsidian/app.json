@@ -1,1 +1,15 @@
-{}
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "defaultViewMode": "source",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "08-Resources/Media",
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "showInlineTitle": true
+}

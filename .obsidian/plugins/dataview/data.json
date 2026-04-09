@@ -1,0 +1,17 @@
+{
+  "renderNullAs": "\\-",
+  "taskCompletionTracking": false,
+  "taskCompletionUseEmojiShorthand": false,
+  "taskCompletionText": "",
+  "taskCompletionDateFormat": "",
+  "recursiveTaskQuery": false,
+  "warnOnEmptyResult": true,
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm",
+  "enableInlineDataview": true,
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
+  "prettyRenderInlineFields": true
+}
