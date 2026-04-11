@@ -1,8 +1,16 @@
 {
-  "accentColor": "#5b7e9a",
-  "textFontFamily": "",
-  "monospaceFontFamily": "",
+  "accentColor": "#7c3aed",
   "baseFontSize": 16,
-  "interfaceFontSize": 14,
-  "cssTheme": ""
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "english-learning-cards",
+    "vocabulary-highlighting",
+    "progress-bars"
+  ],
+  "interfaceFontFamily": "Inter, system-ui, sans-serif",
+  "textFontFamily": "Georgia, serif",
+  "monospaceFontFamily": "Fira Code, monospace",
+  "showRibbon": true,
+  "nativeMenus": true,
+  "showViewHeader": true
 }
