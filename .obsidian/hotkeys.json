@@ -1,0 +1,116 @@
+[
+  {
+    "command": "obsidian-spaced-repetition:flashcard-review",
+    "keys": [
+      "Alt+R"
+    ]
+  },
+  {
+    "command": "obsidian-spaced-repetition:review-flashcard-in-note",
+    "keys": [
+      "Alt+F"
+    ]
+  },
+  {
+    "command": "obsidian-language-learner:lookup-word",
+    "keys": [
+      "Ctrl+Shift+D"
+    ]
+  },
+  {
+    "command": "obsidian-language-learner:translate-text",
+    "keys": [
+      "Ctrl+Shift+T"
+    ]
+  },
+  {
+    "command": "obsidian-language-learner:add-to-word-db",
+    "keys": [
+      "Ctrl+Shift+A"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_阅读文章",
+    "keys": [
+      "Alt+1"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_单词",
+    "keys": [
+      "Alt+2"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_每日记录",
+    "keys": [
+      "Alt+3"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_语法笔记",
+    "keys": [
+      "Alt+4"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_写作练习",
+    "keys": [
+      "Alt+5"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_复习计划",
+    "keys": [
+      "Alt+6"
+    ]
+  },
+  {
+    "command": "templater-obsidian:insert-模板_听力笔记",
+    "keys": [
+      "Alt+7"
+    ]
+  },
+  {
+    "command": "daily-notes",
+    "keys": [
+      "Alt+N"
+    ]
+  },
+  {
+    "command": "ob-english-learner:text-to-speech",
+    "keys": [
+      "Ctrl+Shift+S"
+    ]
+  },
+  {
+    "command": "obsidian-english-assistant:lookup-word",
+    "keys": [
+      "Ctrl+Shift+E"
+    ]
+  },
+  {
+    "command": "hi-words:add-word",
+    "keys": [
+      "Ctrl+Shift+W"
+    ]
+  },
+  {
+    "command": "graph:open",
+    "keys": [
+      "Alt+G"
+    ]
+  },
+  {
+    "command": "switcher:open",
+    "keys": [
+      "Ctrl+O"
+    ]
+  },
+  {
+    "command": "global-search:open",
+    "keys": [
+      "Ctrl+P"
+    ]
+  }
+]

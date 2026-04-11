@@ -1,0 +1,6 @@
+{
+  "folder": "05-每日记录",
+  "template": "10-模板/模板_每日记录.md",
+  "format": "YYYY-MM-DD",
+  "autorun": false
+}

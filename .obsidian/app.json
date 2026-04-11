@@ -1,1 +1,21 @@
-{}
+{
+  "legacyEditor": false,
+  "readableLineLength": true,
+  "defaultViewMode": "source",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en"
+  ],
+  "attachmentFolderPath": "09-资源与工具/附件",
+  "newFileLocation": "current",
+  "promptDelete": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "vimMode": false,
+  "focusNewTab": true
+}

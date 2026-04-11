@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "enableJs": true,
+    "enableDataviewJs": true,
+    "prettyRender": true,
+    "renderNullAs": "\\-",
+    "warnOnEmptyResult": true,
+    "refreshEnabled": true,
+    "refreshInterval": 2500
+  }
+}

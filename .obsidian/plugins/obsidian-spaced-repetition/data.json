@@ -3,8 +3,8 @@
     "flashcardTags": [
       "#flashcards"
     ],
-    "convertFoldersToDecks": false,
-    "burySiblingCards": false,
+    "convertFoldersToDecks": true,
+    "burySiblingCards": true,
     "randomizeCardOrder": null,
     "flashcardCardOrder": "DueFirstRandom",
     "flashcardDeckOrder": "PrevDeckComplete_Sequential",
@@ -25,7 +25,9 @@
       "#review"
     ],
     "noteFoldersToIgnore": [
-      "**/*.excalidraw.md"
+      "**/*.excalidraw.md",
+      "09-资源与工具",
+      "10-模板"
     ],
     "openRandomNote": false,
     "autoNextNote": false,
@@ -51,7 +53,7 @@
     "lapsesIntervalChange": 0.5,
     "easyBonus": 1.3,
     "loadBalance": true,
-    "maximumInterval": 36525,
+    "maximumInterval": 365,
     "maxLinkFactor": 1,
     "dataStore": "NOTES",
     "cardCommentOnSameLine": false,
