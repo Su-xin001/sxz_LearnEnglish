@@ -1,6 +1,8 @@
 {
   "cssTheme": "",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "english-learning"
+  ],
   "baseFontSize": 16,
   "interfaceFontSize": 14,
   "translucency": false
