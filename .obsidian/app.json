@@ -1,1 +1,27 @@
-{}
+{
+  "legacyEditor": false,
+  "readableLineLength": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "strictLineBreaks": false,
+  "tabSize": 2,
+  "useTab": false,
+  "defaultNewFileLocation": "folder",
+  "newFileFolderPath": "学习笔记/按日期",
+  "attachmentFolderPath": "资源/附件",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "autoPairMarkdown": true,
+  "autoPairBrackets": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showFrontmatter": true,
+  "promptDelete": true,
+  "vimMode": false,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "enabledCssSnippets": [],
+  "cssTheme": ""
+}
