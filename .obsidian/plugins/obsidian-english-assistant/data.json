@@ -2,7 +2,7 @@
   "apiKey": "",
   "baseURL": "https://api.openai.com/v1",
   "modelName": "gpt-3.5-turbo",
-  "wordCountProgress": 913,
+  "wordCountProgress": 3369,
   "milestoneTarget": 1000,
   "errorStats": {},
   "errorLog": [],
