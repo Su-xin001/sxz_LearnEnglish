@@ -1,13 +1,18 @@
 {
   "vocabularyBooks": [
     {
-      "path": "02-单词库/04-生词本",
+      "path": "单词库/按掌握程度/陌生/生词本.md",
       "name": "生词本",
       "enabled": true
     },
     {
-      "path": "02-单词库/01-按字母索引",
-      "name": "字母索引",
+      "path": "单词库/按掌握程度/熟悉/熟悉词本.md",
+      "name": "熟悉词本",
+      "enabled": true
+    },
+    {
+      "path": "单词库/按掌握程度/掌握/掌握词本.md",
+      "name": "掌握词本",
       "enabled": true
     }
   ],
@@ -28,6 +33,6 @@
   "cardWidth": 260,
   "cardHeight": 120,
   "highlightMode": "all",
-  "highlightPaths": "01-阅读材料",
+  "highlightPaths": "阅读材料",
   "fileNodeParseMode": "filename-with-alias"
 }

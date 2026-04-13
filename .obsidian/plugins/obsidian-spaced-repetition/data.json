@@ -3,7 +3,7 @@
     "flashcardTags": [
       "#flashcards"
     ],
-    "convertFoldersToDecks": true,
+    "convertFoldersToDecks": false,
     "burySiblingCards": true,
     "randomizeCardOrder": null,
     "flashcardCardOrder": "DueFirstRandom",
@@ -22,12 +22,12 @@
     "editLaterTag": "#edit-later",
     "enableNoteReviewPaneOnStartup": true,
     "tagsToReview": [
-      "#review"
+      "#review",
+      "#阅读材料"
     ],
     "noteFoldersToIgnore": [
       "**/*.excalidraw.md",
-      "09-资源与工具",
-      "10-模板"
+      "模板/**"
     ],
     "openRandomNote": false,
     "autoNextNote": false,
@@ -39,7 +39,7 @@
     "showContextInCards": true,
     "showIntervalInReviewButtons": true,
     "flashcardHeightPercentage": 80,
-    "flashcardWidthPercentage": 40,
+    "flashcardWidthPercentage": 50,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardEasyText": "简单",

@@ -3,6 +3,6 @@
   "enabledCssSnippets": [
     "english-learning"
   ],
-  "baseFontSize": 16,
-  "translucency": false
+  "translucency": false,
+  "accentColor": "#6a9fb5"
 }

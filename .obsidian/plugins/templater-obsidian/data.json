@@ -1,80 +1,31 @@
 {
-  "command_timeout": 5,
-  "templates_folder": "10-模板",
+  "command_timeout": 5000,
+  "templates_folder": "模板",
   "templates_pairs": [
     [
-      "阅读文章",
-      "模板_阅读文章"
+      "阅读材料模板",
+      "模板/阅读材料模板"
     ],
     [
-      "单词",
-      "模板_单词"
+      "单词卡片模板",
+      "模板/单词卡片模板"
     ],
     [
-      "每日记录",
-      "模板_每日记录"
+      "学习笔记模板",
+      "模板/学习笔记模板"
     ],
     [
-      "语法笔记",
-      "模板_语法笔记"
-    ],
-    [
-      "写作练习",
-      "模板_写作练习"
-    ],
-    [
-      "复习计划",
-      "模板_复习计划"
-    ],
-    [
-      "听力笔记",
-      "模板_听力笔记"
+      "复习计划模板",
+      "模板/复习计划模板"
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": false,
-  "enable_system_commands": false,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "",
-  "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "01-阅读材料",
-      "template": "10-模板/模板_阅读文章"
-    },
-    {
-      "folder": "02-单词库",
-      "template": "10-模板/模板_单词"
-    },
-    {
-      "folder": "03-学习笔记/01-语法笔记",
-      "template": "10-模板/模板_语法笔记"
-    },
-    {
-      "folder": "05-每日记录",
-      "template": "10-模板/模板_每日记录"
-    },
-    {
-      "folder": "06-写作练习",
-      "template": "10-模板/模板_写作练习"
-    },
-    {
-      "folder": "04-复习计划",
-      "template": "10-模板/模板_复习计划"
-    },
-    {
-      "folder": "07-听力材料",
-      "template": "10-模板/模板_听力笔记"
-    }
-  ],
+  "user_scripts_folder": "模板/脚本",
+  "enable_ribbon_icon": true,
   "syntax_highlighting": true,
-  "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    "10-模板/模板_阅读文章",
-    "10-模板/模板_单词",
-    "10-模板/模板_每日记录"
-  ],
   "startup_templates": [],
-  "js_engine_file_templates": false,
-  "recursive_inclusion": false
+  "prompt_delay": 0
 }

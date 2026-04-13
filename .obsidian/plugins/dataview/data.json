@@ -1,11 +1,27 @@
 {
   "settings": {
-    "enableJs": true,
+    "enableSqlite": false,
+    "sqlQueryTimeout": 500,
     "enableDataviewJs": true,
-    "prettyRender": true,
+    "enableInlineDataviewJs": true,
+    "prettyRenderInlineDataviewJs": true,
     "renderNullAs": "\\-",
     "warnOnEmptyResult": true,
     "refreshEnabled": true,
-    "refreshInterval": 2500
+    "refreshInterval": 2500,
+    "defaultDateFormat": "yyyy-MM-dd",
+    "defaultDateTimeFormat": "yyyy-MM-dd HH:mm",
+    "maxIndexSize": 1000,
+    "indexMarkdown": true,
+    "indexTags": true,
+    "indexLinks": true,
+    "indexFrontmatter": true,
+    "indexHeaders": true,
+    "indexMetadataProperties": true,
+    "excludeFolders": [
+      ".obsidian"
+    ],
+    "excludeFiles": [],
+    "enableInlineDataview": true
   }
 }

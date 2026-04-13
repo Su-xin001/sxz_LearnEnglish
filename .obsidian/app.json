@@ -1,22 +1,20 @@
 {
-  "interfaceFontSize": 14,
-  "legacyEditor": false,
-  "readableLineLength": true,
-  "defaultViewMode": "source",
-  "showLineNumber": true,
-  "spellcheck": true,
-  "spellcheckLanguages": [
-    "en"
-  ],
-  "attachmentFolderPath": "09-资源与工具/附件",
+  "attachmentFolderPath": "附件",
   "newFileLocation": "current",
   "promptDelete": true,
-  "showUnsupportedFiles": true,
-  "alwaysUpdateLinks": true,
-  "autoPairBrackets": true,
+  "showUnsupportedFiles": false,
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": false,
   "autoPairMarkdown": true,
+  "autoPairBrackets": true,
   "foldHeading": true,
   "foldIndent": true,
+  "spellCheck": true,
   "vimMode": false,
-  "focusNewTab": true
+  "useTab": false,
+  "tabSize": 2,
+  "legacyEditor": false,
+  "livePreview": true
 }
