@@ -15,15 +15,15 @@ flashcards: false
 
 The rapid advancement of artificial intelligence is fundamentally transforming the landscape of modern work. From automated customer service chatbots to sophisticated data analysis tools, AI technologies are reshaping how businesses operate and how employees perform their daily tasks.
 
-According to a recent report by the World Economic Forum, approximately 85 million jobs may be displaced by automation by 2025, while 97 million new roles may emerge that are more adapted to the new division of labor between humans, machines, and algorithms. This paradigm shift demands a fundamental rethinking of workforce development and education systems.
+According to a recent report by the World Economic Forum, approximately 85 million jobs may be displaced by automation by 2025, while 97 million new roles may emerge that are more adapted to the new division of labor between humans, machines, and algorithms. This ==paradigm shift== demands a fundamental rethinking of workforce development and education systems.
 
 **The Dual Nature of AI Impact**
 
-While some view AI as a threat to employment, others see it as a catalyst for creating more meaningful work. Dr. Sarah Chen, a researcher at MIT, argues that "AI will eliminate mundane tasks, allowing workers to focus on creative and strategic thinking." This perspective suggests that the future of work lies not in competing with machines, but in collaborating with them.
+==While some view AI as a threat to employment, others see it as a catalyst for creating more meaningful work.== Dr. Sarah Chen, a researcher at MIT, argues that "AI will eliminate mundane tasks, allowing workers to focus on creative and strategic thinking." This perspective suggests that ==the future of work lies not in competing with machines, but in collaborating with them==.
 
 **Skills for the AI Era**
 
-The emergence of AI-driven workplaces necessitates a new set of competencies:
+The emergence of AI-driven workplaces ==necessitates== a new set of competencies:
 
 1. **Digital literacy** — Understanding how AI systems function and their limitations
 2. **Critical thinking** — Evaluating AI-generated outputs and making informed decisions
@@ -33,7 +33,7 @@ The emergence of AI-driven workplaces necessitates a new set of competencies:
 
 **The Role of Education**
 
-Traditional education systems must evolve to prepare students for an AI-augmented world. This includes integrating computational thinking across curricula, fostering creativity alongside technical skills, and emphasizing lifelong learning as a core competency.
+Traditional education systems must evolve to prepare students for an ==AI-augmented== world. This includes integrating computational thinking across curricula, fostering creativity alongside technical skills, and emphasizing lifelong learning as a core competency.
 
 ---
 
@@ -55,9 +55,14 @@ Traditional education systems must evolve to prepare students for an AI-augmente
 
 ### 重点内容高亮标记
 
-- 🟡 **词汇标记**：`==paradigm shift==` — 范式转变，学术写作常用表达
-- 🔵 **语法标记**：`==while others see it as==` — while引导对比从句
-- 🟢 **观点标记**：`==the future of work lies not in competing with machines, but in collaborating with them==`
+> 🟡 = 词汇标记 &nbsp;&nbsp; 🔵 = 语法标记 &nbsp;&nbsp; 🟢 = 观点标记
+
+- 🟡 **paradigm shift** — 范式转变，学术写作常用表达
+- � **necessitates** — 正式用语，比 require 更学术
+- 🟡 **AI-augmented** — AI增强的，复合形容词构词法
+- 🔵 **while...others...** — while引导对比从句，表达对立观点
+- � **not in...but in...** — 否定前者肯定后者的强调结构
+- 🟢 **the future of work lies not in competing with machines, but in collaborating with them** — 核心论点：人机协作而非竞争
 
 ### 批注
 
