@@ -11,21 +11,13 @@
   --reading-max-width: 750px;
 }
 
-.markdown-source-view.mod-cm6 .cm-line,
-.markdown-reading-view {
+.markdown-preview-view {
   font-family: var(--default-font);
 }
 
-body {
-  --font-text: var(--default-font);
-}
-
-.markdown-preview-view[data-type="阅读材料"] .markdown-preview-sizer {
+.markdown-preview-view .markdown-preview-sizer {
   max-width: var(--reading-max-width);
   margin: 0 auto;
-  font-family: var(--reading-font);
-  font-size: var(--reading-font-size);
-  line-height: var(--reading-line-height);
 }
 
 .markdown-preview-view img {
@@ -101,13 +93,6 @@ span[data-highlight="opinion"] mark,
 mark.opinion {
   background: var(--highlight-opinion-bg);
   border-bottom-color: var(--highlight-opinion);
-}
-
-.markdown-preview-view .language-learner-popup {
-  max-height: 300px;
-  overflow-y: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .markdown-preview-view .internal-link {
