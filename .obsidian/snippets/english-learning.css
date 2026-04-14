@@ -9,10 +9,16 @@
   --reading-line-height: 2em;
   --reading-font-size: 18px;
   --reading-max-width: 750px;
-}
-
-.markdown-preview-view {
-  font-family: var(--default-font);
+  --sr-hard-color: #ff6b6b;
+  --sr-good-color: #51cf66;
+  --sr-easy-color: #339af0;
+  --table-header-bg: var(--interactive-accent);
+  --table-header-color: var(--text-on-accent);
+  --table-row-hover: var(--background-secondary);
+  --table-border: var(--background-modifier-border);
+  --link-color: var(--interactive-accent);
+  --tag-bg: var(--interactive-accent);
+  --tag-color: var(--text-on-accent);
 }
 
 .markdown-preview-view .markdown-preview-sizer {
@@ -53,8 +59,8 @@
 }
 
 .markdown-preview-view th {
-  background: var(--interactive-accent);
-  color: var(--text-on-accent);
+  background: var(--table-header-bg);
+  color: var(--table-header-color);
   padding: 10px 12px;
   text-align: left;
   font-weight: 600;
@@ -62,11 +68,11 @@
 
 .markdown-preview-view td {
   padding: 8px 12px;
-  border-bottom: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--table-border);
 }
 
 .markdown-preview-view tr:hover td {
-  background: var(--background-secondary);
+  background: var(--table-row-hover);
 }
 
 .markdown-preview-view mark {
@@ -96,9 +102,9 @@ mark.opinion {
 }
 
 .markdown-preview-view .internal-link {
-  color: var(--interactive-accent);
+  color: var(--link-color);
   text-decoration: none;
-  border-bottom: 1px dashed var(--interactive-accent);
+  border-bottom: 1px dashed var(--link-color);
   transition: all 0.2s ease;
 }
 
@@ -108,8 +114,8 @@ mark.opinion {
 }
 
 .markdown-preview-view .tag {
-  background: var(--interactive-accent);
-  color: var(--text-on-accent);
+  background: var(--tag-bg);
+  color: var(--tag-color);
   padding: 2px 8px;
   border-radius: 12px;
   font-size: 0.85em;
@@ -128,8 +134,8 @@ mark.opinion {
 }
 
 .block-language-dataview th {
-  background: var(--interactive-accent);
-  color: var(--text-on-accent);
+  background: var(--table-header-bg);
+  color: var(--table-header-color);
   padding: 8px 12px;
   text-align: left;
   font-weight: 600;
@@ -139,11 +145,11 @@ mark.opinion {
 
 .block-language-dataview td {
   padding: 6px 12px;
-  border-bottom: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--table-border);
 }
 
 .block-language-dataview tr:hover td {
-  background: var(--background-secondary);
+  background: var(--table-row-hover);
 }
 
 .block-language-dataview {
@@ -176,17 +182,17 @@ mark.opinion {
 }
 
 .sr-hard-btn {
-  background: #ff6b6b;
+  background: var(--sr-hard-color);
   color: white;
 }
 
 .sr-good-btn {
-  background: #51cf66;
+  background: var(--sr-good-color);
   color: white;
 }
 
 .sr-easy-btn {
-  background: #339af0;
+  background: var(--sr-easy-color);
   color: white;
 }
 
