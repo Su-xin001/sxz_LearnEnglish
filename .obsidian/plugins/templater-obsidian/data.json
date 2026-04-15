@@ -1,0 +1,83 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "模板",
+  "templates_pairs": [
+    [
+      "单词卡",
+      "模板/模板-单词卡"
+    ],
+    [
+      "阅读笔记",
+      "模板/模板-阅读笔记"
+    ],
+    [
+      "听力笔记",
+      "模板/模板-听力笔记"
+    ],
+    [
+      "口语练习",
+      "模板/模板-口语练习"
+    ],
+    [
+      "语法笔记",
+      "模板/模板-语法笔记"
+    ],
+    [
+      "写作练习",
+      "模板/模板-写作练习"
+    ],
+    [
+      "学习日记",
+      "模板/模板-学习日记"
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_templates_hotkeys": true,
+  "folder_templates": [
+    {
+      "folder": "01-单词库",
+      "template": "模板/模板-单词卡"
+    },
+    {
+      "folder": "02-阅读",
+      "template": "模板/模板-阅读笔记"
+    },
+    {
+      "folder": "03-听力",
+      "template": "模板/模板-听力笔记"
+    },
+    {
+      "folder": "04-口语",
+      "template": "模板/模板-口语练习"
+    },
+    {
+      "folder": "05-语法",
+      "template": "模板/模板-语法笔记"
+    },
+    {
+      "folder": "06-写作",
+      "template": "模板/模板-写作练习"
+    },
+    {
+      "folder": "07-日记",
+      "template": "模板/模板-学习日记"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "模板/模板-单词卡",
+    "模板/模板-阅读笔记",
+    "模板/模板-听力笔记",
+    "模板/模板-口语练习",
+    "模板/模板-语法笔记",
+    "模板/模板-写作练习",
+    "模板/模板-学习日记"
+  ],
+  "startup_templates": [],
+  "new_file_templates": []
+}

@@ -1,0 +1,59 @@
+.callout[data-callout="vocab"] {
+  --callout-color: 124, 58, 237;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'></path><path d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'></path></svg>";
+  background: rgba(124, 58, 237, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="vocab"] .callout-title {
+  color: var(--learning-accent-light);
+}
+
+.callout[data-callout="tip-en"] {
+  --callout-color: 166, 227, 161;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><path d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'></path><line x1='12' y1='17' x2='12.01' y2='17'></line></svg>";
+  background: rgba(166, 227, 161, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="warning-en"] {
+  --callout-color: 243, 139, 168;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z'></path><line x1='12' y1='9' x2='12' y2='13'></line><line x1='12' y1='17' x2='12.01' y2='17'></line></svg>";
+  background: rgba(243, 139, 168, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="grammar"] {
+  --callout-color: 249, 226, 175;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'></polygon></svg>";
+  background: rgba(249, 226, 175, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="pronunciation"] {
+  --callout-color: 148, 226, 213;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='11 5 6 9 2 9 2 15 6 15 11 19 11 5'></polygon><path d='M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07'></path></svg>";
+  background: rgba(148, 226, 213, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="example"] {
+  --callout-color: 137, 180, 250;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='17' y1='10' x2='3' y2='10'></line><line x1='21' y1='6' x2='3' y2='6'></line><line x1='21' y1='14' x2='3' y2='14'></line><line x1='17' y1='18' x2='3' y2='18'></line></svg>";
+  background: rgba(137, 180, 250, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}
+
+.callout[data-callout="translation"] {
+  --callout-color: 203, 166, 247;
+  --callout-icon: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M5 8l6 6'></path><path d='M4 14l6-6 2-3'></path><path d='M2 5h12'></path><path d='M7 2h1'></path><path d='M22 22l-5-10-5 10'></path><path d='M14 18h6'></path></svg>";
+  background: rgba(203, 166, 247, 0.08);
+  border-radius: 8px;
+  border-left: 4px solid rgb(var(--callout-color));
+}

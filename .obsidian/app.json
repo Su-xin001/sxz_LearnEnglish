@@ -1,1 +1,19 @@
-{}
+{
+  "interfaceFontSize": 14,
+  "legacyEditor": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "09-归档",
+  "attachmentFolderPath": "08-资源",
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "useTab": false,
+  "tabSize": 2,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true,
+  "showFrontmatter": true
+}

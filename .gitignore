@@ -1,2 +1,10 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-language-learner/WordDB*
+.obsidian/plugins/obsidian-english-assistant/resources/
+08-资源/音频/
+08-资源/图片/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

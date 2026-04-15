@@ -1,0 +1,191 @@
+[
+  {
+    "id": "obsidian-spaced-repetition:review-flashcard",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "R"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-spaced-repetition:review-note",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "N"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-language-learner:lookup-word",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "D"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-单词卡",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "1"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-阅读笔记",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "2"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-听力笔记",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "3"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-口语练习",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "4"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-语法笔记",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "5"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-写作练习",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "6"
+      }
+    ]
+  },
+  {
+    "id": "templater-obsidian:insert-模板/模板-学习日记",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "7"
+      }
+    ]
+  },
+  {
+    "id": "daily-notes",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "J"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-git:pull",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ],
+        "key": "P"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-git:push",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ],
+        "key": "U"
+      }
+    ]
+  },
+  {
+    "id": "graph:open",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "G"
+      }
+    ]
+  },
+  {
+    "id": "switcher:open",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "O"
+      }
+    ]
+  },
+  {
+    "id": "command-palette:open",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "P"
+      }
+    ]
+  },
+  {
+    "id": "random-note",
+    "hotkeys": [
+      {
+        "modifiers": [
+          "Alt"
+        ],
+        "key": "S"
+      }
+    ]
+  }
+]
