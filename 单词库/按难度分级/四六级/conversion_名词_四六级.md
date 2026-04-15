@@ -81,6 +81,7 @@ flashcards: true
 
 拼写与释义
 conversion :: 转换
+<!--SR:!2026-04-17,1,230-->
 
 常用搭配
 energy conversion；conversion rate

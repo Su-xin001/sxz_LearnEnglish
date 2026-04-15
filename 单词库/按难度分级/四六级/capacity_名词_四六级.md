@@ -87,6 +87,7 @@ flashcards: true
 
 拼写与释义
 capacity :: 能力，容量
+<!--SR:!2026-04-19,3,250-->
 
 常用搭配
 the capacity to do；at full capacity
