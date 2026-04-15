@@ -1,134 +1,132 @@
-.flashcard-container {
-  perspective: 1000px;
-  margin: 16px 0;
-}
-
-.flashcard {
-  background: var(--learning-surface);
+.markdown-rendered .word-card {
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
+  border: 1px solid var(--border-color);
   border-radius: 12px;
-  padding: 24px;
-  border: 1px solid rgba(124, 58, 237, 0.3);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.flashcard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(124, 58, 237, 0.2);
+.markdown-rendered .word-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
 }
 
-.flashcard-word {
+.markdown-rendered .word-header h1 {
+  margin: 0;
+  border: none;
+  padding: 0;
   font-size: 2em;
-  font-weight: 700;
-  text-align: center;
-  color: var(--learning-accent-light);
-  margin-bottom: 8px;
+  color: var(--accent-color);
 }
 
-.flashcard-phonetic {
-  text-align: center;
-  color: var(--learning-teal);
-  font-size: 1.1em;
-  margin-bottom: 16px;
+.markdown-rendered .phonetic {
+  color: var(--text-secondary);
+  font-size: 0.95em;
+  font-family: "Lucida Sans Unicode", "Arial Unicode MS", sans-serif;
 }
 
-.flashcard-definition {
-  text-align: center;
-  color: var(--learning-text);
-  font-size: 1.2em;
-  padding: 12px;
-  border-top: 1px solid rgba(124, 58, 237, 0.2);
+.markdown-rendered .phonetic .uk-flag::before {
+  content: "🇬🇧 ";
 }
 
-.flashcard-example {
-  margin-top: 12px;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  font-style: italic;
-  color: var(--learning-yellow);
+.markdown-rendered .phonetic .us-flag::before {
+  content: "🇺🇸 ";
 }
 
-.vocab-card {
+.markdown-rendered .pos-tag {
   display: inline-block;
-  background: var(--learning-surface);
-  border: 1px solid rgba(124, 58, 237, 0.25);
-  border-radius: 8px;
-  padding: 10px 16px;
-  margin: 4px;
-  transition: all 0.2s ease;
-}
-
-.vocab-card:hover {
-  border-color: var(--learning-accent);
-  background: rgba(124, 58, 237, 0.1);
-}
-
-.vocab-card .word {
-  font-weight: 600;
-  color: var(--learning-accent-light);
-}
-
-.vocab-card .def {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 12px;
   font-size: 0.85em;
-  color: var(--learning-text);
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+.markdown-rendered .definition-block {
+  margin: 12px 0;
+  padding: 12px;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-color);
+}
+
+.markdown-rendered .definition-block .common-def {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.markdown-rendered .definition-block .rare-def {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.markdown-rendered .example-sentence {
+  margin: 8px 0;
+  padding: 8px 12px;
+  background-color: var(--bg-secondary);
+  border-radius: 6px;
+  border-left: 2px solid var(--highlight-vocab);
+}
+
+.markdown-rendered .example-sentence .en-text {
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+.markdown-rendered .example-sentence .cn-text {
+  color: var(--text-secondary);
+  font-size: 0.9em;
   margin-top: 4px;
 }
 
-.difficulty-badge {
-  display: inline-block;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.8em;
+.markdown-rendered .mnemonic-box {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  border: 1px solid #0f3460;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.markdown-rendered .mnemonic-box h4 {
+  color: #e94560;
+  margin-bottom: 8px;
+}
+
+.markdown-rendered .collocation-table th {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.mastery-unknown {
+  color: var(--danger-color);
   font-weight: 600;
 }
 
-.difficulty-badge.初级 {
-  background: rgba(166, 227, 161, 0.2);
-  color: var(--learning-green);
-  border: 1px solid var(--learning-green);
-}
-
-.difficulty-badge.中级 {
-  background: rgba(249, 226, 175, 0.2);
-  color: var(--learning-yellow);
-  border: 1px solid var(--learning-yellow);
-}
-
-.difficulty-badge.高级 {
-  background: rgba(243, 139, 168, 0.2);
-  color: var(--learning-red);
-  border: 1px solid var(--learning-red);
-}
-
-.stage-badge {
-  display: inline-block;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.8em;
+.mastery-familiar {
+  color: var(--warning-color);
   font-weight: 600;
 }
 
-.stage-badge.新学 {
-  background: rgba(137, 180, 250, 0.2);
-  color: var(--learning-blue);
-  border: 1px solid var(--learning-blue);
+.mastery-mastered {
+  color: var(--success-color);
+  font-weight: 600;
 }
 
-.stage-badge.学习中 {
-  background: rgba(249, 226, 175, 0.2);
-  color: var(--learning-yellow);
-  border: 1px solid var(--learning-yellow);
+.markdown-rendered .review-section {
+  background-color: var(--bg-secondary);
+  border: 2px dashed var(--accent-color);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
 }
 
-.stage-badge.已掌握 {
-  background: rgba(166, 227, 161, 0.2);
-  color: var(--learning-green);
-  border: 1px solid var(--learning-green);
-}
-
-.stage-badge.需复习 {
-  background: rgba(243, 139, 168, 0.2);
-  color: var(--learning-red);
-  border: 1px solid var(--learning-red);
+.markdown-rendered .review-section h3 {
+  color: var(--accent-color);
+  margin-top: 0;
 }

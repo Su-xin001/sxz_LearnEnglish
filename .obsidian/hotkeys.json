@@ -1,191 +1,46 @@
 [
   {
-    "id": "obsidian-spaced-repetition:review-flashcard",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "R"
-      }
-    ]
-  },
-  {
-    "id": "obsidian-spaced-repetition:review-note",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "N"
-      }
-    ]
-  },
-  {
-    "id": "obsidian-language-learner:lookup-word",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "D"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-单词卡",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "1"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-阅读笔记",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "2"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-听力笔记",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "3"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-口语练习",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "4"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-语法笔记",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "5"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-写作练习",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "6"
-      }
-    ]
-  },
-  {
-    "id": "templater-obsidian:insert-模板/模板-学习日记",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "7"
-      }
-    ]
+    "id": "editor:save-file",
+    "key": "Ctrl+S"
   },
   {
     "id": "daily-notes",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "J"
-      }
-    ]
+    "key": "Ctrl+D"
   },
   {
-    "id": "obsidian-git:pull",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Ctrl",
-          "Alt"
-        ],
-        "key": "P"
-      }
-    ]
+    "id": "templater-obsidian:insert-templater",
+    "key": "Ctrl+T"
   },
   {
-    "id": "obsidian-git:push",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Ctrl",
-          "Alt"
-        ],
-        "key": "U"
-      }
-    ]
+    "id": "obsidian-language-learner:lookup-word",
+    "key": "Ctrl+Shift+L"
   },
   {
-    "id": "graph:open",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "G"
-      }
-    ]
+    "id": "obsidian-spaced-repetition:review-flashcard",
+    "key": "Ctrl+Shift+F"
+  },
+  {
+    "id": "obsidian-spaced-repetition:review-note",
+    "key": "Ctrl+Shift+R"
   },
   {
     "id": "switcher:open",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "O"
-      }
-    ]
+    "key": "Ctrl+O"
   },
   {
     "id": "command-palette:open",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "P"
-      }
-    ]
+    "key": "Ctrl+P"
   },
   {
-    "id": "random-note",
-    "hotkeys": [
-      {
-        "modifiers": [
-          "Alt"
-        ],
-        "key": "S"
-      }
-    ]
+    "id": "global-search:open",
+    "key": "Ctrl+Shift+F"
+  },
+  {
+    "id": "graph:open",
+    "key": "Ctrl+G"
+  },
+  {
+    "id": "hi-words:toggle-highlight",
+    "key": "Ctrl+Shift+H"
   }
 ]

@@ -3,14 +3,14 @@
   "taskCompletionTracking": false,
   "taskCompletionUseEmojiShorthand": false,
   "taskCompletionText": "",
+  "taskCompletionDateFormat": "",
   "warnOnEmptyResult": true,
   "refreshEnabled": true,
   "refreshInterval": 2500,
-  "defaultDateFormat": "YYYY-MM-DD",
-  "defaultDateTimeFormat": "YYYY-MM-DD HH:mm",
-  "enableInlineQueries": true,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm",
+  "enableInlineDataview": true,
   "enableDataviewJs": true,
-  "enableInlineDataviewJs": true,
-  "prettyRenderInlineFields": true,
-  "prettyRenderInlineFieldsInLivePreview": true
+  "enableJsQuery": true,
+  "prettyRender": true
 }
