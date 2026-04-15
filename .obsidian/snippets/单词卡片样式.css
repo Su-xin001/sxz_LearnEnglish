@@ -1,0 +1,134 @@
+.flashcard-container {
+  perspective: 1000px;
+  margin: 16px 0;
+}
+
+.flashcard {
+  background: var(--learning-surface);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flashcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(124, 58, 237, 0.2);
+}
+
+.flashcard-word {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  color: var(--learning-accent-light);
+  margin-bottom: 8px;
+}
+
+.flashcard-phonetic {
+  text-align: center;
+  color: var(--learning-teal);
+  font-size: 1.1em;
+  margin-bottom: 16px;
+}
+
+.flashcard-definition {
+  text-align: center;
+  color: var(--learning-text);
+  font-size: 1.2em;
+  padding: 12px;
+  border-top: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+.flashcard-example {
+  margin-top: 12px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  font-style: italic;
+  color: var(--learning-yellow);
+}
+
+.vocab-card {
+  display: inline-block;
+  background: var(--learning-surface);
+  border: 1px solid rgba(124, 58, 237, 0.25);
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: 4px;
+  transition: all 0.2s ease;
+}
+
+.vocab-card:hover {
+  border-color: var(--learning-accent);
+  background: rgba(124, 58, 237, 0.1);
+}
+
+.vocab-card .word {
+  font-weight: 600;
+  color: var(--learning-accent-light);
+}
+
+.vocab-card .def {
+  font-size: 0.85em;
+  color: var(--learning-text);
+  margin-top: 4px;
+}
+
+.difficulty-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.difficulty-badge.初级 {
+  background: rgba(166, 227, 161, 0.2);
+  color: var(--learning-green);
+  border: 1px solid var(--learning-green);
+}
+
+.difficulty-badge.中级 {
+  background: rgba(249, 226, 175, 0.2);
+  color: var(--learning-yellow);
+  border: 1px solid var(--learning-yellow);
+}
+
+.difficulty-badge.高级 {
+  background: rgba(243, 139, 168, 0.2);
+  color: var(--learning-red);
+  border: 1px solid var(--learning-red);
+}
+
+.stage-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.stage-badge.新学 {
+  background: rgba(137, 180, 250, 0.2);
+  color: var(--learning-blue);
+  border: 1px solid var(--learning-blue);
+}
+
+.stage-badge.学习中 {
+  background: rgba(249, 226, 175, 0.2);
+  color: var(--learning-yellow);
+  border: 1px solid var(--learning-yellow);
+}
+
+.stage-badge.已掌握 {
+  background: rgba(166, 227, 161, 0.2);
+  color: var(--learning-green);
+  border: 1px solid var(--learning-green);
+}
+
+.stage-badge.需复习 {
+  background: rgba(243, 139, 168, 0.2);
+  color: var(--learning-red);
+  border: 1px solid var(--learning-red);
+}
