@@ -507,7 +507,7 @@
           "image": ""
         }
       ],
-      "lastUpdated": 1776271705144,
+      "lastUpdated": 1776275305082,
       "autoDeleteDuration": 0,
       "maxItemsLimit": 25,
       "scanInterval": 0,
@@ -1094,7 +1094,7 @@
           "episodeType": ""
         }
       ],
-      "lastUpdated": 1776271762333,
+      "lastUpdated": 1776275349270,
       "autoDeleteDuration": 0,
       "maxItemsLimit": 25,
       "scanInterval": 0,
@@ -1105,6 +1105,29 @@
       "url": "https://www.kdnuggets.com/feed",
       "folder": "Uncategorized",
       "items": [
+        {
+          "title": "NotebookLM for the Creative Architect",
+          "link": "https://www.kdnuggets.com/notebooklm-for-the-creative-architect",
+          "description": "If you are looking to optimize your creative and productivity workflows, here are the five features in NotebookLM that matter most right now.",
+          "content": "If you are looking to optimize your creative and productivity workflows, here are the five features in NotebookLM that matter most right now.",
+          "pubDate": "Wed, 15 Apr 2026 16:00:27 +0000",
+          "guid": "https://www.kdnuggets.com/?p=204266",
+          "read": false,
+          "starred": false,
+          "tags": [],
+          "feedTitle": "KDnuggets",
+          "feedUrl": "https://www.kdnuggets.com/feed",
+          "coverImage": "",
+          "summary": "If you are looking to optimize your creative and productivity workflows, here are the five features in NotebookLM that matter most right now.",
+          "author": "",
+          "saved": false,
+          "mediaType": "article",
+          "duration": "",
+          "explicit": false,
+          "image": "",
+          "category": "",
+          "episodeType": ""
+        },
         {
           "title": "7 Steps to Mastering Language Model Deployment",
           "link": "https://www.kdnuggets.com/7-steps-to-mastering-language-model-deployment",
@@ -1311,32 +1334,9 @@
           "image": "",
           "category": "",
           "episodeType": ""
-        },
-        {
-          "title": "NotebookLM for the Creative Architect",
-          "link": "https://www.kdnuggets.com/notebooklm-for-the-creative-architect",
-          "description": "If you are looking to optimize your creative and productivity workflows, here are the five features in NotebookLM that matter most right now.",
-          "content": "If you are looking to optimize your creative and productivity workflows, here are the five features in NotebookLM that matter most right now.",
-          "pubDate": "Wed, 15 Apr 2026 16:00:27 +0000",
-          "guid": "https://www.kdnuggets.com/?p=204266",
-          "read": false,
-          "starred": false,
-          "tags": [],
-          "feedTitle": "KDnuggets",
-          "feedUrl": "https://www.kdnuggets.com/feed",
-          "coverImage": "",
-          "summary": "If you are looking to optimize your creative and productivity workflows, here are the five features in NotebookLM that matter most right now.",
-          "author": "",
-          "saved": false,
-          "mediaType": "article",
-          "duration": "",
-          "explicit": false,
-          "image": "",
-          "category": "",
-          "episodeType": ""
         }
       ],
-      "lastUpdated": 1776271763970,
+      "lastUpdated": 1776275349651,
       "autoDeleteDuration": 0,
       "maxItemsLimit": 25,
       "scanInterval": 0,
@@ -1923,7 +1923,7 @@
           "episodeType": ""
         }
       ],
-      "lastUpdated": 1776271764493,
+      "lastUpdated": 1776275350502,
       "autoDeleteDuration": 0,
       "maxItemsLimit": 25,
       "scanInterval": 0,
@@ -2325,7 +2325,7 @@
           "videoId": "izIKV98Awnw"
         }
       ],
-      "lastUpdated": 1776271827126,
+      "lastUpdated": 1776275393186,
       "autoDeleteDuration": 0,
       "maxItemsLimit": 25,
       "scanInterval": 0,
