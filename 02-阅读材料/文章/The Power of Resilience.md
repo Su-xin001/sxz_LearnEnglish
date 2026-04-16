@@ -45,14 +45,14 @@ new_words:
 
 ## 核心词汇
 
-| 单词 | 音标 | 释义 | 例句 |
-|------|------|------|------|
-| [[resilient]] | /rɪˈzɪliənt/ | 有韧性的；适应力强的 | Resilience is ordinary, not extraordinary. |
-| adversity | /ədˈvɜːrsəti/ | 逆境；困境 | Bounce back from adversity. |
-| bounce back | /baʊns/ | 恢复；反弹 | Bounce back from difficult experiences. |
-| insurmountable | /ˌɪnsərˈmaʊntəbl/ | 难以克服的 | Avoid seeing crises as insurmountable problems. |
-| empathetic | /ˌempəˈθetɪk/ | 有同理心的 | Connecting with empathetic people. |
-| intentionality | /ɪnˌtenʃəˈnæləti/ | 有意性；目的性 | Increasing resilience takes intentionality. |
+| 单词             | 音标                | 释义         | 例句                                              |
+| -------------- | ----------------- | ---------- | ----------------------------------------------- |
+| [[resilient]]  | /rɪˈzɪliənt/      | 有韧性的；适应力强的 | Resilience is ordinary, not extraordinary.      |
+| adversity      | /ədˈvɜːrsəti/     | 逆境；困境      | Bounce back from adversity.                     |
+| bounce back    | /baʊns/           | 恢复；反弹      | Bounce back from difficult experiences.         |
+| insurmountable | /ˌɪnsərˈmaʊntəbl/ | 难以克服的      | Avoid seeing crises as insurmountable problems. |
+| empathetic     | /ˌempəˈθetɪk/     | 有同理心的      | Connecting with empathetic people.              |
+| intentionality | /ɪnˌtenʃəˈnæləti/ | 有意性；目的性    | Increasing resilience takes intentionality.     |
 
 ## 长难句分析
 

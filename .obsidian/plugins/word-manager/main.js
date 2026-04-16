@@ -1,20 +1,6 @@
-var __defProp = Object.defineProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
+const { Plugin, Modal, Notice, PluginSettingTab, Setting } = require("obsidian");
 
-var __toCommonJS = (mod) => __defProp({}, "__esModule", { value: true }), mod;
-
-var src_exports = {};
-__export(src_exports, {
-  default: () => WordManagerPlugin
-});
-module.exports = __toCommonJS(src_exports);
-
-var import_obsidian = require("obsidian");
-
-var DEFAULT_SETTINGS = {
+const DEFAULT_SETTINGS = {
   wordFolder: "01-单词库",
   defaultDifficulty: "CET4",
   defaultMemoryStage: "新词",
@@ -44,9 +30,9 @@ var DEFAULT_SETTINGS = {
   shortcutKey: "Ctrl+Shift+W"
 };
 
-var WordManagerPlugin = class extends import_obsidian.Plugin {
-  constructor() {
-    super(...arguments);
+class WordManagerPlugin extends Plugin {
+  constructor(app, manifest) {
+    super(app, manifest);
     this.settings = DEFAULT_SETTINGS;
   }
 
@@ -69,7 +55,7 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
         if (selection) {
           this.openAddWordModal(selection);
         } else {
-          new import_obsidian.Notice("请先选中一个单词");
+          new Notice("请先选中一个单词");
         }
       },
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "a" }]
@@ -89,7 +75,7 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
         if (file && file.path.startsWith(this.settings.wordFolder)) {
           this.openCategoryModal(file);
         } else {
-          new import_obsidian.Notice("请在单词库中的笔记上使用此功能");
+          new Notice("请在单词库中的笔记上使用此功能");
         }
       },
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "c" }]
@@ -103,7 +89,7 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
         if (file && file.path.startsWith(this.settings.wordFolder)) {
           this.openMasteryModal(file);
         } else {
-          new import_obsidian.Notice("请在单词库中的笔记上使用此功能");
+          new Notice("请在单词库中的笔记上使用此功能");
         }
       }
     });
@@ -128,7 +114,7 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
         if (file && file.path.startsWith(this.settings.wordFolder)) {
           this.openQuickCategoryModal(file);
         } else {
-          new import_obsidian.Notice("请在单词库中的笔记上使用此功能");
+          new Notice("请在单词库中的笔记上使用此功能");
         }
       },
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "t" }]
@@ -169,11 +155,11 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
       })
     );
 
-    new import_obsidian.Notice("Word Manager 插件已加载");
+    new Notice("Word Manager 插件已加载");
   }
 
   onunload() {
-    new import_obsidian.Notice("Word Manager 插件已卸载");
+    new Notice("Word Manager 插件已卸载");
   }
 
   async loadSettings() {
@@ -184,14 +170,13 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
     await this.saveData(this.settings);
   }
 
-  async lookupWord(word) {
+  lookupWord(word) {
     const encodedWord = encodeURIComponent(word);
-    const url = `https://dict.youdao.com/dictvoice?audio=${encodedWord}&type=2`;
     window.open(`https://www.youdao.com/result?word=${encodedWord}&lang=en`, "_blank");
   }
 
-  openAddWordModal(prefillWord = "") {
-    new AddWordModal(this.app, this, prefillWord).open();
+  openAddWordModal(prefillWord) {
+    new AddWordModal(this.app, this, prefillWord || "").open();
   }
 
   openImportModal() {
@@ -219,14 +204,14 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
   }
 
   async createWordNote(wordData) {
-    const { word, phonetic_uk, phonetic_us, pos, difficulty, topic, definitions, examples, memory_method, synonyms, antonyms, derivatives } = wordData;
+    const { word, phonetic_uk, phonetic_us, pos, difficulty, topic, definitions, memory_method, synonyms, antonyms, derivatives } = wordData;
     const folder = this.settings.difficultyFolders[difficulty] || this.settings.difficultyFolders[this.settings.defaultDifficulty];
     const fileName = word.toLowerCase().replace(/\s+/g, "-");
     const filePath = `${folder}/${fileName}.md`;
 
     const existingFile = this.app.vault.getAbstractFileByPath(filePath);
     if (existingFile) {
-      new import_obsidian.Notice(`单词 "${word}" 已存在: ${filePath}`);
+      new Notice(`单词 "${word}" 已存在: ${filePath}`);
       return null;
     }
 
@@ -239,25 +224,25 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
       `word: "${word}"`,
       `phonetic_uk: "${phonetic_uk || ""}"`,
       `phonetic_us: "${phonetic_us || ""}"`,
-      `pos:`,
+      "pos:",
       ...posArray.map((p) => `  - ${p}`),
       `difficulty: "${difficulty || this.settings.defaultDifficulty}"`,
-      `topic:`,
+      "topic:",
       ...topicArray.map((t) => `  - ${t}`),
       `memory_stage: "${this.settings.defaultMemoryStage}"`,
       `date_added: "${today}"`,
-      `mastery: 0`,
-      `tags:`,
-      `  - 单词`,
-      `  - flashcards`,
+      "mastery: 0",
+      "tags:",
+      "  - 单词",
+      "  - flashcards",
       ...(difficulty ? [`  - ${difficulty}`] : []),
-      `aliases: []`,
+      "aliases: []",
       "---"
     ].join("\n");
 
     let definitionsSection = "";
     if (definitions && definitions.length > 0) {
-      definitionsSection = "\n## 释义\n\n<div class=\"definition-block\">\n\n**常用义项**\n\n";
+      definitionsSection = '\n## 释义\n\n<div class="definition-block">\n\n**常用义项**\n\n';
       definitions.forEach((def, i) => {
         definitionsSection += `${i + 1}. **${def.pos || ""}** ${def.meaning}\n`;
         if (def.examples && def.examples.length > 0) {
@@ -278,24 +263,18 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
     if ((derivatives && derivatives.length > 0) || (synonyms && synonyms.length > 0) || (antonyms && antonyms.length > 0)) {
       relatedSection = "\n## 相关词汇\n\n";
       if (derivatives && derivatives.length > 0) {
-        relatedSection += "**派生词**\n<div class=\"related-words\">\n";
-        derivatives.forEach((d) => {
-          relatedSection += `<span class="related-word">[[${d}]]</span>\n`;
-        });
+        relatedSection += '**派生词**\n<div class="related-words">\n';
+        derivatives.forEach((d) => { relatedSection += `<span class="related-word">[[${d}]]</span>\n`; });
         relatedSection += "</div>\n\n";
       }
       if (synonyms && synonyms.length > 0) {
-        relatedSection += "**同义词**\n<div class=\"related-words\">\n";
-        synonyms.forEach((s) => {
-          relatedSection += `<span class="related-word">[[${s}]]</span>\n`;
-        });
+        relatedSection += '**同义词**\n<div class="related-words">\n';
+        synonyms.forEach((s) => { relatedSection += `<span class="related-word">[[${s}]]</span>\n`; });
         relatedSection += "</div>\n\n";
       }
       if (antonyms && antonyms.length > 0) {
-        relatedSection += "**反义词**\n<div class=\"related-words\">\n";
-        antonyms.forEach((a) => {
-          relatedSection += `<span class="related-word">[[${a}]]</span>\n`;
-        });
+        relatedSection += '**反义词**\n<div class="related-words">\n';
+        antonyms.forEach((a) => { relatedSection += `<span class="related-word">[[${a}]]</span>\n`; });
         relatedSection += "</div>\n";
       }
     }
@@ -309,20 +288,19 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
 
     const content = `# ${word}\n\n## 音标与词性\n\n<div class="word-card">\n\n<div class="word-title">\n${word}\n<span class="phonetic">UK /${phonetic_uk || ""}/ US /${phonetic_us || ""}/</span>\n</div>\n\n<div>\n${posArray.map((p) => `<span class="pos-tag">${this.settings.posLabels[p] || p}</span>`).join("\n")}\n</div>\n\n</div>\n${definitionsSection}${memorySection}${relatedSection}${flashcardsSection}`;
 
-    const dirPath = folder;
-    if (!this.app.vault.getAbstractFileByPath(dirPath)) {
-      await this.app.vault.createFolder(dirPath).catch(() => {});
+    if (!this.app.vault.getAbstractFileByPath(folder)) {
+      await this.app.vault.createFolder(folder).catch(() => {});
     }
 
     const file = await this.app.vault.create(filePath, content);
-    new import_obsidian.Notice(`单词 "${word}" 已添加到 ${filePath}`);
+    new Notice(`单词 "${word}" 已添加到 ${filePath}`);
     return file;
   }
 
   async importFromCSV(csvContent, difficulty) {
     const lines = csvContent.split("\n").filter((l) => l.trim());
     if (lines.length < 2) {
-      new import_obsidian.Notice("CSV文件格式错误：至少需要表头和一行数据");
+      new Notice("CSV文件格式错误：至少需要表头和一行数据");
       return { success: 0, failed: 0, errors: ["CSV文件为空"] };
     }
 
@@ -344,7 +322,7 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
     const derivativesIdx = header.indexOf("derivatives");
 
     if (wordIdx === -1 || meaningIdx === -1) {
-      new import_obsidian.Notice("CSV文件必须包含 word 和 meaning 列");
+      new Notice("CSV文件必须包含 word 和 meaning 列");
       return { success: 0, failed: 0, errors: ["缺少必要列: word, meaning"] };
     }
 
@@ -460,16 +438,16 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
             }
             await this.app.fileManager.renameFile(file, newPath);
           } catch (e) {
-            new import_obsidian.Notice(`移动文件失败: ${e.message}`);
+            new Notice(`移动文件失败: ${e.message}`);
           }
         }
       }
     }
-    new import_obsidian.Notice("分类已更新");
+    new Notice("分类已更新");
   }
-};
+}
 
-var AddWordModal = class extends import_obsidian.Modal {
+class AddWordModal extends Modal {
   constructor(app, plugin, prefillWord) {
     super(app);
     this.plugin = plugin;
@@ -535,7 +513,7 @@ var AddWordModal = class extends import_obsidian.Modal {
       const word = wordField.value.trim();
       const meaning = meaningField.value.trim();
       if (!word || !meaning) {
-        new import_obsidian.Notice("单词和释义为必填项");
+        new Notice("单词和释义为必填项");
         return;
       }
 
@@ -603,9 +581,9 @@ var AddWordModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
 
-var ImportCSVModal = class extends import_obsidian.Modal {
+class ImportCSVModal extends Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
@@ -631,7 +609,7 @@ var ImportCSVModal = class extends import_obsidian.Modal {
 
     const difficultyField = this.createSelect(contentEl, "默认难度（CSV中无difficulty列时使用）", this.plugin.settings.categories.difficulty, this.plugin.settings.defaultDifficulty);
 
-    const divider = contentEl.createEl("hr");
+    contentEl.createEl("hr");
 
     const section1 = contentEl.createEl("div");
     section1.createEl("h3", { text: "方式一：从文件导入" });
@@ -647,7 +625,7 @@ var ImportCSVModal = class extends import_obsidian.Modal {
         importBtn.addEventListener("click", async () => {
           const content = await this.app.vault.read(f);
           const result = await this.plugin.importFromCSV(content, difficultyField.value);
-          new import_obsidian.Notice(`导入完成：成功 ${result.success} 个，失败 ${result.failed} 个`);
+          new Notice(`导入完成：成功 ${result.success} 个，失败 ${result.failed} 个`);
           if (result.errors.length > 0) {
             console.warn("导入错误:", result.errors);
           }
@@ -658,7 +636,7 @@ var ImportCSVModal = class extends import_obsidian.Modal {
       section1.createEl("p", { text: `暂无CSV文件，请将文件放入 ${importFolder} 文件夹`, cls: "empty-hint" });
     }
 
-    const divider2 = contentEl.createEl("hr");
+    contentEl.createEl("hr");
 
     const section2 = contentEl.createEl("div");
     section2.createEl("h3", { text: "方式二：粘贴CSV内容" });
@@ -674,11 +652,11 @@ var ImportCSVModal = class extends import_obsidian.Modal {
     importBtn.addEventListener("click", async () => {
       const csvContent = csvInput.value.trim();
       if (!csvContent) {
-        new import_obsidian.Notice("请输入CSV内容");
+        new Notice("请输入CSV内容");
         return;
       }
       const result = await this.plugin.importFromCSV(csvContent, difficultyField.value);
-      new import_obsidian.Notice(`导入完成：成功 ${result.success} 个，失败 ${result.failed} 个`);
+      new Notice(`导入完成：成功 ${result.success} 个，失败 ${result.failed} 个`);
       if (result.errors.length > 0) {
         console.warn("导入错误:", result.errors);
       }
@@ -702,9 +680,9 @@ var ImportCSVModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
 
-var CategoryModal = class extends import_obsidian.Modal {
+class CategoryModal extends Modal {
   constructor(app, plugin, file) {
     super(app);
     this.plugin = plugin;
@@ -801,9 +779,9 @@ var CategoryModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
 
-var MasteryModal = class extends import_obsidian.Modal {
+class MasteryModal extends Modal {
   constructor(app, plugin, file) {
     super(app);
     this.plugin = plugin;
@@ -821,8 +799,6 @@ var MasteryModal = class extends import_obsidian.Modal {
     const currentStage = fm.memory_stage || "新词";
 
     contentEl.createEl("h2", { text: `掌握度：${word}` });
-
-    const stageLabels = { "新词": "0-1", "学习中": "2-3", "已掌握": "4-5" };
     contentEl.createEl("p", { text: `当前状态：${currentStage}（掌握度 ${currentMastery}/5）` });
 
     const masteryContainer = contentEl.createEl("div", { cls: "mastery-container" });
@@ -876,66 +852,9 @@ var MasteryModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
 
-var WordManagerSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h2", { text: "Word Manager 设置" });
-
-    new import_obsidian.Setting(containerEl)
-      .setName("单词库文件夹")
-      .setDesc("单词笔记存放的根目录")
-      .addText((text) =>
-        text.setValue(this.plugin.settings.wordFolder).onChange(async (value) => {
-          this.plugin.settings.wordFolder = value;
-          await this.plugin.saveSettings();
-        })
-      );
-
-    new import_obsidian.Setting(containerEl)
-      .setName("默认难度")
-      .setDesc("新添加单词的默认难度级别")
-      .addDropdown((dd) =>
-        dd.addOptions(Object.fromEntries(this.plugin.settings.categories.difficulty.map((d) => [d, d])))
-          .setValue(this.plugin.settings.defaultDifficulty)
-          .onChange(async (value) => {
-            this.plugin.settings.defaultDifficulty = value;
-            await this.plugin.saveSettings();
-          })
-      );
-
-    new import_obsidian.Setting(containerEl)
-      .setName("CSV导入文件夹")
-      .setDesc("CSV文件存放的目录")
-      .addText((text) =>
-        text.setValue(this.plugin.settings.importFolder).onChange(async (value) => {
-          this.plugin.settings.importFolder = value;
-          await this.plugin.saveSettings();
-        })
-      );
-
-    containerEl.createEl("h3", { text: "难度级别对应文件夹" });
-    Object.entries(this.plugin.settings.difficultyFolders).forEach(([key, value]) => {
-      new import_obsidian.Setting(containerEl)
-        .setName(key)
-        .addText((text) =>
-          text.setValue(value).onChange(async (val) => {
-            this.plugin.settings.difficultyFolders[key] = val;
-            await this.plugin.saveSettings();
-          })
-        );
-    });
-  }
-};
-
-var CategoryBrowserModal = class extends import_obsidian.Modal {
+class CategoryBrowserModal extends Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
@@ -957,9 +876,7 @@ var CategoryBrowserModal = class extends import_obsidian.Modal {
       const cache = this.app.metadataCache.getFileCache(file);
       const fm = cache?.frontmatter || {};
       const word = fm.word || file.basename;
-
       wordData.push({ file, fm, word });
-
       (fm.pos || []).forEach((p) => { stats.pos[p] = (stats.pos[p] || 0) + 1; });
       if (fm.difficulty) stats.difficulty[fm.difficulty] = (stats.difficulty[fm.difficulty] || 0) + 1;
       (fm.topic || []).forEach((t) => { stats.topic[t] = (stats.topic[t] || 0) + 1; });
@@ -1056,9 +973,9 @@ var CategoryBrowserModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
 
-var BatchCategoryModal = class extends import_obsidian.Modal {
+class BatchCategoryModal extends Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
@@ -1128,7 +1045,7 @@ var BatchCategoryModal = class extends import_obsidian.Modal {
       });
 
       const selectAllBtn = wordListContainer.createEl("button", { text: "全选/取消全选", cls: "select-all-btn" });
-      const countDisplay = wordListContainer.createEl("span", { text: `已选 0 个`, cls: "selected-count" });
+      const countDisplay = wordListContainer.createEl("span", { text: "已选 0 个", cls: "selected-count" });
 
       const listEl = wordListContainer.createEl("div", { cls: "batch-list" });
       filteredFiles.forEach((f) => {
@@ -1225,7 +1142,7 @@ var BatchCategoryModal = class extends import_obsidian.Modal {
 
     applyBtn.addEventListener("click", async () => {
       if (selectedFiles.size === 0) {
-        new import_obsidian.Notice("请先选择要修改的单词");
+        new Notice("请先选择要修改的单词");
         return;
       }
 
@@ -1290,7 +1207,7 @@ var BatchCategoryModal = class extends import_obsidian.Modal {
         }
       }
 
-      new import_obsidian.Notice(`已更新 ${processed} 个单词的分类`);
+      new Notice(`已更新 ${processed} 个单词的分类`);
       this.close();
     });
 
@@ -1300,9 +1217,9 @@ var BatchCategoryModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
 
-var QuickCategoryModal = class extends import_obsidian.Modal {
+class QuickCategoryModal extends Modal {
   constructor(app, plugin, file) {
     super(app);
     this.plugin = plugin;
@@ -1350,7 +1267,7 @@ var QuickCategoryModal = class extends import_obsidian.Modal {
           else pos.push(p);
           fm2.pos = pos;
         });
-        new import_obsidian.Notice(`${isActive ? "移除" : "添加"}词性: ${this.plugin.settings.posLabels[p] || p}`);
+        new Notice(`${isActive ? "移除" : "添加"}词性: ${this.plugin.settings.posLabels[p] || p}`);
         this.onOpen();
       });
     });
@@ -1385,7 +1302,7 @@ var QuickCategoryModal = class extends import_obsidian.Modal {
           else topics.push(t);
           fm2.topic = topics;
         });
-        new import_obsidian.Notice(`${isActive ? "移除" : "添加"}主题: ${t}`);
+        new Notice(`${isActive ? "移除" : "添加"}主题: ${t}`);
         this.onOpen();
       });
     });
@@ -1412,4 +1329,63 @@ var QuickCategoryModal = class extends import_obsidian.Modal {
   onClose() {
     this.contentEl.empty();
   }
-};
+}
+
+class WordManagerSettingTab extends PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Word Manager 设置" });
+
+    new Setting(containerEl)
+      .setName("单词库文件夹")
+      .setDesc("单词笔记存放的根目录")
+      .addText((text) =>
+        text.setValue(this.plugin.settings.wordFolder).onChange(async (value) => {
+          this.plugin.settings.wordFolder = value;
+          await this.plugin.saveSettings();
+        })
+      );
+
+    new Setting(containerEl)
+      .setName("默认难度")
+      .setDesc("新添加单词的默认难度级别")
+      .addDropdown((dd) =>
+        dd.addOptions(Object.fromEntries(this.plugin.settings.categories.difficulty.map((d) => [d, d])))
+          .setValue(this.plugin.settings.defaultDifficulty)
+          .onChange(async (value) => {
+            this.plugin.settings.defaultDifficulty = value;
+            await this.plugin.saveSettings();
+          })
+      );
+
+    new Setting(containerEl)
+      .setName("CSV导入文件夹")
+      .setDesc("CSV文件存放的目录")
+      .addText((text) =>
+        text.setValue(this.plugin.settings.importFolder).onChange(async (value) => {
+          this.plugin.settings.importFolder = value;
+          await this.plugin.saveSettings();
+        })
+      );
+
+    containerEl.createEl("h3", { text: "难度级别对应文件夹" });
+    Object.entries(this.plugin.settings.difficultyFolders).forEach(([key, value]) => {
+      new Setting(containerEl)
+        .setName(key)
+        .addText((text) =>
+          text.setValue(value).onChange(async (val) => {
+            this.plugin.settings.difficultyFolders[key] = val;
+            await this.plugin.saveSettings();
+          })
+        );
+    });
+  }
+}
+
+module.exports = WordManagerPlugin;
