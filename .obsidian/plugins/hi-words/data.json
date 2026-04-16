@@ -1,18 +1,8 @@
 {
   "vocabularyBooks": [
     {
-      "path": "01-单词库/01-初级词汇",
-      "name": "初级词汇",
-      "enabled": true
-    },
-    {
-      "path": "01-单词库/02-中级词汇",
-      "name": "中级词汇",
-      "enabled": true
-    },
-    {
-      "path": "01-单词库/03-高级词汇",
-      "name": "高级词汇",
+      "path": "单词.canvas",
+      "name": "单词",
       "enabled": true
     }
   ],
@@ -30,9 +20,9 @@
     "prompt": "Please provide a concise definition for the word \"{{word}}\" based on this context:\n\nSentence: {{sentence}}\n\nFormat:\n1) Part of speech\n2) English definition\n3) Chinese translation\n4) Example sentence (use the original sentence if appropriate)"
   },
   "autoLayoutEnabled": true,
-  "cardWidth": 280,
-  "cardHeight": 140,
+  "cardWidth": 260,
+  "cardHeight": 120,
   "highlightMode": "all",
-  "highlightPaths": "02-阅读材料",
+  "highlightPaths": "",
   "fileNodeParseMode": "filename-with-alias"
 }

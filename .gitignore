@@ -1,10 +1,2 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.obsidian/plugins/ob-english-learner-1.5/data.json
-08-资源与配置/02-音频文件/*.mp3
-08-资源与配置/02-音频文件/*.wav
-08-资源与配置/03-图片资源/*
-*.mp3
-*.wav
-*.ogg
-!.gitkeep
