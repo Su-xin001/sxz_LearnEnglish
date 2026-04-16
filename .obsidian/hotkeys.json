@@ -1,28 +1,12 @@
 {
-  "app:reload": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "R"
-    }
-  ],
+  "app:reload": [],
   "app:open-settings": [],
-  "app:goto-tab-1": [],
-  "app:goto-tab-2": [],
-  "app:goto-tab-3": [],
-  "app:goto-tab-4": [],
-  "app:goto-tab-5": [],
-  "app:goto-tab-6": [],
-  "app:goto-tab-7": [],
-  "app:goto-tab-8": [],
   "editor:save-file": [],
   "templater-obsidian:insert-templates": [
     {
       "modifiers": [
         "Mod",
-        "Shift"
+        "Alt"
       ],
       "key": "T"
     }
