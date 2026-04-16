@@ -2,6 +2,12 @@
   "app:reload": [],
   "app:open-settings": [],
   "editor:save-file": [],
+  "daily-notes": [
+    {
+      "modifiers": ["Alt"],
+      "key": "T"
+    }
+  ],
   "templater-obsidian:insert-templates": [
     {
       "modifiers": ["Mod", "Alt"],
@@ -24,12 +30,6 @@
     {
       "modifiers": ["Mod", "Shift"],
       "key": "L"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": ["Mod", "Shift"],
-      "key": "D"
     }
   ],
   "word-manager:add-word": [
