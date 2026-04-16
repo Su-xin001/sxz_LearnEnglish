@@ -206,6 +206,18 @@ var WordManagerPlugin = class extends import_obsidian.Plugin {
     new MasteryModal(this.app, this, file).open();
   }
 
+  openCategoryBrowser() {
+    new CategoryBrowserModal(this.app, this).open();
+  }
+
+  openBatchCategoryModal() {
+    new BatchCategoryModal(this.app, this).open();
+  }
+
+  openQuickCategoryModal(file) {
+    new QuickCategoryModal(this.app, this, file).open();
+  }
+
   async createWordNote(wordData) {
     const { word, phonetic_uk, phonetic_us, pos, difficulty, topic, definitions, examples, memory_method, synonyms, antonyms, derivatives } = wordData;
     const folder = this.settings.difficultyFolders[difficulty] || this.settings.difficultyFolders[this.settings.defaultDifficulty];
@@ -920,5 +932,484 @@ var WordManagerSettingTab = class extends import_obsidian.PluginSettingTab {
           })
         );
     });
+  }
+};
+
+var CategoryBrowserModal = class extends import_obsidian.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+
+  async onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+    contentEl.createEl("h2", { text: "分类浏览器" });
+
+    const wordFiles = this.app.vault.getFiles().filter(
+      (f) => f.path.startsWith(this.plugin.settings.wordFolder) && f.extension === "md"
+    );
+
+    const stats = { pos: {}, difficulty: {}, topic: {}, memory_stage: {} };
+    const wordData = [];
+
+    for (const file of wordFiles) {
+      const cache = this.app.metadataCache.getFileCache(file);
+      const fm = cache?.frontmatter || {};
+      const word = fm.word || file.basename;
+
+      wordData.push({ file, fm, word });
+
+      (fm.pos || []).forEach((p) => { stats.pos[p] = (stats.pos[p] || 0) + 1; });
+      if (fm.difficulty) stats.difficulty[fm.difficulty] = (stats.difficulty[fm.difficulty] || 0) + 1;
+      (fm.topic || []).forEach((t) => { stats.topic[t] = (stats.topic[t] || 0) + 1; });
+      if (fm.memory_stage) stats.memory_stage[fm.memory_stage] = (stats.memory_stage[fm.memory_stage] || 0) + 1;
+    }
+
+    contentEl.createEl("p", { text: `共 ${wordFiles.length} 个单词`, cls: "stats-summary" });
+
+    const tabs = contentEl.createEl("div", { cls: "category-tabs" });
+    const tabContent = contentEl.createEl("div", { cls: "category-tab-content" });
+
+    const categories = [
+      { key: "difficulty", label: "难度分级", data: stats.difficulty },
+      { key: "pos", label: "词性分类", data: stats.pos },
+      { key: "topic", label: "主题分类", data: stats.topic },
+      { key: "memory_stage", label: "记忆阶段", data: stats.memory_stage }
+    ];
+
+    let activeTab = "difficulty";
+
+    const renderTab = (key) => {
+      tabContent.empty();
+      const cat = categories.find((c) => c.key === key);
+      if (!cat) return;
+
+      const entries = Object.entries(cat.data).sort((a, b) => b[1] - a[1]);
+      if (entries.length === 0) {
+        tabContent.createEl("p", { text: "暂无数据", cls: "empty-hint" });
+        return;
+      }
+
+      entries.forEach(([name, count]) => {
+        const item = tabContent.createEl("div", { cls: "category-item" });
+        const info = item.createEl("div", { cls: "category-item-info" });
+        info.createEl("span", { text: name, cls: "category-name" });
+        info.createEl("span", { text: `${count} 个单词`, cls: "category-count" });
+
+        const bar = item.createEl("div", { cls: "category-bar" });
+        const fill = bar.createEl("div", { cls: "category-bar-fill" });
+        const maxCount = entries[0][1];
+        fill.style.width = `${(count / maxCount) * 100}%`;
+
+        const wordList = item.createEl("div", { cls: "category-word-list", attr: { style: "display:none" } });
+        const matchingWords = wordData.filter((w) => {
+          if (key === "pos") return (w.fm.pos || []).includes(name);
+          if (key === "topic") return (w.fm.topic || []).includes(name);
+          if (key === "difficulty") return w.fm.difficulty === name;
+          if (key === "memory_stage") return w.fm.memory_stage === name;
+          return false;
+        });
+
+        matchingWords.slice(0, 20).forEach((w) => {
+          const wordLink = wordList.createEl("div", { cls: "word-link-item" });
+          wordLink.createEl("a", {
+            text: w.word,
+            cls: "internal-link",
+            attr: { "data-href": w.file.path, href: w.file.path }
+          });
+          wordLink.addEventListener("click", (e) => {
+            e.preventDefault();
+            this.app.workspace.openLinkText(w.file.path, "");
+          });
+        });
+
+        if (matchingWords.length > 20) {
+          wordList.createEl("p", { text: `...还有 ${matchingWords.length - 20} 个单词`, cls: "more-hint" });
+        }
+
+        const toggleBtn = item.createEl("button", { text: "展开", cls: "toggle-btn" });
+        toggleBtn.addEventListener("click", () => {
+          const isVisible = wordList.style.display !== "none";
+          wordList.style.display = isVisible ? "none" : "block";
+          toggleBtn.textContent = isVisible ? "展开" : "收起";
+        });
+      });
+    };
+
+    categories.forEach((cat) => {
+      const tab = tabs.createEl("button", {
+        text: cat.label,
+        cls: cat.key === activeTab ? "category-tab active" : "category-tab"
+      });
+      tab.addEventListener("click", () => {
+        tabs.querySelectorAll("button").forEach((b) => b.removeClass("active"));
+        tab.addClass("active");
+        activeTab = cat.key;
+        renderTab(cat.key);
+      });
+    });
+
+    renderTab(activeTab);
+  }
+
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+
+var BatchCategoryModal = class extends import_obsidian.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+
+  async onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+    contentEl.createEl("h2", { text: "批量分类管理" });
+
+    const wordFiles = this.app.vault.getFiles().filter(
+      (f) => f.path.startsWith(this.plugin.settings.wordFolder) && f.extension === "md"
+    );
+
+    contentEl.createEl("p", { text: `单词库中共有 ${wordFiles.length} 个单词`, cls: "stats-summary" });
+
+    const filterSection = contentEl.createEl("div", { cls: "batch-filter" });
+    filterSection.createEl("h3", { text: "筛选条件" });
+
+    const filterPosContainer = filterSection.createEl("div", { cls: "form-field" });
+    filterPosContainer.createEl("label", { text: "按词性筛选" });
+    const filterPosSelect = filterPosContainer.createEl("select", { cls: "form-select" });
+    filterPosSelect.createEl("option", { text: "全部", value: "" });
+    this.plugin.settings.categories.pos.forEach((p) => {
+      filterPosSelect.createEl("option", { text: this.plugin.settings.posLabels[p] || p, value: p });
+    });
+
+    const filterDifficultyContainer = filterSection.createEl("div", { cls: "form-field" });
+    filterDifficultyContainer.createEl("label", { text: "按难度筛选" });
+    const filterDifficultySelect = filterDifficultyContainer.createEl("select", { cls: "form-select" });
+    filterDifficultySelect.createEl("option", { text: "全部", value: "" });
+    this.plugin.settings.categories.difficulty.forEach((d) => {
+      filterDifficultySelect.createEl("option", { text: d, value: d });
+    });
+
+    const filterTopicContainer = filterSection.createEl("div", { cls: "form-field" });
+    filterTopicContainer.createEl("label", { text: "按主题筛选" });
+    const filterTopicSelect = filterTopicContainer.createEl("select", { cls: "form-select" });
+    filterTopicSelect.createEl("option", { text: "全部", value: "" });
+    this.plugin.settings.categories.topic.forEach((t) => {
+      filterTopicSelect.createEl("option", { text: t, value: t });
+    });
+
+    const filterStageContainer = filterSection.createEl("div", { cls: "form-field" });
+    filterStageContainer.createEl("label", { text: "按记忆阶段筛选" });
+    const filterStageSelect = filterStageContainer.createEl("select", { cls: "form-select" });
+    filterStageSelect.createEl("option", { text: "全部", value: "" });
+    this.plugin.settings.categories.memory_stage.forEach((m) => {
+      filterStageSelect.createEl("option", { text: m, value: m });
+    });
+
+    const wordListContainer = contentEl.createEl("div", { cls: "batch-word-list" });
+    const selectedFiles = new Set();
+
+    const renderWordList = () => {
+      wordListContainer.empty();
+      selectedFiles.clear();
+
+      const filteredFiles = wordFiles.filter((f) => {
+        const cache = this.app.metadataCache.getFileCache(f);
+        const fm = cache?.frontmatter || {};
+        if (filterPosSelect.value && !(fm.pos || []).includes(filterPosSelect.value)) return false;
+        if (filterDifficultySelect.value && fm.difficulty !== filterDifficultySelect.value) return false;
+        if (filterTopicSelect.value && !(fm.topic || []).includes(filterTopicSelect.value)) return false;
+        if (filterStageSelect.value && fm.memory_stage !== filterStageSelect.value) return false;
+        return true;
+      });
+
+      const selectAllBtn = wordListContainer.createEl("button", { text: "全选/取消全选", cls: "select-all-btn" });
+      const countDisplay = wordListContainer.createEl("span", { text: `已选 0 个`, cls: "selected-count" });
+
+      const listEl = wordListContainer.createEl("div", { cls: "batch-list" });
+      filteredFiles.forEach((f) => {
+        const cache = this.app.metadataCache.getFileCache(f);
+        const fm = cache?.frontmatter || {};
+        const word = fm.word || f.basename;
+
+        const item = listEl.createEl("div", { cls: "batch-item" });
+        const cb = item.createEl("input", { type: "checkbox", value: f.path });
+        item.createEl("span", { text: word, cls: "batch-word-name" });
+        const tags = (fm.pos || []).concat(fm.difficulty ? [fm.difficulty] : []).concat(fm.topic || []);
+        item.createEl("span", { text: tags.join(", "), cls: "batch-word-tags" });
+
+        cb.addEventListener("change", () => {
+          if (cb.checked) selectedFiles.add(f);
+          else selectedFiles.delete(f);
+          countDisplay.textContent = `已选 ${selectedFiles.size} 个`;
+        });
+      });
+
+      selectAllBtn.addEventListener("click", () => {
+        const checkboxes = listEl.querySelectorAll("input[type=checkbox]");
+        const allChecked = Array.from(checkboxes).every((c) => c.checked);
+        checkboxes.forEach((c) => {
+          c.checked = !allChecked;
+          const file = wordFiles.find((f) => f.path === c.value);
+          if (file) {
+            if (!allChecked) selectedFiles.add(file);
+            else selectedFiles.delete(file);
+          }
+        });
+        countDisplay.textContent = `已选 ${selectedFiles.size} 个`;
+      });
+    };
+
+    [filterPosSelect, filterDifficultySelect, filterTopicSelect, filterStageSelect].forEach((sel) => {
+      sel.addEventListener("change", renderWordList);
+    });
+
+    renderWordList();
+
+    const actionSection = contentEl.createEl("div", { cls: "batch-action" });
+    actionSection.createEl("h3", { text: "批量操作" });
+
+    const actionPosContainer = actionSection.createEl("div", { cls: "form-field" });
+    actionPosContainer.createEl("label", { text: "添加词性" });
+    const actionPosCheckboxes = actionPosContainer.createEl("div", { cls: "checkbox-group" });
+    const actionPosValues = [];
+    Object.entries(this.plugin.settings.posLabels).forEach(([key, label]) => {
+      const labelEl = actionPosCheckboxes.createEl("label", { cls: "checkbox-label" });
+      const cb = labelEl.createEl("input", { type: "checkbox", value: key });
+      labelEl.createSpan({ text: ` ${label}` });
+      cb.addEventListener("change", () => {
+        const idx = actionPosValues.indexOf(key);
+        if (cb.checked && idx === -1) actionPosValues.push(key);
+        else if (!cb.checked && idx >= 0) actionPosValues.splice(idx, 1);
+      });
+    });
+
+    const actionDifficultyContainer = actionSection.createEl("div", { cls: "form-field" });
+    actionDifficultyContainer.createEl("label", { text: "设置难度" });
+    const actionDifficultySelect = actionDifficultyContainer.createEl("select", { cls: "form-select" });
+    actionDifficultySelect.createEl("option", { text: "不修改", value: "" });
+    this.plugin.settings.categories.difficulty.forEach((d) => {
+      actionDifficultySelect.createEl("option", { text: d, value: d });
+    });
+
+    const actionTopicContainer = actionSection.createEl("div", { cls: "form-field" });
+    actionTopicContainer.createEl("label", { text: "添加主题" });
+    const actionTopicCheckboxes = actionTopicContainer.createEl("div", { cls: "checkbox-group" });
+    const actionTopicValues = [];
+    this.plugin.settings.categories.topic.forEach((t) => {
+      const labelEl = actionTopicCheckboxes.createEl("label", { cls: "checkbox-label" });
+      const cb = labelEl.createEl("input", { type: "checkbox", value: t });
+      labelEl.createSpan({ text: ` ${t}` });
+      cb.addEventListener("change", () => {
+        const idx = actionTopicValues.indexOf(t);
+        if (cb.checked && idx === -1) actionTopicValues.push(t);
+        else if (!cb.checked && idx >= 0) actionTopicValues.splice(idx, 1);
+      });
+    });
+
+    const actionStageContainer = actionSection.createEl("div", { cls: "form-field" });
+    actionStageContainer.createEl("label", { text: "设置记忆阶段" });
+    const actionStageSelect = actionStageContainer.createEl("select", { cls: "form-select" });
+    actionStageSelect.createEl("option", { text: "不修改", value: "" });
+    this.plugin.settings.categories.memory_stage.forEach((m) => {
+      actionStageSelect.createEl("option", { text: m, value: m });
+    });
+
+    const btnContainer = contentEl.createEl("div", { cls: "form-buttons" });
+    const applyBtn = btnContainer.createEl("button", { text: "应用批量修改", cls: "mod-cta" });
+    const cancelBtn = btnContainer.createEl("button", { text: "取消" });
+
+    applyBtn.addEventListener("click", async () => {
+      if (selectedFiles.size === 0) {
+        new import_obsidian.Notice("请先选择要修改的单词");
+        return;
+      }
+
+      let processed = 0;
+      for (const file of selectedFiles) {
+        try {
+          await this.app.fileManager.processFrontMatter(file, (fm) => {
+            if (actionPosValues.length > 0) {
+              const currentPos = fm.pos || [];
+              actionPosValues.forEach((p) => {
+                if (!currentPos.includes(p)) currentPos.push(p);
+              });
+              fm.pos = currentPos;
+            }
+            if (actionDifficultySelect.value) {
+              fm.difficulty = actionDifficultySelect.value;
+              const tags = fm.tags || [];
+              const categoryTags = ["CET4", "CET6", "考研", "雅思托福"];
+              categoryTags.forEach((tag) => {
+                const idx = tags.indexOf(tag);
+                if (idx >= 0) tags.splice(idx, 1);
+              });
+              if (categoryTags.includes(actionDifficultySelect.value)) {
+                tags.push(actionDifficultySelect.value);
+              }
+              fm.tags = tags;
+            }
+            if (actionTopicValues.length > 0) {
+              const currentTopic = fm.topic || [];
+              actionTopicValues.forEach((t) => {
+                if (!currentTopic.includes(t)) currentTopic.push(t);
+              });
+              fm.topic = currentTopic;
+            }
+            if (actionStageSelect.value) {
+              fm.memory_stage = actionStageSelect.value;
+            }
+          });
+          processed++;
+        } catch (e) {
+          console.warn(`批量分类失败: ${file.path}`, e);
+        }
+      }
+
+      if (actionDifficultySelect.value) {
+        const targetFolder = this.plugin.settings.difficultyFolders[actionDifficultySelect.value];
+        if (targetFolder) {
+          for (const file of selectedFiles) {
+            const fileName = file.name;
+            const newPath = `${targetFolder}/${fileName}`;
+            if (!file.path.startsWith(targetFolder)) {
+              try {
+                if (!this.app.vault.getAbstractFileByPath(targetFolder)) {
+                  await this.app.vault.createFolder(targetFolder).catch(() => {});
+                }
+                await this.app.fileManager.renameFile(file, newPath);
+              } catch (e) {
+                console.warn(`移动文件失败: ${file.path}`, e);
+              }
+            }
+          }
+        }
+      }
+
+      new import_obsidian.Notice(`已更新 ${processed} 个单词的分类`);
+      this.close();
+    });
+
+    cancelBtn.addEventListener("click", () => this.close());
+  }
+
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+
+var QuickCategoryModal = class extends import_obsidian.Modal {
+  constructor(app, plugin, file) {
+    super(app);
+    this.plugin = plugin;
+    this.file = file;
+  }
+
+  async onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+
+    const cache = this.app.metadataCache.getFileCache(this.file);
+    const fm = cache?.frontmatter || {};
+    const word = fm.word || this.file.basename;
+
+    contentEl.createEl("h2", { text: `快捷分类：${word}` });
+
+    const currentCategories = contentEl.createEl("div", { cls: "current-categories" });
+    currentCategories.createEl("h3", { text: "当前分类" });
+
+    const posTags = (fm.pos || []).map((p) => this.plugin.settings.posLabels[p] || p);
+    const diffTag = fm.difficulty || "未设置";
+    const topicTags = (fm.topic || []);
+    const stageTag = fm.memory_stage || "未设置";
+
+    currentCategories.createEl("div", { cls: "current-tags", text: `词性: ${posTags.join(", ") || "无"}` });
+    currentCategories.createEl("div", { cls: "current-tags", text: `难度: ${diffTag}` });
+    currentCategories.createEl("div", { cls: "current-tags", text: `主题: ${topicTags.join(", ") || "无"}` });
+    currentCategories.createEl("div", { cls: "current-tags", text: `阶段: ${stageTag}` });
+
+    contentEl.createEl("h3", { text: "快速添加分类" });
+
+    const quickActions = contentEl.createEl("div", { cls: "quick-actions" });
+
+    this.plugin.settings.categories.pos.forEach((p) => {
+      const isActive = (fm.pos || []).includes(p);
+      const btn = quickActions.createEl("button", {
+        text: this.plugin.settings.posLabels[p] || p,
+        cls: isActive ? "quick-action-btn active" : "quick-action-btn"
+      });
+      btn.addEventListener("click", async () => {
+        await this.app.fileManager.processFrontMatter(this.file, (fm2) => {
+          const pos = fm2.pos || [];
+          const idx = pos.indexOf(p);
+          if (idx >= 0) pos.splice(idx, 1);
+          else pos.push(p);
+          fm2.pos = pos;
+        });
+        new import_obsidian.Notice(`${isActive ? "移除" : "添加"}词性: ${this.plugin.settings.posLabels[p] || p}`);
+        this.onOpen();
+      });
+    });
+
+    contentEl.createEl("h3", { text: "难度" });
+    const diffActions = contentEl.createEl("div", { cls: "quick-actions" });
+    this.plugin.settings.categories.difficulty.forEach((d) => {
+      const isActive = fm.difficulty === d;
+      const btn = diffActions.createEl("button", {
+        text: d,
+        cls: isActive ? "quick-action-btn active" : "quick-action-btn"
+      });
+      btn.addEventListener("click", async () => {
+        await this.plugin.updateWordCategories(this.file, { difficulty: d });
+        this.onOpen();
+      });
+    });
+
+    contentEl.createEl("h3", { text: "主题" });
+    const topicActions = contentEl.createEl("div", { cls: "quick-actions" });
+    this.plugin.settings.categories.topic.forEach((t) => {
+      const isActive = (fm.topic || []).includes(t);
+      const btn = topicActions.createEl("button", {
+        text: t,
+        cls: isActive ? "quick-action-btn active" : "quick-action-btn"
+      });
+      btn.addEventListener("click", async () => {
+        await this.app.fileManager.processFrontMatter(this.file, (fm2) => {
+          const topics = fm2.topic || [];
+          const idx = topics.indexOf(t);
+          if (idx >= 0) topics.splice(idx, 1);
+          else topics.push(t);
+          fm2.topic = topics;
+        });
+        new import_obsidian.Notice(`${isActive ? "移除" : "添加"}主题: ${t}`);
+        this.onOpen();
+      });
+    });
+
+    contentEl.createEl("h3", { text: "记忆阶段" });
+    const stageActions = contentEl.createEl("div", { cls: "quick-actions" });
+    this.plugin.settings.categories.memory_stage.forEach((m) => {
+      const isActive = fm.memory_stage === m;
+      const btn = stageActions.createEl("button", {
+        text: m,
+        cls: isActive ? "quick-action-btn active" : "quick-action-btn"
+      });
+      btn.addEventListener("click", async () => {
+        await this.plugin.updateWordCategories(this.file, { memory_stage: m });
+        this.onOpen();
+      });
+    });
+
+    const btnContainer = contentEl.createEl("div", { cls: "form-buttons" });
+    const closeBtn = btnContainer.createEl("button", { text: "关闭" });
+    closeBtn.addEventListener("click", () => this.close());
+  }
+
+  onClose() {
+    this.contentEl.empty();
   }
 };
