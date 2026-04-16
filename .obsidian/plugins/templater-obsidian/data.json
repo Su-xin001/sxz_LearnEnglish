@@ -1,0 +1,45 @@
+{
+  "cmd": true,
+  "templates_folder": "07-模板",
+  "templates_pairs": [],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01-单词库",
+      "template": "07-模板/单词卡片模板.md"
+    },
+    {
+      "folder": "02-阅读材料",
+      "template": "07-模板/阅读笔记模板.md"
+    },
+    {
+      "folder": "03-语法笔记",
+      "template": "07-模板/语法笔记模板.md"
+    },
+    {
+      "folder": "04-写作练习",
+      "template": "07-模板/写作练习模板.md"
+    },
+    {
+      "folder": "05-听力资源/听力笔记",
+      "template": "07-模板/听力笔记模板.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "07-模板/单词卡片模板.md",
+    "07-模板/阅读笔记模板.md",
+    "07-模板/语法笔记模板.md",
+    "07-模板/写作练习模板.md",
+    "07-模板/每日学习模板.md",
+    "07-模板/听力笔记模板.md"
+  ],
+  "startup_templates": [],
+  "new_file_templates": []
+}

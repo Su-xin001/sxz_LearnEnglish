@@ -1,0 +1,69 @@
+{
+  "app:reload": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:open-settings": [],
+  "app:goto-tab-1": [],
+  "app:goto-tab-2": [],
+  "app:goto-tab-3": [],
+  "app:goto-tab-4": [],
+  "app:goto-tab-5": [],
+  "app:goto-tab-6": [],
+  "app:goto-tab-7": [],
+  "app:goto-tab-8": [],
+  "editor:save-file": [],
+  "templater-obsidian:insert-templates": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-spaced-repetition:review-flashcards": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-language-learner:lookup": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "switcher:open": [],
+  "search:open": []
+}

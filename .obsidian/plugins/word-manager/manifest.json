@@ -1,0 +1,9 @@
+{
+  "id": "word-manager",
+  "name": "Word Manager",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "英语学习单词管理插件：快速添加单词、批量导入CSV、一词多分类管理",
+  "author": "sxz",
+  "isDesktopOnly": false
+}

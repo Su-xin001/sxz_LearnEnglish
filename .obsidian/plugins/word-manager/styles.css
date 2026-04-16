@@ -1,0 +1,218 @@
+.word-manager-form {
+  padding: 10px 0;
+}
+
+.form-field {
+  margin-bottom: 12px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-size: 14px;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--interactive-accent);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--interactive-accent-hover);
+}
+
+.form-textarea {
+  min-height: 60px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.form-select {
+  cursor: pointer;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 6px 0;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 0.85em;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.checkbox-label:hover {
+  border-color: var(--interactive-accent);
+  background: var(--interactive-accent-hover);
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin: 0;
+  accent-color: var(--interactive-accent);
+}
+
+.checkbox-label:has(input:checked) {
+  border-color: var(--interactive-accent);
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.import-info {
+  background: var(--background-secondary);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.import-info p {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.import-info ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.import-info li {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.csv-example {
+  background: var(--background-secondary);
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.8em;
+  margin-bottom: 16px;
+}
+
+.csv-example code {
+  white-space: pre;
+  font-family: var(--font-monospace);
+}
+
+.file-list {
+  margin: 8px 0;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.file-item span {
+  font-size: 0.9em;
+}
+
+.empty-hint {
+  color: var(--text-faint);
+  font-style: italic;
+  padding: 12px;
+  text-align: center;
+}
+
+.csv-input {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  resize: vertical;
+}
+
+.mastery-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.mastery-value {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--interactive-accent);
+  min-width: 30px;
+  text-align: center;
+}
+
+.mastery-slider {
+  flex: 1;
+  accent-color: var(--interactive-accent);
+}
+
+.quick-mastery-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.quick-mastery-buttons button {
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.8em;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quick-mastery-buttons button:hover {
+  border-color: var(--interactive-accent);
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.modal {
+  max-height: 85vh;
+}
+
+.modal-content {
+  overflow-y: auto;
+  max-height: calc(85vh - 80px);
+}
