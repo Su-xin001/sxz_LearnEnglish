@@ -38,14 +38,14 @@ body {
   line-height: 1.9;
 }
 
-.markdown-rendered h1,
+.markdown-rendered h1:not(.dashboard-container h1),
 .markdown-source-view.mod-cm6 .cm-header-1 {
   color: var(--interactive-accent);
   border-bottom: 2px solid var(--interactive-accent);
   padding-bottom: 8px;
 }
 
-.markdown-rendered h2,
+.markdown-rendered h2:not(.dashboard-container h2),
 .markdown-source-view.mod-cm6 .cm-header-2 {
   color: var(--text-normal);
   border-bottom: 1px solid var(--background-modifier-border);
