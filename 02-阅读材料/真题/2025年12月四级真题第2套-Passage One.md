@@ -10,7 +10,7 @@ tags:
   - 阅读笔记
   - 真题
   - 四级
-status: "未做"
+status: "已批改"
 new_words: []
 ---
 
@@ -82,26 +82,54 @@ What does the passage say about health education?
 - [x] **D.** It has largely failed to turn teens away from junk food.
 
 > [!question]- 我的答案
-> `D`
+> `D` ✅ **正确**
 
 > [!insight]- 解析
-> `待填写`
+> **正确答案：D**
+>
+> **定位原文**：第二段最后一句 — "Unfortunately, while health education has shown some success among young children, teens have been harder to reach."
+>
+> **选项分析**：
+> - **A. 错误**。"teens' instinct for rebellion and autonomy"是第三段新干预措施利用的特点，与健康教育无关。
+> - **B. 错误**。原文说的是"Prevention is better than cure"（预防胜于治疗），这是作者的观点，并非说健康教育"更强调治疗而非预防"。这是**无中生有**。
+> - **C. 错误**。原文说健康教育在幼儿中"shown some success"，并非"contributed little"（几乎没有贡献）。这是**过度推断**。
+> - **D. 正确**。"teens have been harder to reach"意为"青少年更难被影响到"，即健康教育在让青少年远离垃圾食品方面效果不佳。"failed to turn teens away from junk food"是对"harder to reach"的合理同义转述。
+>
+> **核心考点**：推理判断 + 同义转述。需要将"harder to reach"理解为"难以产生影响/难以改变行为"。
+>
+> **答题亮点**：准确理解了"harder to reach"的含义，没有被B选项的"cure/prevention"干扰。
+>
+> **知识拓展**：四级阅读中，"hard to reach"常用来描述目标群体难以被教育/干预措施影响，类似的表达还有"resistant to..."、"immune to..."等。
 
 ---
 
 ### Question 48
 What is a major flaw in previous interventions to help reduce junk food consumption?
 
-- [x] **A.** They motivated teens to stay away from junk food only temporarily.
-- [ ] **B.** They focused on the benefits young people would reap in the future.
+- [ ] **A.** They motivated teens to stay away from junk food only temporarily.
+- [x] **B.** They focused on the benefits young people would reap in the future.
 - [ ] **C.** They were based on the assumption that motivation was the only key.
 - [ ] **D.** They were incapable of appealing to teens' instinct for rebelliousness.
 
 > [!question]- 我的答案
-> `A`
+> `A` ❌ **错误**
 
 > [!insight]- 解析
-> `待填写`
+> **正确答案：B**
+>
+> **定位原文**：第三段第二句 — "The researchers argued that previous interventions have probably been unsuccessful because of a major flaw: they focused on a future, healthier you and assumed that this would be enough motivation for teenagers."
+>
+> **选项分析**：
+> - **A. 错误**。原文没有提到"only temporarily"（只是暂时的），这是**无中生有**的干扰信息。
+> - **B. 正确**。"focused on a future, healthier you" = "focused on the benefits young people would reap in the future"，是直接的同义转述。
+> - **C. 错误**。原文说"assumed that this would be enough motivation"，即假设"未来更健康的自己"这个动机就足够了，但不是说"motivation was the only key"（动机是唯一关键）。这是**偷换概念**。
+> - **D. 错误**。虽然从逻辑上看，旧方法确实没有利用叛逆本能，但这不是原文明确指出的"major flaw"。原文明确说的是"focused on a future, healthier you"。D选项属于**过度推断**，不是最佳答案。
+>
+> **核心考点**：细节定位 + 精确匹配。需要找到原文中明确提到的"major flaw"的具体内容。
+>
+> **常见错误**：选A是因为主观臆断认为"旧方法效果短暂"，但原文并未提及；选D是因为混淆了"旧方法的缺陷"和"新方法的特点"。
+>
+> **答题技巧**：四级阅读中，当题目问"major flaw"、"main reason"、"primary purpose"等时，答案通常是原文**明确表述**的内容，而非需要进一步推导的结论。
 
 ---
 
@@ -109,15 +137,32 @@ What is a major flaw in previous interventions to help reduce junk food consumpt
 In what way is the new intervention innovative?
 
 - [ ] **A.** It emphasizes people's sense of social responsibility.
-- [x] **B.** It cleverly exploits teenagers' personal weaknesses.
-- [ ] **C.** It takes advantage of teenagers' natural inclination.
+- [ ] **B.** It cleverly exploits teenagers' personal weaknesses.
+- [x] **C.** It takes advantage of teenagers' natural inclination.
 - [ ] **D.** It promises immediate rather than future benefits.
 
 > [!question]- 我的答案
-> `B`
+> `B` ❌ **错误**
 
 > [!insight]- 解析
-> `待填写`
+> **正确答案：C**
+>
+> **定位原文**：第三段最后一句 — "In contrast, the new intervention cleverly exploits teenagers' instinct for rebelliousness and autonomy, and the value they place on social justice."
+>
+> **选项分析**：
+> - **A. 错误**。原文说的是"social justice"（社会正义），而非"social responsibility"（社会责任）。这是**偷换概念**。
+> - **B. 错误**。原文用的是"instinct for rebelliousness and autonomy"（叛逆和自主的本能），这是青少年的**自然天性/本能**，而非"personal weaknesses"（个人弱点）。"weaknesses"带有负面含义，而原文的"instinct"是中性的，甚至是被**正面利用**的。这是**感情色彩错误**。
+> - **C. 正确**。"takes advantage of teenagers' natural inclination" = "exploits teenagers' instinct"，"natural inclination"（自然倾向）是"instinct"（本能）的准确同义转述。
+> - **D. 错误**。原文没有说新方法"promises immediate benefits"（承诺即时好处），而是说旧方法关注"future, healthier you"，新方法关注当下的价值观。这是**过度推断**。
+>
+> **核心考点**：词汇理解 + 感情色彩判断。需要区分"instinct"（本能/天性）和"weakness"（弱点）的感情色彩差异。
+>
+> **常见错误**：看到原文"exploits"就选B，但忽略了"exploit"在这里的意思是"利用"（中性），而选项B的"personal weaknesses"将其曲解为"利用弱点"（负面）。
+>
+> **知识拓展**：四级阅读中，选项常通过改变词汇的**感情色彩**来设置陷阱。例如：
+> - 原文：challenge（挑战）→ 选项：trouble（麻烦）❌
+> - 原文：ambitious（有雄心的）→ 选项：greedy（贪婪的）❌
+> 答题时需特别注意形容词和名词的感情色彩是否一致。
 
 ---
 
@@ -130,10 +175,28 @@ What conclusion can be drawn from the new research?
 - [ ] **D.** An innovative way to beat obesity is to expose food companies' manipulative and deceptive practices.
 
 > [!question]- 我的答案
-> `C`
+> `C` ✅ **正确**
 
 > [!insight]- 解析
-> `待填写`
+> **正确答案：C**
+>
+> **定位原文**：最后一段最后一句 — "Apparently associating a healthy diet with teenagers' own values seems to be a promising avenue to prevent obesity."
+>
+> **选项分析**：
+> - **A. 错误**。原文的重点是改变青少年的饮食态度，而非"combat advertising campaigns"（对抗广告活动）。广告只是干预材料中揭露的对象，不是研究的主要结论。
+> - **B. 错误**。原文已经找到了有效的干预方法（"the results are promising"），并非说"has to be found"（还需要找到）。这是**时态/逻辑错误**。
+> - **C. 正确**。"building links between teenagers' values and healthy eating" = "associating a healthy diet with teenagers' own values"，"hopefully prevented" = "promising avenue to prevent"，是完美的同义转述。
+> - **D. 错误**。"expose food companies' manipulative and deceptive practices"只是干预过程中的**具体手段**（第四段），而非研究的**最终结论**。这是**以偏概全**。
+>
+> **核心考点**：主旨大意 + 区分"手段"与"结论"。需要识别文章最后升华的主旨句。
+>
+> **答题亮点**：准确抓住了文章最后一句的主旨句，没有被D选项的"具体手段"干扰。
+>
+> **知识拓展**：四级阅读的主旨题/结论题，正确答案通常具有以下特征：
+> 1. 位于文章**最后一段**或**首尾段**
+> 2. 使用**概括性**词汇（如本文的"associating...seems to be a promising avenue"）
+> 3. 涵盖文章的**核心主题**（teenagers' values + healthy eating + prevent obesity）
+> 干扰项则常以"具体细节"、"以偏概全"、"无中生有"的形式出现。
 
 ---
 
