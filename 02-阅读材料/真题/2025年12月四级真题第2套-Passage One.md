@@ -52,7 +52,7 @@ What do we learn about advertising campaigns from the snack food companies?
 - [ ] **D.** They claim that lack of exercise is to blame for the increasing obesity rates.
 
 > [!question]- 我的答案
-> `待填写`
+> `C`
 
 > [!insight]- 解析
 > `待填写`
