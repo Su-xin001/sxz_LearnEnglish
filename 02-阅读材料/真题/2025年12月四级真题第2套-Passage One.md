@@ -46,16 +46,30 @@ new_words: []
 ### Question 46
 What do we learn about advertising campaigns from the snack food companies?
 
-- [ ] **A.** They convey the idea that their products are ok if consumers exercise more.
+- [x] **A.** They convey the idea that their products are ok if consumers exercise more.
 - [ ] **B.** They send the message that bad diets are responsible for Americans' obesity.
-- [x] **C.** They usually feature sports stars to emphasize the benefits of their snack foods.
+- [ ] **C.** They usually feature sports stars to emphasize the benefits of their snack foods.
 - [ ] **D.** They claim that lack of exercise is to blame for the increasing obesity rates.
 
 > [!question]- 我的答案
-> `C`
+> `C` ❌ **错误**
 
 > [!insight]- 解析
-> `待填写`
+> **正确答案：A**
+>
+> **定位原文**：第一段第二句 — "Advertising campaigns from the snack food companies, often featuring sports stars, send the message that we can neutralize any negative effects of consuming their products simply by getting more physical exercise."
+>
+> **选项分析**：
+> - **A. 正确**。原文说广告传递的信息是"我们可以通过更多运动来抵消食用产品带来的任何负面影响"，即"只要运动，吃我们的产品就没问题"。这是同义转述。
+> - **B. 错误**。这是**文章作者**的观点（"Bad diets are"），而非零食公司的广告信息。
+> - **C. 错误**。虽然原文提到广告"often featuring sports stars"，但体育明星代言的目的是传递"运动可以抵消垃圾食品危害"的信息，而非"强调零食的好处"。这是**偷换概念**。
+> - **D. 错误**。原文说"a lack of exercise is not to blame for rising obesity rates"，这是作者用来**反驳**广告误导的科学研究结论，不是广告本身的说法。
+>
+> **核心考点**：细节理解 + 同义转述识别。需要区分"广告传递的信息"和"文章作者的观点"。
+>
+> **常见错误**：看到"sports stars"就选C，忽略了代言的**目的**是传递"运动抵消危害"的信息，而非单纯强调产品好处。
+>
+> **知识拓展**：英语四级阅读中，选项常将原文的**手段/方式**（featuring sports stars）与**目的/结果**（convey the idea...）混淆，审题时需抓住问题的核心——"广告传达了什么信息"。
 
 ---
 
