@@ -62,13 +62,13 @@ What do we learn about advertising campaigns from the snack food companies?
 ### Question 47
 What does the passage say about health education?
 
-- [x] **A.** It has shed light on teens' instinct for rebellion and autonomy.
+- [ ] **A.** It has shed light on teens' instinct for rebellion and autonomy.
 - [ ] **B.** It has placed much more emphasis on cure than on prevention.
 - [ ] **C.** It has contributed little to the campaigns against obesity.
-- [ ] **D.** It has largely failed to turn teens away from junk food.
+- [x] **D.** It has largely failed to turn teens away from junk food.
 
 > [!question]- 我的答案
-> `A`
+> `D`
 
 > [!insight]- 解析
 > `待填写`
@@ -78,13 +78,13 @@ What does the passage say about health education?
 ### Question 48
 What is a major flaw in previous interventions to help reduce junk food consumption?
 
-- [ ] **A.** They motivated teens to stay away from junk food only temporarily.
+- [x] **A.** They motivated teens to stay away from junk food only temporarily.
 - [ ] **B.** They focused on the benefits young people would reap in the future.
 - [ ] **C.** They were based on the assumption that motivation was the only key.
 - [ ] **D.** They were incapable of appealing to teens' instinct for rebelliousness.
 
 > [!question]- 我的答案
-> `待填写`
+> `A`
 
 > [!insight]- 解析
 > `待填写`
@@ -95,12 +95,12 @@ What is a major flaw in previous interventions to help reduce junk food consumpt
 In what way is the new intervention innovative?
 
 - [ ] **A.** It emphasizes people's sense of social responsibility.
-- [ ] **B.** It cleverly exploits teenagers' personal weaknesses.
+- [x] **B.** It cleverly exploits teenagers' personal weaknesses.
 - [ ] **C.** It takes advantage of teenagers' natural inclination.
 - [ ] **D.** It promises immediate rather than future benefits.
 
 > [!question]- 我的答案
-> `待填写`
+> `B`
 
 > [!insight]- 解析
 > `待填写`
