@@ -112,11 +112,11 @@ What conclusion can be drawn from the new research?
 
 - [ ] **A.** A totally different approach could be adopted to combat advertising campaigns for snack food.
 - [ ] **B.** An effective intervention has to be found to persuade teenagers to switch to a healthier lifestyle.
-- [ ] **C.** Obesity can be hopefully prevented by building links between teenagers' values and healthy eating.
+- [x] **C.** Obesity can be hopefully prevented by building links between teenagers' values and healthy eating.
 - [ ] **D.** An innovative way to beat obesity is to expose food companies' manipulative and deceptive practices.
 
 > [!question]- 我的答案
-> `待填写`
+> `C`
 
 > [!insight]- 解析
 > `待填写`
