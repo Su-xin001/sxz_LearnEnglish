@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Templates-7-2563eb?style=flat-square" alt="Templates">
     <img src="https://img.shields.io/badge/License-MIT-d97706?style=flat-square" alt="License">
   </p>
-</p>
+
 
 ---
 
