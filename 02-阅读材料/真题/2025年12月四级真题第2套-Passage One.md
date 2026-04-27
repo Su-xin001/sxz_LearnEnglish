@@ -1,16 +1,16 @@
 ---
-title: "{{title}}"
-source: 2025年12月大学英语四级考试真题（第2套）
-author: CET-4 命题组
-date_read: "{{date:YYYY-MM-DD}}"
-difficulty: 四级
-word_count: 约350
+title: "2025年12月英语四级真题（第2套）Passage One"
+source: "2025年12月大学英语四级考试真题（第2套）"
+author: "CET-4 命题组"
+date_read: "2026-04-20"
+difficulty: "四级"
+word_count: "约350"
 tags:
   - 阅读
   - 阅读笔记
   - 真题
   - 四级
-status: 阅读中
+status: "未做"
 new_words: []
 ---
 
@@ -251,58 +251,3 @@ What conclusion can be drawn from the new research?
 - **因果分析**：第三段详细分析了以往干预措施失败的原因（关注未来自我），与新方法形成对比。
 - **数据支撑**：第五段用具体的实验结果（第二天零食选择）证明干预的有效性，增强了说服力。
 - **结尾升华**：最后一句将具体研究发现上升到普遍结论，点明主旨。
-
-# {{title}}
-
-> [!info] 文章信息
-> - **来源**：`source`
-> - **作者**：`author`
-> - **阅读日期**：{{date:YYYY-MM-DD}}
-> - **难度**：`difficulty`
-> - **字数**：`word_count`
-> - **状态**：`status`
-
-## 原文
-
-> [!note]- 英文原文（点击展开）
-> `粘贴英文原文内容`
-
-## 核心词汇
-
-| 单词 | 音标 | 释义 | 例句 |
-|------|------|------|------|
-| `word` | /`phonetic`/ | `definition` | `example` |
-
-## 长难句分析
-
-> [!example]- 长难句 1
-> **原句**：`English sentence`
-> **结构分析**：`grammatical analysis`
-> **翻译**：`中文翻译`
-
-## 重点段落笔记
-
-### `段落主题`
-
-`段落内容摘要与理解`
-
-> [!insight] 洞察
-> `个人理解与思考`
-
-## 生词收藏
-
-- [[`word1`]] - `brief definition`
-- [[`word2`]] - `brief definition`
-
-## 好句摘录
-
-1. > `English quote` — `中文翻译`
-2. > `English quote` — `中文翻译`
-
-## 读后总结
-
-`文章主旨概括与个人感悟`
-
-## 写作借鉴
-
-`从本文中学到的写作技巧、表达方式`
