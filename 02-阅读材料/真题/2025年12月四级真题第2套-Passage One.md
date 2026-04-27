@@ -48,7 +48,7 @@ What do we learn about advertising campaigns from the snack food companies?
 
 - [ ] **A.** They convey the idea that their products are ok if consumers exercise more.
 - [ ] **B.** They send the message that bad diets are responsible for Americans' obesity.
-- [ ] **C.** They usually feature sports stars to emphasize the benefits of their snack foods.
+- [x] **C.** They usually feature sports stars to emphasize the benefits of their snack foods.
 - [ ] **D.** They claim that lack of exercise is to blame for the increasing obesity rates.
 
 > [!question]- 我的答案
