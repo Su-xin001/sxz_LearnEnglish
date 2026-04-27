@@ -62,13 +62,13 @@ What do we learn about advertising campaigns from the snack food companies?
 ### Question 47
 What does the passage say about health education?
 
-- [ ] **A.** It has shed light on teens' instinct for rebellion and autonomy.
+- [x] **A.** It has shed light on teens' instinct for rebellion and autonomy.
 - [ ] **B.** It has placed much more emphasis on cure than on prevention.
 - [ ] **C.** It has contributed little to the campaigns against obesity.
 - [ ] **D.** It has largely failed to turn teens away from junk food.
 
 > [!question]- 我的答案
-> `待填写`
+> `A`
 
 > [!insight]- 解析
 > `待填写`
