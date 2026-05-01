@@ -1,92 +1,92 @@
-     1|---
-     2|word: "convince"
-     3|phonetic_uk: "kənˈvɪns"
-     4|phonetic_us: "kənˈvɪns"
-     5|pos:
-     6|  - verb
-     7|difficulty: "CET4"
-     8|topic:
-     9|  - 社会
-    10|  - 工作
-    11|memory_stage: "新词"
-    12|date_added: "2026-05-01"
-    13|mastery: 1
-    14|tags:
-    15|  - 单词
-    16|  - flashcards
-    17|  - CET4
-    18|aliases:
-    19|  - convinced
-    20|  - convincing
-    21|---
-    22|
-    23|# convince
-    24|
-    25|## 音标与词性
-    26|
-    27|<div class="word-card">
-    28|
-    29|<div class="word-title">
-    30|convince
-    31|<span class="phonetic">UK /kənˈvɪns/ US /kənˈvɪns/</span>
-    32|</div>
-    33|
-    34|<div>
-    35|<span class="pos-tag">使确信；说服（verb）</span>
-    36|</div>
-    37|
-    38|</div>
-    39|
-    40|## 释义
-    41|
-    42|<div class="definition-block">
-    43|
-    44|<strong>常用义项</strong>
-    45|
-    46|1. <strong>v.</strong> 使确信；说服
-    47|   - <div class="example-sentence">I finally <mark>convinced</mark> him to join us.
-    48|   <span class="chinese-translation">我终于说服了他加入我们。</span></div>
-    49|   - <div class="example-sentence">The data <mark>convinced</mark> the team to change strategy.
-    50|   <span class="chinese-translation">数据说服了团队改变策略。</span></div>
-    51|
-    52|</div>
-    53|
-    54|## 记忆方法
-    55|
-    56|<div class="memory-section">
-    57|
-    58|<strong>词根词缀分析</strong>
-    59|- con-（完全）+ vincere（征服）→ 完全征服 → 说服/使确信。
-    60|
-    61|<strong>场景记忆</strong>
-    62|- convince sb to do（说服某人做某事）· be convinced that（确信…）
-    63|
-    64|</div>
-    65|
-    66|## 派生词汇
-    67|
-    68|<div class="related-words">
-    69|<span class="related-word">convinced, convincing</span>
-    70|</div>
-    71|
-    72|## 同义词与反义词
-    73|
-    74|<strong>同义词</strong>
-    75|<div class="related-words">
-    76|<span class="related-word">[[persuade]]</span>
-    77|<span class="related-word">[[assure]]</span>
-    78|<span class="related-word">[[satisfy]]</span>
-    79|</div>
-    80|<strong>反义词</strong>
-    81|<div class="related-words">
-    82|<span class="related-word">[[doubt]]</span>
-    83|<span class="related-word">[[dissuade]]</span>
-    84|<span class="related-word">[[discourage]]</span>
-    85|</div>
-    86|
-    87|## 复习卡片
-    88|
-    89|#flashcards
-    90|
-    91|convince :: 使确信；说服
-    92|I finally ==convinced== him to join us. :: 我终于说服了他加入我们。
+---
+word: "convince"
+phonetic_uk: "kənˈvɪns"
+phonetic_us: "kənˈvɪns"
+pos:
+  - verb
+difficulty: "CET4"
+topic:
+  - 社会
+  - 工作
+memory_stage: "新词"
+date_added: "2026-05-01"
+mastery: 1
+tags:
+  - 单词
+  - flashcards
+  - CET4
+aliases:
+  - convinced
+  - convincing
+---
+
+# convince
+
+## 音标与词性
+
+<div class="word-card">
+
+<div class="word-title">
+convince
+<span class="phonetic">UK /kənˈvɪns/ US /kənˈvɪns/</span>
+</div>
+
+<div>
+<span class="pos-tag">使确信；说服（verb）</span>
+</div>
+
+</div>
+
+## 释义
+
+<div class="definition-block">
+
+<strong>常用义项</strong>
+
+1. <strong>v.</strong> 使确信；说服
+   - <div class="example-sentence">I finally <mark>convinced</mark> him to join us.
+   <span class="chinese-translation">我终于说服了他加入我们。</span></div>
+   - <div class="example-sentence">The data <mark>convinced</mark> the team to change strategy.
+   <span class="chinese-translation">数据说服了团队改变策略。</span></div>
+
+</div>
+
+## 记忆方法
+
+<div class="memory-section">
+
+<strong>词根词缀分析</strong>
+- con-（完全）+ vincere（征服）→ 完全征服 → 说服/使确信。
+
+<strong>场景记忆</strong>
+- convince sb to do（说服某人做某事）· be convinced that（确信…）
+
+</div>
+
+## 派生词汇
+
+<div class="related-words">
+<span class="related-word">convinced, convincing</span>
+</div>
+
+## 同义词与反义词
+
+<strong>同义词</strong>
+<div class="related-words">
+<span class="related-word">[[persuade]]</span>
+<span class="related-word">[[assure]]</span>
+<span class="related-word">[[satisfy]]</span>
+</div>
+<strong>反义词</strong>
+<div class="related-words">
+<span class="related-word">[[doubt]]</span>
+<span class="related-word">[[dissuade]]</span>
+<span class="related-word">[[discourage]]</span>
+</div>
+
+## 复习卡片
+
+#flashcards
+
+convince :: 使确信；说服
+I finally ==convinced== him to join us. :: 我终于说服了他加入我们。
