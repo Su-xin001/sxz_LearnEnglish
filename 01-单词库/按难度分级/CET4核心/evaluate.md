@@ -1,86 +1,86 @@
----
-word: "evaluate"
-phonetic_uk: "ɪˈvæljueɪt"
-phonetic_us: "ɪˈvæljueɪt"
-pos:
-  - verb
-difficulty: "CET4"
-topic:
-  - 教育
-  - 工作
-memory_stage: "新词"
-date_added: "2026-05-01"
-mastery: 1
-tags:
-  - 单词
-  - flashcards
-  - CET4
-aliases:
-  - evaluation
-  - evaluative
----
-
-# evaluate
-
-## 音标与词性
-
-<div class="word-card">
-
-<div class="word-title">
-evaluate
-<span class="phonetic">UK /ɪˈvæljueɪt/ US /ɪˈvæljueɪt/</span>
-</div>
-
-<div>
-<span class="pos-tag">评价；评估（verb）</span>
-</div>
-
-</div>
-
-## 释义
-
-<div class="definition-block">
-
-**常用义项**
-
-1. **v.** 评价；评估
-   - <div class="example-sentence">Teachers ==evaluate== students' performance regularly.
-   <span class="chinese-translation">老师定期评估学生的表现。</span></div>
-   - <div class="example-sentence">We need to ==evaluate== the risks first.
-   <span class="chinese-translation">我们需要先评估风险。</span></div>
-
-</div>
-
-## 记忆方法
-
-<div class="memory-section">
-
-**词根词缀分析**
-- e-（出）+ value（价值）+ -ate → 计算出价值 → 评估。
-
-**场景记忆**
-- evaluate the results（评估结果）· evaluate risks（评估风险）
-
-</div>
-
-## 派生词汇
-
-<div class="related-words">
-<span class="related-word">evaluation, evaluative</span>
-</div>
-
-## 同义词与反义词
-
-**同义词**
-<div class="related-words">
-<span class="related-word">[[assess]]</span>
-<span class="related-word">[[judge]]</span>
-<span class="related-word">[[appraise]]</span>
-</div>
-
-## 复习卡片
-
-#flashcards
-
-evaluate :: 评价；评估
-Teachers ==evaluate== students' performance regularly. :: 老师定期评估学生的表现。
+     1|---
+     2|word: "evaluate"
+     3|phonetic_uk: "ɪˈvæljueɪt"
+     4|phonetic_us: "ɪˈvæljueɪt"
+     5|pos:
+     6|  - verb
+     7|difficulty: "CET4"
+     8|topic:
+     9|  - 教育
+    10|  - 工作
+    11|memory_stage: "新词"
+    12|date_added: "2026-05-01"
+    13|mastery: 1
+    14|tags:
+    15|  - 单词
+    16|  - flashcards
+    17|  - CET4
+    18|aliases:
+    19|  - evaluation
+    20|  - evaluative
+    21|---
+    22|
+    23|# evaluate
+    24|
+    25|## 音标与词性
+    26|
+    27|<div class="word-card">
+    28|
+    29|<div class="word-title">
+    30|evaluate
+    31|<span class="phonetic">UK /ɪˈvæljueɪt/ US /ɪˈvæljueɪt/</span>
+    32|</div>
+    33|
+    34|<div>
+    35|<span class="pos-tag">评价；评估（verb）</span>
+    36|</div>
+    37|
+    38|</div>
+    39|
+    40|## 释义
+    41|
+    42|<div class="definition-block">
+    43|
+    44|<strong>常用义项</strong>
+    45|
+    46|1. <strong>v.</strong> 评价；评估
+    47|   - <div class="example-sentence">Teachers ==evaluate== students' performance regularly.
+    48|   <span class="chinese-translation">老师定期评估学生的表现。</span></div>
+    49|   - <div class="example-sentence">We need to ==evaluate== the risks first.
+    50|   <span class="chinese-translation">我们需要先评估风险。</span></div>
+    51|
+    52|</div>
+    53|
+    54|## 记忆方法
+    55|
+    56|<div class="memory-section">
+    57|
+    58|<strong>词根词缀分析</strong>
+    59|- e-（出）+ value（价值）+ -ate → 计算出价值 → 评估。
+    60|
+    61|<strong>场景记忆</strong>
+    62|- evaluate the results（评估结果）· evaluate risks（评估风险）
+    63|
+    64|</div>
+    65|
+    66|## 派生词汇
+    67|
+    68|<div class="related-words">
+    69|<span class="related-word">evaluation, evaluative</span>
+    70|</div>
+    71|
+    72|## 同义词与反义词
+    73|
+    74|<strong>同义词</strong>
+    75|<div class="related-words">
+    76|<span class="related-word">[[assess]]</span>
+    77|<span class="related-word">[[judge]]</span>
+    78|<span class="related-word">[[appraise]]</span>
+    79|</div>
+    80|
+    81|## 复习卡片
+    82|
+    83|#flashcards
+    84|
+    85|evaluate :: 评价；评估
+    86|Teachers ==evaluate== students' performance regularly. :: 老师定期评估学生的表现。

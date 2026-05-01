@@ -1,3 +1,5 @@
+/* ========== 单词卡片容器 ========== */
+
 .word-card {
   border: 1px solid var(--background-modifier-border);
   border-radius: 12px;
@@ -34,66 +36,6 @@
   margin: 4px 4px 4px 0;
 }
 
-.word-card .definition-block {
-  margin: 12px 0;
-  padding: 10px 16px;
-  border-left: 3px solid var(--interactive-accent);
-  background: var(--background-secondary-alt);
-  border-radius: 0 8px 8px 0;
-}
-
-.word-card .example-sentence {
-  margin: 8px 0;
-  padding: 8px 16px;
-  background: var(--background-primary);
-  border-radius: 8px;
-  font-style: italic;
-  line-height: 1.8;
-}
-
-.word-card .example-sentence .chinese-translation {
-  font-style: normal;
-  color: var(--text-muted);
-  font-size: 0.9em;
-  display: block;
-  margin-top: 4px;
-}
-
-.word-card .memory-section {
-  margin: 12px 0;
-  padding: 12px 16px;
-  background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
-  border-radius: 8px;
-}
-
-.theme-dark .word-card .memory-section {
-  background: linear-gradient(135deg, #2d1f5e 0%, #1e1b4b 100%);
-}
-
-.word-card .related-words {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 12px 0;
-}
-
-.word-card .related-words .related-word {
-  display: inline-block;
-  padding: 4px 12px;
-  background: var(--background-secondary-alt);
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 16px;
-  font-size: 0.9em;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.word-card .related-words .related-word:hover {
-  background: var(--interactive-accent);
-  color: white;
-  border-color: var(--interactive-accent);
-}
-
 .word-card .meta-info {
   display: flex;
   gap: 16px;
@@ -104,7 +46,79 @@
   color: var(--text-muted);
 }
 
-.word-card .difficulty-badge {
+/* ========== 释义块（在 word-card 外部） ========== */
+
+.definition-block {
+  margin: 12px 0;
+  padding: 10px 16px;
+  border-left: 3px solid var(--interactive-accent);
+  background: var(--background-secondary-alt);
+  border-radius: 0 8px 8px 0;
+}
+
+.theme-dark .definition-block {
+  background: var(--background-secondary);
+}
+
+.example-sentence {
+  margin: 8px 0;
+  padding: 8px 16px;
+  background: var(--background-primary);
+  border-radius: 8px;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.example-sentence .chinese-translation {
+  font-style: normal;
+  color: var(--text-muted);
+  font-size: 0.9em;
+  display: block;
+  margin-top: 4px;
+}
+
+/* ========== 记忆方法区 ========== */
+
+.memory-section {
+  margin: 12px 0;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
+  border-radius: 8px;
+}
+
+.theme-dark .memory-section {
+  background: linear-gradient(135deg, #2d1f5e 0%, #1e1b4b 100%);
+}
+
+/* ========== 派生词 / 同反义词 ========== */
+
+.related-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.related-words .related-word {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--background-secondary-alt);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 16px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.related-words .related-word:hover {
+  background: var(--interactive-accent);
+  color: white;
+  border-color: var(--interactive-accent);
+}
+
+/* ========== 难度徽章 ========== */
+
+.difficulty-badge {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 4px;

@@ -41,17 +41,17 @@ resilient
 
 <div class="definition-block">
 
-**常用义项**
+<strong>常用义项</strong>
 
-1. **adj.** 有弹性的；能复原的；适应力强的
+1. <strong>adj.</strong> 有弹性的；能复原的；适应力强的
    - <div class="example-sentence">Children are often more ==resilient== than adults give them credit for.
    <span class="chinese-translation">孩子们往往比大人们认为的更有适应力。</span></div>
    - <div class="example-sentence">The economy proved ==resilient== despite the global recession.
    <span class="chinese-translation">尽管全球经济衰退，经济仍表现出很强的韧性。</span></div>
 
-**生僻义项**
+<strong>生僻义项</strong>
 
-2. **adj.** （物质）有弹性的，能弹回的
+2. <strong>adj.</strong> （物质）有弹性的，能弹回的
    - <div class="example-sentence">Rubber is a highly ==resilient== material.
    <span class="chinese-translation">橡胶是一种弹性很强的材料。</span></div>
 
@@ -61,16 +61,16 @@ resilient
 
 <div class="memory-section">
 
-**词根词缀分析**
-- **re-** (回) + **sili** (跳) + **-ent** (形容词后缀)
+<strong>词根词缀分析</strong>
+- re- (回) + sili (跳) + -ent (形容词后缀)
 - 字面含义：能跳回来的 → 有弹性的 → 适应力强的
 - 同根词：[[resilience]], [[resiliency]]
 
-**联想记忆**
+<strong>联想记忆</strong>
 - resilient = re(回) + sili(跳) + ent → 能跳回来的 → 弹性的、有韧性的
 - 想象一个弹簧被压下去后能弹回来，就像人遇到困难后能恢复
 
-**场景记忆**
+<strong>场景记忆</strong>
 - 雅思写作：resilient communities（有韧性的社区）
 - 描述人的品质：She is resilient in the face of adversity.（她在逆境中表现出韧性）
 
@@ -87,7 +87,7 @@ resilient
 
 ## 同义词与反义词
 
-**同义词**
+<strong>同义词</strong>
 <div class="related-words">
 <span class="related-word">[[tough]]</span>
 <span class="related-word">[[adaptable]]</span>
@@ -95,7 +95,7 @@ resilient
 <span class="related-word">[[flexible]]</span>
 </div>
 
-**反义词**
+<strong>反义词</strong>
 <div class="related-words">
 <span class="related-word">[[fragile]]</span>
 <span class="related-word">[[vulnerable]]</span>

@@ -1,97 +1,97 @@
----
-word: "benefit"
-phonetic_uk: "ˈbenɪfɪt"
-phonetic_us: "ˈbenɪfɪt"
-pos:
-  - noun
-  - verb
-difficulty: "CET4"
-topic:
-  - 社会
-  - 工作
-memory_stage: "新词"
-date_added: "2026-05-01"
-mastery: 1
-tags:
-  - 单词
-  - flashcards
-  - CET4
-aliases:
-  - beneficial
-  - beneficiary
----
-
-# benefit
-
-## 音标与词性
-
-<div class="word-card">
-
-<div class="word-title">
-benefit
-<span class="phonetic">UK /ˈbenɪfɪt/ US /ˈbenɪfɪt/</span>
-</div>
-
-<div>
-<span class="pos-tag">利益；好处；福利（noun）</span>
-</div>
-
-</div>
-
-## 释义
-
-<div class="definition-block">
-
-**常用义项**
-
-1. **n.** 利益；好处；福利
-   - <div class="example-sentence">The new policy brings many ==benefits== to employees.
-   <span class="chinese-translation">新政策给员工带来很多福利。</span></div>
-   - <div class="example-sentence">Exercise has many health ==benefits==.
-   <span class="chinese-translation">运动对健康有很多好处。</span></div>
-2. **v.** 受益；有益于
-   - <div class="example-sentence">Students will ==benefit== from the new library.
-   <span class="chinese-translation">学生将从新图书馆中受益。</span></div>
-
-</div>
-
-## 记忆方法
-
-<div class="memory-section">
-
-**词根词缀分析**
-- bene-（好）+ fit（做）→ 做好事 → 利益。
-
-**场景记忆**
-- benefit from（从…受益）· health benefits（健康益处）
-
-</div>
-
-## 派生词汇
-
-<div class="related-words">
-<span class="related-word">beneficial, beneficiary</span>
-</div>
-
-## 同义词与反义词
-
-**同义词**
-<div class="related-words">
-<span class="related-word">[[advantage]]</span>
-<span class="related-word">[[profit]]</span>
-<span class="related-word">[[gain]]</span>
-</div>
-
-**反义词**
-<div class="related-words">
-<span class="related-word">[[loss]]</span>
-<span class="related-word">[[disadvantage]]</span>
-<span class="related-word">[[harm]]</span>
-</div>
-
-## 复习卡片
-
-#flashcards
-
-benefit :: 利益；好处；福利
-The new policy brings many ==benefits== to employees. :: 新政策给员工带来很多福利。
+     1|---
+     2|word: "benefit"
+     3|phonetic_uk: "ˈbenɪfɪt"
+     4|phonetic_us: "ˈbenɪfɪt"
+     5|pos:
+     6|  - noun
+     7|  - verb
+     8|difficulty: "CET4"
+     9|topic:
+    10|  - 社会
+    11|  - 工作
+    12|memory_stage: "新词"
+    13|date_added: "2026-05-01"
+    14|mastery: 1
+    15|tags:
+    16|  - 单词
+    17|  - flashcards
+    18|  - CET4
+    19|aliases:
+    20|  - beneficial
+    21|  - beneficiary
+    22|---
+    23|
+    24|# benefit
+    25|
+    26|## 音标与词性
+    27|
+    28|<div class="word-card">
+    29|
+    30|<div class="word-title">
+    31|benefit
+    32|<span class="phonetic">UK /ˈbenɪfɪt/ US /ˈbenɪfɪt/</span>
+    33|</div>
+    34|
+    35|<div>
+    36|<span class="pos-tag">利益；好处；福利（noun）</span>
+    37|</div>
+    38|
+    39|</div>
+    40|
+    41|## 释义
+    42|
+    43|<div class="definition-block">
+    44|
+    45|<strong>常用义项</strong>
+    46|
+    47|1. <strong>n.</strong> 利益；好处；福利
+    48|   - <div class="example-sentence">The new policy brings many ==benefits== to employees.
+    49|   <span class="chinese-translation">新政策给员工带来很多福利。</span></div>
+    50|   - <div class="example-sentence">Exercise has many health ==benefits==.
+    51|   <span class="chinese-translation">运动对健康有很多好处。</span></div>
+    52|2. <strong>v.</strong> 受益；有益于
+    53|   - <div class="example-sentence">Students will ==benefit== from the new library.
+    54|   <span class="chinese-translation">学生将从新图书馆中受益。</span></div>
+    55|
+    56|</div>
+    57|
+    58|## 记忆方法
+    59|
+    60|<div class="memory-section">
+    61|
+    62|<strong>词根词缀分析</strong>
+    63|- bene-（好）+ fit（做）→ 做好事 → 利益。
+    64|
+    65|<strong>场景记忆</strong>
+    66|- benefit from（从…受益）· health benefits（健康益处）
+    67|
+    68|</div>
+    69|
+    70|## 派生词汇
+    71|
+    72|<div class="related-words">
+    73|<span class="related-word">beneficial, beneficiary</span>
+    74|</div>
+    75|
+    76|## 同义词与反义词
+    77|
+    78|<strong>同义词</strong>
+    79|<div class="related-words">
+    80|<span class="related-word">[[advantage]]</span>
+    81|<span class="related-word">[[profit]]</span>
+    82|<span class="related-word">[[gain]]</span>
+    83|</div>
+    84|
+    85|<strong>反义词</strong>
+    86|<div class="related-words">
+    87|<span class="related-word">[[loss]]</span>
+    88|<span class="related-word">[[disadvantage]]</span>
+    89|<span class="related-word">[[harm]]</span>
+    90|</div>
+    91|
+    92|## 复习卡片
+    93|
+    94|#flashcards
+    95|
+    96|benefit :: 利益；好处；福利
+    97|The new policy brings many ==benefits== to employees. :: 新政策给员工带来很多福利。

@@ -44,23 +44,23 @@ elaborate
 
 <div class="definition-block">
 
-**常用义项**
+<strong>常用义项</strong>
 
-1. **adj.** 精心制作的；详尽的；复杂的
+1. <strong>adj.</strong> 精心制作的；详尽的；复杂的
    - <div class="example-sentence">She wore an ==elaborate== dress to the ceremony.
    <span class="chinese-translation">她穿了一件精心制作的裙子参加典礼。</span></div>
    - <div class="example-sentence">They made ==elaborate== preparations for the wedding.
    <span class="chinese-translation">他们为婚礼做了详尽的准备。</span></div>
 
-2. **v.** 详细阐述；精心制作
+2. <strong>v.</strong> 详细阐述；精心制作
    - <div class="example-sentence">Could you ==elaborate== on your proposal?
    <span class="chinese-translation">你能详细阐述一下你的提案吗？</span></div>
    - <div class="example-sentence">He refused to ==elaborate== further on his reasons for leaving.
    <span class="chinese-translation">他拒绝进一步阐述离开的原因。</span></div>
 
-**生僻义项**
+<strong>生僻义项</strong>
 
-3. **v.** （通过加工）变得复杂
+3. <strong>v.</strong> （通过加工）变得复杂
    - <div class="example-sentence">The simple design ==elaborated== over time into something far more complex.
    <span class="chinese-translation">这个简单的设计随着时间推移变得复杂起来。</span></div>
 
@@ -70,16 +70,16 @@ elaborate
 
 <div class="memory-section">
 
-**词根词缀分析**
-- **e-** (出) + **labor** (劳动) + **-ate** (形容词/动词后缀)
+<strong>词根词缀分析</strong>
+- e- (出) + labor (劳动) + -ate (形容词/动词后缀)
 - 字面含义：投入大量劳动做出来的 → 精心制作的
 - 同根词：[[labor]], [[collaborate]], [[laboratory]]
 
-**联想记忆**
+<strong>联想记忆</strong>
 - elaborate = e(出) + labor(劳动) + ate → 付出大量劳动 → 精心制作的
-- 想象一个工匠"出"了很多"劳动"(labor)来制作一件精美的作品
+- 想象一个工匠出了很多劳动来制作一件精美的作品
 
-**场景记忆**
+<strong>场景记忆</strong>
 - 在学术写作中，导师要求你 elaborate on your point（详细阐述你的观点）
 - 在博物馆看到 elaborate artwork（精心制作的艺术品）
 
@@ -97,7 +97,7 @@ elaborate
 
 ## 同义词与反义词
 
-**同义词**
+<strong>同义词</strong>
 <div class="related-words">
 <span class="related-word">[[detailed]]</span>
 <span class="related-word">[[intricate]]</span>
@@ -105,7 +105,7 @@ elaborate
 <span class="related-word">[[expound]]</span>
 </div>
 
-**反义词**
+<strong>反义词</strong>
 <div class="related-words">
 <span class="related-word">[[simple]]</span>
 <span class="related-word">[[plain]]</span>
