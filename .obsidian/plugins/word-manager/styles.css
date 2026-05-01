@@ -464,3 +464,45 @@
   color: var(--text-on-accent);
   font-weight: 600;
 }
+
+.autofill-status {
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.autofill-loading {
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.autofill-loading::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--background-modifier-border);
+  border-top-color: var(--interactive-accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.autofill-success {
+  color: var(--text-success, #059669);
+  font-weight: 600;
+}
+
+.autofill-warning {
+  color: var(--text-warning, #d97706);
+  font-weight: 500;
+}

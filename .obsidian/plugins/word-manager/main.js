@@ -43,7 +43,19 @@ class WordManagerPlugin extends Plugin {
     this.addCommand({
       id: "add-word",
       name: "快速添加单词",
-      callback: () => this.openAddWordModal(),
+      callback: () => {
+        const editor = this.app.workspace.activeEditor?.editor;
+        if (editor) {
+          const selection = editor.getSelection().trim();
+          if (selection) {
+            this.openAddWordModal(selection);
+          } else {
+            this.openAddWordModal();
+          }
+        } else {
+          this.openAddWordModal();
+        }
+      },
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "w" }]
     });
 
@@ -173,6 +185,114 @@ class WordManagerPlugin extends Plugin {
   lookupWord(word) {
     const encodedWord = encodeURIComponent(word);
     window.open(`https://www.youdao.com/result?word=${encodedWord}&lang=en`, "_blank");
+  }
+
+  async fetchWordTranslation(word) {
+    try {
+      const encodedWord = encodeURIComponent(word);
+      const url = `https://dict.youdao.com/jsonapi?q=${encodedWord}&doctype=json`;
+      
+      const response = await fetch(url, {
+        method: "GET",
+        headers: {
+          "Accept": "application/json",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        }
+      });
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      const result = {
+        word: word,
+        phonetic_uk: "",
+        phonetic_us: "",
+        pos: [],
+        meaning: "",
+        example_en: "",
+        example_zh: "",
+        synonyms: [],
+        derivatives: []
+      };
+      
+      if (data.ec && data.ec.word && data.ec.word.length > 0) {
+        const wordData = data.ec.word[0];
+        
+        if (wordData.ukphone) result.phonetic_uk = wordData.ukphone;
+        if (wordData.usphone) result.phonetic_us = wordData.usphone;
+        
+        if (wordData.trs && wordData.trs.length > 0) {
+          const meanings = [];
+          const posSet = new Set();
+          
+          wordData.trs.forEach((tr) => {
+            if (tr.tr && tr.tr.length > 0) {
+              const meaning = tr.tr[0].l && tr.tr[0].l.i && tr.tr[0].l.i.length > 0 
+                ? tr.tr[0].l.i[0] 
+                : "";
+              if (meaning) {
+                const pos = tr.pos || "";
+                if (pos) {
+                  const posMap = {
+                    "n.": "noun",
+                    "v.": "verb",
+                    "adj.": "adjective",
+                    "adv.": "adverb",
+                    "prep.": "preposition",
+                    "conj.": "conjunction",
+                    "pron.": "pronoun"
+                  };
+                  const mappedPos = posMap[pos];
+                  if (mappedPos) posSet.add(mappedPos);
+                  meanings.push(`${pos} ${meaning}`);
+                } else {
+                  meanings.push(meaning);
+                }
+              }
+            }
+          });
+          
+          result.meaning = meanings.join("; ");
+          result.pos = Array.from(posSet);
+        }
+      }
+      
+      if (data.web_trans && data.web_trans.web_translation && data.web_trans.web_translation.length > 0) {
+        const webTrans = data.web_trans.web_translation;
+        if (!result.meaning && webTrans[0].value) {
+          result.meaning = webTrans[0].value;
+        }
+      }
+      
+      if (data.blng_sents_part && data.blng_sents_part.sentence_pair && data.blng_sents_part.sentence_pair.length > 0) {
+        const example = data.blng_sents_part.sentence_pair[0];
+        if (example.sentence) result.example_en = example.sentence;
+        if (example.sentence_translation) result.example_zh = example.sentence_translation;
+      }
+      
+      if (data.rel_word && data.rel_word.rels && data.rel_word.rels.length > 0) {
+        data.rel_word.rels.forEach((rel) => {
+          if (rel.rel && rel.rel.name === "同近义词" && rel.words && rel.words.length > 0) {
+            rel.words.slice(0, 5).forEach((w) => {
+              if (w.w) result.synonyms.push(w.w);
+            });
+          }
+          if (rel.rel && rel.rel.name === "派生" && rel.words && rel.words.length > 0) {
+            rel.words.slice(0, 5).forEach((w) => {
+              if (w.w) result.derivatives.push(w.w);
+            });
+          }
+        });
+      }
+      
+      return result;
+    } catch (error) {
+      console.warn("获取翻译失败:", error);
+      return null;
+    }
   }
 
   openAddWordModal(prefillWord) {
@@ -454,7 +574,7 @@ class AddWordModal extends Modal {
     this.prefillWord = prefillWord;
   }
 
-  onOpen() {
+  async onOpen() {
     const { contentEl } = this;
     contentEl.empty();
     contentEl.createEl("h2", { text: "添加新单词" });
@@ -504,6 +624,45 @@ class AddWordModal extends Modal {
     const synonymsField = this.createField(form, "同义词（分号分隔）", "text", "");
     const antonymsField = this.createField(form, "反义词（分号分隔）", "text", "");
     const derivativesField = this.createField(form, "派生词（分号分隔）", "text", "");
+
+    const autoFillStatus = form.createEl("div", { cls: "autofill-status" });
+
+    if (this.prefillWord) {
+      autoFillStatus.createEl("span", { text: "正在自动获取翻译...", cls: "autofill-loading" });
+      
+      try {
+        const translation = await this.plugin.fetchWordTranslation(this.prefillWord);
+        
+        if (translation) {
+          if (translation.phonetic_uk) phoneticUkField.value = translation.phonetic_uk;
+          if (translation.phonetic_us) phoneticUsField.value = translation.phonetic_us;
+          if (translation.meaning) meaningField.value = translation.meaning;
+          if (translation.example_en) exampleEnField.value = translation.example_en;
+          if (translation.example_zh) exampleZhField.value = translation.example_zh;
+          if (translation.synonyms.length > 0) synonymsField.value = translation.synonyms.join("; ");
+          if (translation.derivatives.length > 0) derivativesField.value = translation.derivatives.join("; ");
+          
+          if (translation.pos.length > 0) {
+            translation.pos.forEach((posKey) => {
+              const cb = posCheckboxes.querySelector(`input[value="${posKey}"]`);
+              if (cb) {
+                cb.checked = true;
+                if (!posValues.includes(posKey)) posValues.push(posKey);
+              }
+            });
+          }
+          
+          autoFillStatus.empty();
+          autoFillStatus.createEl("span", { text: "✓ 已自动填充翻译数据", cls: "autofill-success" });
+        } else {
+          autoFillStatus.empty();
+          autoFillStatus.createEl("span", { text: "⚠ 无法获取自动翻译，请手动输入", cls: "autofill-warning" });
+        }
+      } catch (error) {
+        autoFillStatus.empty();
+        autoFillStatus.createEl("span", { text: "⚠ 获取翻译失败，请手动输入", cls: "autofill-warning" });
+      }
+    }
 
     const btnContainer = form.createEl("div", { cls: "form-buttons" });
     const submitBtn = btnContainer.createEl("button", { text: "添加", cls: "mod-cta" });
