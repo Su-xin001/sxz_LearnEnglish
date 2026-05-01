@@ -46,16 +46,16 @@
     46|<strong>常用义项</strong>
     47|
     48|1. <strong>v.</strong> 获得，取得（通过努力或技能）
-    49|   - <div class="example-sentence">She ==acquired== a taste for classical music over the years.
-    50|   <span class="chinese-translation">多年来她逐渐培养了对古典音乐的品味。</span></div>
-    51|   - <div class="example-sentence">The company ==acquired== three smaller firms last year.
-    52|   <span class="chinese-translation">这家公司去年收购了三家小公司。</span></div>
-    53|
-    54|2. <strong>v.</strong> 习得，学到（知识、技能等）
-    55|   - <div class="example-sentence">Children ==acquire== language naturally through interaction.
-    56|   <span class="chinese-translation">儿童通过互动自然地习得语言。</span></div>
-    57|   - <div class="example-sentence">He ==acquired== his programming skills through self-study.
-    58|   <span class="chinese-translation">他通过自学获得了编程技能。</span></div>
+   - <div class="example-sentence">She ==acquired== a taste for classical music over the years.
+   <span class="chinese-translation">多年来她逐渐培养了对古典音乐的品味。</span></div>
+   - <div class="example-sentence">The company ==acquired== three smaller firms last year.
+   <span class="chinese-translation">这家公司去年收购了三家小公司。</span></div>
+
+2. <strong>v.</strong> 习得，学到（知识、技能等）
+   - <div class="example-sentence">Children ==acquire== language naturally through interaction.
+   <span class="chinese-translation">儿童通过互动自然地习得语言。</span></div>
+   - <div class="example-sentence">He ==acquired== his programming skills through self-study.
+   <span class="chinese-translation">他通过自学获得了编程技能。</span></div>
     59|
     60|</div>
     61|
