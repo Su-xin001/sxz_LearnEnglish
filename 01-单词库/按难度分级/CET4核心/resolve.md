@@ -45,12 +45,12 @@ resolve
 <strong>常用义项</strong>
 
 1. <strong>v.</strong> 解决；决心
-   - <div class="example-sentence">We need to ==resolve== this issue quickly.
+   - <div class="example-sentence">We need to <mark>resolve</mark> this issue quickly.
    <span class="chinese-translation">我们需要尽快解决这个问题。</span></div>
-   - <div class="example-sentence">He ==resolved== to study harder.
+   - <div class="example-sentence">He <mark>resolved</mark> to study harder.
    <span class="chinese-translation">他决心更加努力学习。</span></div>
 2. <strong>n.</strong> 决心；决意
-   - <div class="example-sentence">Her words strengthened my ==resolve==.
+   - <div class="example-sentence">Her words strengthened my <mark>resolve</mark>.
    <span class="chinese-translation">她的话坚定了我的决心。</span></div>
 
 </div>

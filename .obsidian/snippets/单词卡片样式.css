@@ -36,19 +36,10 @@
   margin: 4px 4px 4px 0;
 }
 
-.word-card .meta-info {
-  display: flex;
-  gap: 16px;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--background-modifier-border);
-  font-size: 0.85em;
-  color: var(--text-muted);
-}
+/* ========== 释义块（通用 + 阅读视图双覆盖） ========== */
 
-/* ========== 释义块（在 word-card 外部） ========== */
-
-.definition-block {
+.definition-block,
+.markdown-rendered .definition-block {
   margin: 12px 0;
   padding: 10px 16px;
   border-left: 3px solid var(--interactive-accent);
@@ -56,11 +47,13 @@
   border-radius: 0 8px 8px 0;
 }
 
-.theme-dark .definition-block {
+.theme-dark .definition-block,
+.theme-dark .markdown-rendered .definition-block {
   background: var(--background-secondary);
 }
 
-.example-sentence {
+.example-sentence,
+.markdown-rendered .example-sentence {
   margin: 8px 0;
   padding: 8px 16px;
   background: var(--background-primary);
@@ -69,7 +62,8 @@
   line-height: 1.8;
 }
 
-.example-sentence .chinese-translation {
+.example-sentence .chinese-translation,
+.markdown-rendered .example-sentence .chinese-translation {
   font-style: normal;
   color: var(--text-muted);
   font-size: 0.9em;
@@ -79,27 +73,31 @@
 
 /* ========== 记忆方法区 ========== */
 
-.memory-section {
+.memory-section,
+.markdown-rendered .memory-section {
   margin: 12px 0;
   padding: 12px 16px;
   background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
   border-radius: 8px;
 }
 
-.theme-dark .memory-section {
+.theme-dark .memory-section,
+.theme-dark .markdown-rendered .memory-section {
   background: linear-gradient(135deg, #2d1f5e 0%, #1e1b4b 100%);
 }
 
 /* ========== 派生词 / 同反义词 ========== */
 
-.related-words {
+.related-words,
+.markdown-rendered .related-words {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: 12px 0;
 }
 
-.related-words .related-word {
+.related-words .related-word,
+.markdown-rendered .related-words .related-word {
   display: inline-block;
   padding: 4px 12px;
   background: var(--background-secondary-alt);
@@ -110,10 +108,24 @@
   transition: all 0.2s;
 }
 
-.related-words .related-word:hover {
-  background: var(--interactive-accent);
-  color: white;
-  border-color: var(--interactive-accent);
+.theme-dark .related-words .related-word {
+  background: var(--background-secondary);
+}
+
+/* ========== mark 标签高亮（替代 ==text==） ========== */
+
+mark,
+.markdown-rendered mark {
+  background: linear-gradient(120deg, #fde68a 0%, #facc15 100%);
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: #713f12;
+}
+
+.theme-dark mark,
+.theme-dark .markdown-rendered mark {
+  background: linear-gradient(120deg, #713f12 0%, #854d0e 100%) !important;
+  color: #fef08a !important;
 }
 
 /* ========== 难度徽章 ========== */

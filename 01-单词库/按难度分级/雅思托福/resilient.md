@@ -44,15 +44,15 @@ resilient
 <strong>常用义项</strong>
 
 1. <strong>adj.</strong> 有弹性的；能复原的；适应力强的
-   - <div class="example-sentence">Children are often more ==resilient== than adults give them credit for.
+   - <div class="example-sentence">Children are often more <mark>resilient</mark> than adults give them credit for.
    <span class="chinese-translation">孩子们往往比大人们认为的更有适应力。</span></div>
-   - <div class="example-sentence">The economy proved ==resilient== despite the global recession.
+   - <div class="example-sentence">The economy proved <mark>resilient</mark> despite the global recession.
    <span class="chinese-translation">尽管全球经济衰退，经济仍表现出很强的韧性。</span></div>
 
 <strong>生僻义项</strong>
 
 2. <strong>adj.</strong> （物质）有弹性的，能弹回的
-   - <div class="example-sentence">Rubber is a highly ==resilient== material.
+   - <div class="example-sentence">Rubber is a highly <mark>resilient</mark> material.
    <span class="chinese-translation">橡胶是一种弹性很强的材料。</span></div>
 
 </div>

@@ -44,9 +44,9 @@ significant
 <strong>常用义项</strong>
 
 1. <strong>adj.</strong> 重要的；显著的
-   - <div class="example-sentence">This is a ==significant== achievement.
+   - <div class="example-sentence">This is a <mark>significant</mark> achievement.
    <span class="chinese-translation">这是一项重大成就。</span></div>
-   - <div class="example-sentence">There has been a ==significant== increase in sales.
+   - <div class="example-sentence">There has been a <mark>significant</mark> increase in sales.
    <span class="chinese-translation">销售额有了显著增长。</span></div>
 
 </div>

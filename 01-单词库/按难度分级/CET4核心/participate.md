@@ -44,9 +44,9 @@ participate
 <strong>常用义项</strong>
 
 1. <strong>v.</strong> 参加；参与
-   - <div class="example-sentence">Students are encouraged to ==participate== in class discussions.
+   - <div class="example-sentence">Students are encouraged to <mark>participate</mark> in class discussions.
    <span class="chinese-translation">鼓励学生参与课堂讨论。</span></div>
-   - <div class="example-sentence">Twenty teams ==participated== in the competition.
+   - <div class="example-sentence">Twenty teams <mark>participated</mark> in the competition.
    <span class="chinese-translation">二十支队伍参加了比赛。</span></div>
 
 </div>

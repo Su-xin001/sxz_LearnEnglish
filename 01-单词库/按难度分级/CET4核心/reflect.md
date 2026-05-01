@@ -44,9 +44,9 @@ reflect
 <strong>常用义项</strong>
 
 1. <strong>v.</strong> 反映；反射；反思
-   - <div class="example-sentence">The mirror ==reflects== your image.
+   - <div class="example-sentence">The mirror <mark>reflects</mark> your image.
    <span class="chinese-translation">镜子反射出你的影像。</span></div>
-   - <div class="example-sentence">We should ==reflect== on what we've learned.
+   - <div class="example-sentence">We should <mark>reflect</mark> on what we've learned.
    <span class="chinese-translation">我们应该反思所学到的东西。</span></div>
 
 </div>

@@ -47,21 +47,21 @@ elaborate
 <strong>常用义项</strong>
 
 1. <strong>adj.</strong> 精心制作的；详尽的；复杂的
-   - <div class="example-sentence">She wore an ==elaborate== dress to the ceremony.
+   - <div class="example-sentence">She wore an <mark>elaborate</mark> dress to the ceremony.
    <span class="chinese-translation">她穿了一件精心制作的裙子参加典礼。</span></div>
-   - <div class="example-sentence">They made ==elaborate== preparations for the wedding.
+   - <div class="example-sentence">They made <mark>elaborate</mark> preparations for the wedding.
    <span class="chinese-translation">他们为婚礼做了详尽的准备。</span></div>
 
 2. <strong>v.</strong> 详细阐述；精心制作
-   - <div class="example-sentence">Could you ==elaborate== on your proposal?
+   - <div class="example-sentence">Could you <mark>elaborate</mark> on your proposal?
    <span class="chinese-translation">你能详细阐述一下你的提案吗？</span></div>
-   - <div class="example-sentence">He refused to ==elaborate== further on his reasons for leaving.
+   - <div class="example-sentence">He refused to <mark>elaborate</mark> further on his reasons for leaving.
    <span class="chinese-translation">他拒绝进一步阐述离开的原因。</span></div>
 
 <strong>生僻义项</strong>
 
 3. <strong>v.</strong> （通过加工）变得复杂
-   - <div class="example-sentence">The simple design ==elaborated== over time into something far more complex.
+   - <div class="example-sentence">The simple design <mark>elaborated</mark> over time into something far more complex.
    <span class="chinese-translation">这个简单的设计随着时间推移变得复杂起来。</span></div>
 
 </div>

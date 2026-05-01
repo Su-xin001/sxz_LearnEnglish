@@ -44,9 +44,9 @@ promote
 <strong>常用义项</strong>
 
 1. <strong>v.</strong> 促进；推广；晋升
-   - <div class="example-sentence">Exercise ==promotes== good health.
+   - <div class="example-sentence">Exercise <mark>promotes</mark> good health.
    <span class="chinese-translation">运动促进健康。</span></div>
-   - <div class="example-sentence">He was ==promoted== to manager.
+   - <div class="example-sentence">He was <mark>promoted</mark> to manager.
    <span class="chinese-translation">他被晋升为经理。</span></div>
 
 </div>

@@ -43,9 +43,9 @@ obtain
 <strong>常用义项</strong>
 
 1. <strong>v.</strong> 获得；获取
-   - <div class="example-sentence">She ==obtained== a scholarship to study abroad.
+   - <div class="example-sentence">She <mark>obtained</mark> a scholarship to study abroad.
    <span class="chinese-translation">她获得了出国留学的奖学金。</span></div>
-   - <div class="example-sentence">You can ==obtain== the information online.
+   - <div class="example-sentence">You can <mark>obtain</mark> the information online.
    <span class="chinese-translation">你可以在线获取这些信息。</span></div>
 
 </div>
