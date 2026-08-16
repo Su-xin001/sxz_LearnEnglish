@@ -47,3 +47,7 @@
 - 文件路径优先使用 vault 相对路径（如 `01-词汇/CET4核心/abandon.md`）
 - 不要改动 `.obsidian/`、`.obsidian-mcp/`、`.git/`、`docs/` 中的内容（除非用户明确要求）
 - 生成单词卡前先检查是否已存在同名卡片，避免重复
+
+## Copilot 说明
+
+仓库已启用 **Copilot**（Obsidian 内 AI 对话，模型 DeepSeek）。用户在 Obsidian 侧边栏与 Copilot 对话时，其行为同样遵循本文件的角色与工作流规范（查词建卡、写作批改、每日总结）。

@@ -1,6 +1,8 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/copilot/data.json
+.obsidian/plugins/obsidian-dictionary-plugin/cache.json
 .obsidian-mcp/
 .reasonix/
 08-资源/音频/
