@@ -1,5 +1,1 @@
-{
-  "format": "YYYY-MM-DD",
-  "folder": "09-每日记录/日记",
-  "template": "07-模板/每日学习模板.md"
-}
+{ "folder": "06-每日记录", "format": "YYYY-MM-DD", "template": "05-模板与资源/模板/每日学习模板" }
