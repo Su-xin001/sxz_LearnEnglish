@@ -1,5 +1,23 @@
 {
   "version": 4,
-  "homepage": "学习中心",
-  "defaultView": "reading"
+  "homepages": {
+    "default": {
+      "value": "00-仪表盘/学习中心",
+      "kind": "File",
+      "openOnStartup": true,
+      "openMode": "replaceAll",
+      "manualOpenMode": "retain",
+      "view": "default",
+      "revertView": true,
+      "openWhenEmpty": false,
+      "refreshDataview": false,
+      "autoCreate": false,
+      "autoScroll": false,
+      "pin": false,
+      "commands": [],
+      "alwaysApply": false,
+      "hideReleaseNotes": false
+    }
+  },
+  "separateMobile": false
 }
